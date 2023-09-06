@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "InterBold";
+  font-style: normal;
+  font-display: swap;
+  src: url("./fonts/Inter/Inter-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "InterLight";
+  font-style: normal;
+  font-display: swap;
+  src: url("./fonts/Inter/Inter-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "InterRegular";
+  font-style: normal;
+  font-display: swap;
+  src: url("./fonts/Inter/Inter-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "InterMedium";
+  font-style: normal;
+  font-display: swap;
+  src: url("./fonts/Inter/Inter-Medium.woff") format("woff");
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #000000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  border: none;
+  box-sizing: content-box;
+}
+
+#root {
+  display: flex;
+  gap: 108px;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+}

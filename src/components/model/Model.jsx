@@ -32,62 +32,66 @@ export const WaitListModel = ({ open, handleClose, OnSubmit }) => {
           className={Style.popupForm}
           onSubmit={handleSubmit(handleFormSubmit)}
         >
-          <input
-            placeholder="First name"
-            {...register("firstName", {
-              required: "First name is required",
-              pattern: {
-                value: /^[A-Za-z]+$/i,
-                message: "First name should contain only letters",
-              },
-              minLength: {
-                value: 2,
-                message: "First name should be at least 2 characters long",
-              },
-              maxLength: {
-                value: 30,
-                message: "First name should not exceed 30 characters",
-              },
-            })}
-          />
-          {errors.firstName && <p role="alert">{errors.firstName.message}</p>}
-
-          <input
-            placeholder="Last name"
-            {...register("lastName", {
-              required: "Last name is required",
-              pattern: {
-                value: /^[A-Za-z]+$/i,
-                message: "Last name should contain only letters",
-              },
-              minLength: {
-                value: 2,
-                message: "Last name should be at least 2 characters long",
-              },
-              maxLength: {
-                value: 30,
-                message: "Last name should not exceed 30 characters",
-              },
-            })}
-          />
-          {errors.lastName && <p role="alert">{errors.lastName.message}</p>}
-
-          <input
-            placeholder="Email"
-            {...register("email", {
-              required: "Email is required",
-              pattern: {
-                value: /^\S+@\S+$/i,
-                message: "Invalid email format",
-              },
-            })}
-          />
-          {errors.email && <p role="alert">{errors.email.message}</p>}
+          <div className={Style.input}>
+            <input
+              placeholder="First name"
+              {...register("firstName", {
+                required: "First name is required",
+                pattern: {
+                  value: /^[A-Za-z]+$/i,
+                  message: "First name should contain only letters",
+                },
+                minLength: {
+                  value: 2,
+                  message: "First name should be at least 2 characters long",
+                },
+                maxLength: {
+                  value: 30,
+                  message: "First name should not exceed 30 characters",
+                },
+              })}
+            />
+            {errors.firstName && <p role="alert">{errors.firstName.message}</p>}
+          </div>
+          <div>
+            <input
+              placeholder="Last name"
+              {...register("lastName", {
+                required: "Last name is required",
+                pattern: {
+                  value: /^[A-Za-z]+$/i,
+                  message: "Last name should contain only letters",
+                },
+                minLength: {
+                  value: 2,
+                  message: "Last name should be at least 2 characters long",
+                },
+                maxLength: {
+                  value: 30,
+                  message: "Last name should not exceed 30 characters",
+                },
+              })}
+            />
+            {errors.lastName && <p role="alert">{errors.lastName.message}</p>}
+          </div>
+          <div className={Style.input}>
+            <input
+              placeholder="Email"
+              {...register("email", {
+                required: "Email is required",
+                pattern: {
+                  value: /^\S+@\S+$/i,
+                  message: "Invalid email format",
+                },
+              })}
+            />
+            {errors.email && <p role="alert">{errors.email.message}</p>}
+          </div>
 
           <GoldenButton
             type={"submit"}
             buttonName={"JOIN"}
-            style={{ padding: "10px 52px" }}
+            style={{ padding: "10px 52px", marginTop: "1%" }}
           />
         </form>
       </div>
@@ -117,26 +121,36 @@ export const SubscribModel = ({ open, handleClose, OnSubmit }) => {
       aria-describedby="modal-modal-description"
     >
       <div className={Style.modalContainer}>
-        {/* <h2>subcription content here</h2> */}
+        <h2>Subcription Form</h2>
         <form
           noValidate
           className={Style.popupForm}
           onSubmit={handleSubmit(handleFormSubmit)}
         >
-          <input
-            style={{ margin: "15% 0" }}
-            placeholder="Enter your email here"
-            {...register("email", {
-              required: "Email is required",
-              pattern: {
-                value: /^\S+@\S+$/i,
-                message: "Invalid email format",
-              },
-            })}
-          />
-          {errors.email && <p role="alert">{errors.email.message}</p>}
+          <div className={Style.input}>
+            <input
+              style={{}}
+              placeholder="Enter your email here"
+              {...register("email", {
+                required: "Email is required",
+                pattern: {
+                  value: /^\S+@\S+$/i,
+                  message: "Invalid email format",
+                },
+              })}
+            />
+            {errors.email && <p role="alert">{errors.email.message}</p>}
+          </div>
 
-          <GoldenButton type={"submit"} buttonName={"Submit"} style={{}} />
+          <GoldenButton
+            type={"submit"}
+            buttonName={"Submit"}
+            style={{
+              paddingTop: "1.3%",
+              paddingBottom: "1.3%",
+              marginTop: "1.5%",
+            }}
+          />
         </form>
       </div>
     </Modal>

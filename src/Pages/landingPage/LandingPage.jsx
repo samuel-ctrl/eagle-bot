@@ -21,12 +21,8 @@ const LandingPage = () => {
   const [openWaitListModel, setOpenWaitListModel] = React.useState(false);
   const [openSubscribModel, setOpenSubscribModel] = React.useState(false);
 
-  const handleSubmitWaitListModel = (data) => {
-    console.log("handleSubmitWaitListModel", data);
-  };
-  const handleSubmitSubscribModel = (data) => {
-    console.log("handleSubmitSubscribModel", data);
-  };
+  const handleSubmitWaitListModel = (data) => {};
+  const handleSubmitSubscribModel = (data) => {};
 
   return (
     <>

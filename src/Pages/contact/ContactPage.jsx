@@ -13,7 +13,6 @@ const ContactPage = () => {
   } = useForm();
 
   const onSubmit = (event) => {
-    console.log("contact Send", event);
     reset();
   };
   return (

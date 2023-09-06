@@ -121,7 +121,7 @@ export const SubscribModel = ({ open, handleClose, OnSubmit }) => {
       aria-describedby="modal-modal-description"
     >
       <div className={Style.modalContainer}>
-        <h2>Subcription Form</h2>
+        <h2>Subscription Form</h2>
         <form
           noValidate
           className={Style.popupForm}

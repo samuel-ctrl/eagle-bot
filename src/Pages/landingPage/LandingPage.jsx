@@ -33,6 +33,7 @@ const LandingPage = () => {
   };
   const handleContactUs = () => {
     localStorage.setItem("fromHome", true);
+    window.scrollTo(0, document.body.scrollHeight);
     navigate("/contact");
   };
 

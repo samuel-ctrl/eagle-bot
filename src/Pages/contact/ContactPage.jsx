@@ -19,7 +19,6 @@ const ContactPage = () => {
 
   const handleLogoPress = () => {
     if (localStorage.getItem("fromHome")) {
-      window.scrollTo(0, document.body.scrollHeight);
       localStorage.setItem("fromHome", true);
       navigate(-1);
     } else {

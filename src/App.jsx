@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="*" element={<NotFound />}></Route>
         <Route path="/" element={<LandingPage />}></Route>
-        <Route path="contact/" element={<ContactPage />}></Route>
+        <Route path="/contact" element={<ContactPage />}></Route>
       </Routes>
     </BrowserRouter>
   );

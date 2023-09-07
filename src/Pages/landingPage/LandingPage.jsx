@@ -1,35 +1,52 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Style from "./style.module.css";
-import { EagleBotLogo } from "../../components/logo/Logo";
+import EagleBotLogoSvg from "../../assets/svg/eagle-bot-logo.svg";
 import { GoldenButton } from "../../components/button/CustomButton";
-import vector_right from "../../assets/png/bg_vector.png";
+import GoldAndPinkImage from "../../assets/png/gold-and-pink.png";
 import DeviceScreenImage from "../../assets/png/device-screen.png";
+import DeviceScreenMobileImage from "../../assets/png/device-screen-mobile.png";
 import LaptopImage from "../../assets/png/golden-laptop.png";
 import BrowerImage from "../../assets/png/Browser.png";
 import AboutImage from "../../assets/png/about-background.png";
-import LinkedInImage from "../../assets/svg/linkedin-logo.svg";
+import LinkedInSvg from "../../assets/svg/linkedin-logo.svg";
 import {
   AppleSvg,
-  GoldenDesignSvg,
   MicrosoftSvg,
   VectorGroupSvg,
+  GoldenDesignSvg,
 } from "../../components/designs/Design";
 import { WaitListModel, SubscribModel } from "../../components/model/Model";
 
 const LandingPage = () => {
-  const [openWaitListModel, setOpenWaitListModel] = React.useState(false);
-  const [openSubscribModel, setOpenSubscribModel] = React.useState(false);
+  const navigate = useNavigate();
+
+  const [openWaitListModel, setOpenWaitListModel] = useState(false);
+  const [openSubscribModel, setOpenSubscribModel] = useState(false);
 
   const handleSubmitWaitListModel = (data) => {};
   const handleSubmitSubscribModel = (data) => {};
+
+  const handleLogoPress = () => {
+    window.location.reload();
+    window.scrollTo(0, 0);
+  };
+  const handleContactUs = () => {
+    localStorage.setItem("fromHome", true);
+    navigate("/contact");
+  };
 
   return (
     <>
       <div className={Style.banner_section}>
         <div className={Style.logo}>
-          <EagleBotLogo />
+          <img
+            src={EagleBotLogoSvg}
+            alt="EagleBot logo"
+            onClick={handleLogoPress}
+          ></img>
         </div>
+
         <div className={Style.banner_Content}>
           <div className={Style.content}>
             <h1>Meet</h1>
@@ -47,10 +64,15 @@ const LandingPage = () => {
           </div>
         </div>
         <div className={Style.banner_img}>
-          <img src={vector_right} className={Style.vector} />
+          <img src={GoldAndPinkImage} className={Style.vector} />
           <img
             src={DeviceScreenImage}
-            className={Style.device}
+            className={`${Style.device} ${Style.windowView}`}
+            alt="eagle bot device image."
+          />
+          <img
+            src={DeviceScreenMobileImage}
+            className={`${Style.device} ${Style.mobileView}`}
             alt="eagle bot device image."
           />
         </div>
@@ -171,8 +193,8 @@ const LandingPage = () => {
           <img src={LaptopImage} alt="Eagle Bot Golden Laptop"></img>
         </div>
         <div className={Style.footer}>
-          <div className={Style.logo}>
-            <EagleBotLogo />
+          <div className={Style.logo} onClick={handleLogoPress}>
+            <img src={EagleBotLogoSvg} alt="EagleBot logo"></img>
           </div>
 
           <div className={Style.footer_content}>
@@ -180,12 +202,23 @@ const LandingPage = () => {
             <p className={Style.footer_text}>
               Have questions or need assistance?
             </p>
-            <Link to="contact/" style={{ color: "#fff" }}>
-              Contact us for queries
-            </Link>
-            <p className={Style.support}>Contact us at support@eagle-bot.com</p>
+            <GoldenButton
+              type={"button"}
+              buttonName={"Contact us for queries"}
+              style={{}}
+              onClick={() => handleContactUs()}
+            />
             <div className={Style.social_link}>
-              <img src={LinkedInImage}></img>
+              <img
+                src={LinkedInSvg}
+                alt="LinkedIn logo"
+                onClick={() => {
+                  window.open(
+                    "https://www.linkedin.com/company/eagle-bot/",
+                    "_blank"
+                  );
+                }}
+              ></img>
             </div>
           </div>
 

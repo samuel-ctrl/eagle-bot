@@ -1,10 +1,11 @@
 import React from "react";
-import Style from "./style.module.css";
-import { EagleBotLogo } from "../../components/logo/Logo";
 import { useForm } from "react-hook-form";
+import Style from "./style.module.css";
+import { useNavigate } from "react-router-dom";
+import EagleBotLogoSvg from "../../assets/svg/eagle-bot-logo.svg";
 import { GoldenButton } from "../../components/button/CustomButton";
-
 const ContactPage = () => {
+  const navigate = useNavigate();
   const {
     register,
     handleSubmit,
@@ -15,11 +16,22 @@ const ContactPage = () => {
   const onSubmit = (event) => {
     reset();
   };
+
+  const handleLogoPress = () => {
+    if (localStorage.getItem("fromHome")) {
+      window.scrollTo(0, document.body.scrollHeight);
+      localStorage.setItem("fromHome", true);
+      navigate(-1);
+    } else {
+      navigate("/");
+    }
+  };
+
   return (
     <>
       <div className={`${Style.contact_section}`}>
-        <div className={Style.logo}>
-          <EagleBotLogo />
+        <div className={Style.logo} onClick={handleLogoPress}>
+          <img src={EagleBotLogoSvg} alt="EagleBot logo"></img>
         </div>
         <h2>Drop us a Question!</h2>
         <form noValidate onSubmit={handleSubmit(onSubmit)}>

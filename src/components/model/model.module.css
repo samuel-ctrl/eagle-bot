@@ -46,8 +46,9 @@
 
 .popupForm p {
   margin-top: 1%;
-  color: rgb(217, 48, 37);
+  color: rgb(255, 0, 0);
   font-family: "Inter", sans-serif;
+  font-weight: 400;
   font-size: 1rem;
 }
 

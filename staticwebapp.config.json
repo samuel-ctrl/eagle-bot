@@ -12,7 +12,6 @@
     },
     {
       "route": "/*",
-      "statusCode": 404,
       "rewrite": "/index.html"
     }
   ]

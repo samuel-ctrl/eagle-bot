@@ -1,15 +1,15 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Style from "./style.module.css";
-import EagleBotLogoSvg from "../../assets/svg/eagle-bot-logo.svg";
+import EagleBotLogoSvg from "../../assets/images/svg/eagle-bot-logo.svg";
 import { GoldenButton } from "../../components/button/CustomButton";
-import GoldAndPinkImage from "../../assets/png/gold-and-pink.png";
-import DeviceScreenImage from "../../assets/png/device-screen.png";
-import DeviceScreenMobileImage from "../../assets/png/device-screen-mobile.png";
-import LaptopImage from "../../assets/png/golden-laptop.png";
-import BrowerImage from "../../assets/png/Browser.png";
-import AboutImage from "../../assets/png/about-background.png";
-import LinkedInSvg from "../../assets/svg/linkedin-logo.svg";
+import GoldAndPinkImage from "../../assets/images/png/gold-and-pink.png";
+import DeviceScreenImage from "../../assets/images/png/device-screen.png";
+import DeviceScreenMobileImage from "../../assets/images/png/device-screen-mobile.png";
+import LaptopImage from "../../assets/images/png/golden-laptop.png";
+import BrowerImage from "../../assets/images/png/Browser.png";
+import AboutImage from "../../assets/images/png/about-background.png";
+import LinkedInSvg from "../../assets/images/svg/linkedin-logo.svg";
 import {
   AppleSvg,
   MicrosoftSvg,
@@ -33,9 +33,15 @@ const LandingPage = () => {
   };
   const handleContactUs = () => {
     localStorage.setItem("fromHome", true);
-    window.scrollTo(0, document.body.scrollHeight);
     navigate("/contact");
   };
+
+  useEffect(() => {
+    document.title = "Eagle Bot";
+    return () => {
+      document.title = "Eagle Bot";
+    };
+  });
 
   return (
     <>
@@ -50,15 +56,17 @@ const LandingPage = () => {
 
         <div className={Style.banner_Content}>
           <div className={Style.content}>
-            <h1>Meet</h1>
-            <h2>Eagle Bot,</h2>
+            <div>
+              <h1>Meet</h1>
+              <h2>Eagle Bot,</h2>
+            </div>
             <p>
               Your Ultimate <br />
               Automation Browser.
             </p>
             <GoldenButton
               type={"button"}
-              style={{ marginTop: "3%" }}
+              style={{}}
               buttonName={"JOIN WAITLIST"}
               onClick={() => setOpenWaitListModel(true)}
             />
@@ -206,7 +214,7 @@ const LandingPage = () => {
             <GoldenButton
               type={"button"}
               buttonName={"Contact us for queries"}
-              style={{}}
+              style={{ fontSize: "14px", padding: "12px" }}
               onClick={() => handleContactUs()}
             />
             <div className={Style.social_link}>

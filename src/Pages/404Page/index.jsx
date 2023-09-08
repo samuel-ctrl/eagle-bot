@@ -1,8 +1,15 @@
 import { Link } from "react-router-dom";
 import Style from "./style.module.css";
+import { useEffect } from "react";
 // import { EagleBotLogo } from "../../components/logo/Logo";
 
 const NotFound = () => {
+  useEffect(() => {
+    document.title = "Eagle Bot - Not Found";
+    return () => {
+      document.title = "Eagle Bot";
+    };
+  });
   return (
     <>
       <div className={Style.logo}>{/* <EagleBotLogo /> */}</div>

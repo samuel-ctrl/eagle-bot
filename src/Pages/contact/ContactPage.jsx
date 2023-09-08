@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useForm } from "react-hook-form";
 import Style from "./style.module.css";
 import { useNavigate } from "react-router-dom";
-import EagleBotLogoSvg from "../../assets/svg/eagle-bot-logo.svg";
+import EagleBotLogoSvg from "../../assets/images/svg/eagle-bot-logo.svg";
 import { GoldenButton } from "../../components/button/CustomButton";
 const ContactPage = () => {
   const navigate = useNavigate();
@@ -25,6 +25,13 @@ const ContactPage = () => {
       navigate("/");
     }
   };
+
+  useEffect(() => {
+    document.title = "Eagle Bot - Support";
+    return () => {
+      document.title = "Eagle Bot";
+    };
+  });
 
   return (
     <>

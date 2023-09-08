@@ -1,18 +1,19 @@
 {
-  "trailingSlash": "auto",
   "routes": [
     {
       "route": "/",
-      "redirect": "/"
+      "statusCode": 200,
+      "rewrite": "/index.html"
     },
     {
       "route": "/contact",
-      "redirect": "/contact"
+      "statusCode": 200,
+      "rewrite": "/index.html"
+    },
+    {
+      "route": "/*",
+      "statusCode": 404,
+      "rewrite": "/index.html"
     }
-  ],
-  "responseOverrides": {
-    "404": {
-      "redirect": "*"
-    }
-  }
+  ]
 }

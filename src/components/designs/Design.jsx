@@ -620,8 +620,8 @@ export const VectorGroupSvg = () => {
           y2="84"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_347_8"
@@ -631,8 +631,8 @@ export const VectorGroupSvg = () => {
           y2="132"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_347_8"
@@ -642,8 +642,8 @@ export const VectorGroupSvg = () => {
           y2="174"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_347_8"
@@ -653,8 +653,8 @@ export const VectorGroupSvg = () => {
           y2="231"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_347_8"
@@ -664,8 +664,8 @@ export const VectorGroupSvg = () => {
           y2="318"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_347_8"
@@ -675,8 +675,8 @@ export const VectorGroupSvg = () => {
           y2="459"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_347_8"
@@ -686,8 +686,8 @@ export const VectorGroupSvg = () => {
           y2="486"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_347_8"
@@ -697,8 +697,8 @@ export const VectorGroupSvg = () => {
           y2="537"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_347_8"
@@ -708,8 +708,8 @@ export const VectorGroupSvg = () => {
           y2="357"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_347_8"
@@ -719,8 +719,8 @@ export const VectorGroupSvg = () => {
           y2="90"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_347_8"
@@ -730,8 +730,8 @@ export const VectorGroupSvg = () => {
           y2="120"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_347_8"
@@ -741,8 +741,8 @@ export const VectorGroupSvg = () => {
           y2="216"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_347_8"
@@ -752,8 +752,8 @@ export const VectorGroupSvg = () => {
           y2="384"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_347_8"
@@ -763,8 +763,8 @@ export const VectorGroupSvg = () => {
           y2="417"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_347_8"
@@ -774,8 +774,8 @@ export const VectorGroupSvg = () => {
           y2="336"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint15_linear_347_8"
@@ -785,8 +785,8 @@ export const VectorGroupSvg = () => {
           y2="432"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint16_linear_347_8"
@@ -796,8 +796,8 @@ export const VectorGroupSvg = () => {
           y2="615"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint17_linear_347_8"
@@ -807,8 +807,8 @@ export const VectorGroupSvg = () => {
           y2="600"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint18_linear_347_8"
@@ -818,8 +818,8 @@ export const VectorGroupSvg = () => {
           y2="486"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint19_linear_347_8"
@@ -829,8 +829,8 @@ export const VectorGroupSvg = () => {
           y2="636"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint20_linear_347_8"
@@ -840,8 +840,8 @@ export const VectorGroupSvg = () => {
           y2="666"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint21_linear_347_8"
@@ -851,8 +851,8 @@ export const VectorGroupSvg = () => {
           y2="654"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint22_linear_347_8"
@@ -862,8 +862,8 @@ export const VectorGroupSvg = () => {
           y2="672"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint23_linear_347_8"
@@ -873,8 +873,8 @@ export const VectorGroupSvg = () => {
           y2="231"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint24_linear_347_8"
@@ -884,8 +884,8 @@ export const VectorGroupSvg = () => {
           y2="342"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint25_linear_347_8"
@@ -895,8 +895,8 @@ export const VectorGroupSvg = () => {
           y2="309"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint26_linear_347_8"
@@ -906,8 +906,8 @@ export const VectorGroupSvg = () => {
           y2="480"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint27_linear_347_8"
@@ -917,8 +917,8 @@ export const VectorGroupSvg = () => {
           y2="666"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint28_linear_347_8"
@@ -928,8 +928,8 @@ export const VectorGroupSvg = () => {
           y2="378"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint29_linear_347_8"
@@ -939,8 +939,8 @@ export const VectorGroupSvg = () => {
           y2="357"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint30_linear_347_8"
@@ -950,8 +950,8 @@ export const VectorGroupSvg = () => {
           y2="564"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint31_linear_347_8"
@@ -961,8 +961,8 @@ export const VectorGroupSvg = () => {
           y2="618"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint32_linear_347_8"
@@ -972,8 +972,8 @@ export const VectorGroupSvg = () => {
           y2="660"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint33_linear_347_8"
@@ -983,8 +983,8 @@ export const VectorGroupSvg = () => {
           y2="678"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint34_linear_347_8"
@@ -994,8 +994,8 @@ export const VectorGroupSvg = () => {
           y2="624"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint35_linear_347_8"
@@ -1005,8 +1005,8 @@ export const VectorGroupSvg = () => {
           y2="132"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint36_linear_347_8"
@@ -1016,8 +1016,8 @@ export const VectorGroupSvg = () => {
           y2="249"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint37_linear_347_8"
@@ -1027,8 +1027,8 @@ export const VectorGroupSvg = () => {
           y2="156"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint38_linear_347_8"
@@ -1038,8 +1038,8 @@ export const VectorGroupSvg = () => {
           y2="369"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint39_linear_347_8"
@@ -1049,8 +1049,8 @@ export const VectorGroupSvg = () => {
           y2="489"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint40_linear_347_8"
@@ -1060,8 +1060,8 @@ export const VectorGroupSvg = () => {
           y2="321"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint41_linear_347_8"
@@ -1071,8 +1071,8 @@ export const VectorGroupSvg = () => {
           y2="339"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint42_linear_347_8"
@@ -1082,8 +1082,8 @@ export const VectorGroupSvg = () => {
           y2="321"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint43_linear_347_8"
@@ -1093,8 +1093,8 @@ export const VectorGroupSvg = () => {
           y2="342"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint44_linear_347_8"
@@ -1104,8 +1104,8 @@ export const VectorGroupSvg = () => {
           y2="549"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint45_linear_347_8"
@@ -1115,8 +1115,8 @@ export const VectorGroupSvg = () => {
           y2="519"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint46_linear_347_8"
@@ -1126,8 +1126,8 @@ export const VectorGroupSvg = () => {
           y2="510"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint47_linear_347_8"
@@ -1137,8 +1137,8 @@ export const VectorGroupSvg = () => {
           y2="246"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint48_linear_347_8"
@@ -1148,8 +1148,8 @@ export const VectorGroupSvg = () => {
           y2="318"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint49_linear_347_8"
@@ -1159,8 +1159,8 @@ export const VectorGroupSvg = () => {
           y2="204"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint50_linear_347_8"
@@ -1170,8 +1170,8 @@ export const VectorGroupSvg = () => {
           y2="324"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint51_linear_347_8"
@@ -1181,8 +1181,8 @@ export const VectorGroupSvg = () => {
           y2="546"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint52_linear_347_8"
@@ -1192,8 +1192,8 @@ export const VectorGroupSvg = () => {
           y2="663"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint53_linear_347_8"
@@ -1203,8 +1203,8 @@ export const VectorGroupSvg = () => {
           y2="657"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint54_linear_347_8"
@@ -1214,8 +1214,8 @@ export const VectorGroupSvg = () => {
           y2="702"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint55_linear_347_8"
@@ -1225,8 +1225,8 @@ export const VectorGroupSvg = () => {
           y2="732"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint56_linear_347_8"
@@ -1236,8 +1236,8 @@ export const VectorGroupSvg = () => {
           y2="693"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint57_linear_347_8"
@@ -1247,8 +1247,8 @@ export const VectorGroupSvg = () => {
           y2="687"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint58_linear_347_8"
@@ -1258,8 +1258,8 @@ export const VectorGroupSvg = () => {
           y2="858"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint59_linear_347_8"
@@ -1269,8 +1269,8 @@ export const VectorGroupSvg = () => {
           y2="990"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint60_linear_347_8"
@@ -1280,8 +1280,8 @@ export const VectorGroupSvg = () => {
           y2="798"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint61_linear_347_8"
@@ -1291,8 +1291,8 @@ export const VectorGroupSvg = () => {
           y2="795"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint62_linear_347_8"
@@ -1302,8 +1302,8 @@ export const VectorGroupSvg = () => {
           y2="525"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint63_linear_347_8"
@@ -1313,8 +1313,8 @@ export const VectorGroupSvg = () => {
           y2="264"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint64_linear_347_8"
@@ -1324,8 +1324,8 @@ export const VectorGroupSvg = () => {
           y2="717"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint65_linear_347_8"
@@ -1335,8 +1335,8 @@ export const VectorGroupSvg = () => {
           y2="699"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint66_linear_347_8"
@@ -1346,8 +1346,8 @@ export const VectorGroupSvg = () => {
           y2="198"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint67_linear_347_8"
@@ -1357,8 +1357,8 @@ export const VectorGroupSvg = () => {
           y2="222"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint68_linear_347_8"
@@ -1368,8 +1368,8 @@ export const VectorGroupSvg = () => {
           y2="753"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint69_linear_347_8"
@@ -1379,8 +1379,8 @@ export const VectorGroupSvg = () => {
           y2="789"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint70_linear_347_8"
@@ -1390,8 +1390,8 @@ export const VectorGroupSvg = () => {
           y2="882"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint71_linear_347_8"
@@ -1401,8 +1401,8 @@ export const VectorGroupSvg = () => {
           y2="825"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint72_linear_347_8"
@@ -1412,8 +1412,8 @@ export const VectorGroupSvg = () => {
           y2="624"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint73_linear_347_8"
@@ -1423,8 +1423,8 @@ export const VectorGroupSvg = () => {
           y2="747"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint74_linear_347_8"
@@ -1434,8 +1434,8 @@ export const VectorGroupSvg = () => {
           y2="780"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint75_linear_347_8"
@@ -1445,8 +1445,8 @@ export const VectorGroupSvg = () => {
           y2="351"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint76_linear_347_8"
@@ -1456,8 +1456,8 @@ export const VectorGroupSvg = () => {
           y2="33"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint77_linear_347_8"
@@ -1467,8 +1467,8 @@ export const VectorGroupSvg = () => {
           y2="72"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint78_linear_347_8"
@@ -1478,8 +1478,8 @@ export const VectorGroupSvg = () => {
           y2="918"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint79_linear_347_8"
@@ -1489,8 +1489,8 @@ export const VectorGroupSvg = () => {
           y2="915"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint80_linear_347_8"
@@ -1501,7 +1501,7 @@ export const VectorGroupSvg = () => {
           gradientUnits="userSpaceOnUse"
         >
           <stop stopColor="white" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0" />
         </linearGradient>
         <linearGradient
           id="paint81_linear_347_8"
@@ -1511,8 +1511,8 @@ export const VectorGroupSvg = () => {
           y2="720"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint82_linear_347_8"
@@ -1522,8 +1522,8 @@ export const VectorGroupSvg = () => {
           y2="690"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint83_linear_347_8"
@@ -1533,8 +1533,8 @@ export const VectorGroupSvg = () => {
           y2="690"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint84_linear_347_8"
@@ -1544,8 +1544,8 @@ export const VectorGroupSvg = () => {
           y2="690"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint85_linear_347_8"
@@ -1555,8 +1555,8 @@ export const VectorGroupSvg = () => {
           y2="717"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint86_linear_347_8"
@@ -1566,8 +1566,8 @@ export const VectorGroupSvg = () => {
           y2="801"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint87_linear_347_8"
@@ -1577,8 +1577,8 @@ export const VectorGroupSvg = () => {
           y2="759"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <linearGradient
           id="paint88_linear_347_8"
@@ -1588,8 +1588,8 @@ export const VectorGroupSvg = () => {
           y2="310.5"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="#0C0D0E" stop-opacity="0.78" />
-          <stop offset="1" stopColor="#FF9900" stop-opacity="0.49" />
+          <stop stopColor="#0C0D0E" stopOpacity="0.78" />
+          <stop offset="1" stopColor="#FF9900" stopOpacity="0.49" />
         </linearGradient>
         <clipPath id="clip0_347_8">
           <rect width="855" height="801" fill="white" />

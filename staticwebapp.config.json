@@ -1,0 +1,18 @@
+{
+  "trailingSlash": "auto",
+  "routes": [
+    {
+      "route": "/",
+      "rewrite": "/"
+    },
+    {
+      "route": "/contact",
+      "rewrite": "/contact"
+    }
+  ],
+  "responseOverrides": {
+    "404": {
+      "rewrite": "/*"
+    }
+  }
+}

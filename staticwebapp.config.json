@@ -3,16 +3,16 @@
   "routes": [
     {
       "route": "/",
-      "rewrite": "/"
+      "redirect": "/"
     },
     {
       "route": "/contact",
-      "rewrite": "/contact"
+      "redirect": "/contact"
     }
   ],
   "responseOverrides": {
     "404": {
-      "rewrite": "/*"
+      "redirect": "*"
     }
   }
 }

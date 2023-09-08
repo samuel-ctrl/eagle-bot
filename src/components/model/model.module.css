@@ -4,7 +4,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url("../../assets/png/popup-background.png");
+  background-image: url("../../assets/images/png/popup-background.png");
   background-repeat: no-repeat;
   border-radius: 1vw;
   box-shadow: 0 0 20px rgba(225, 225, 255, 0.2);

@@ -2,12 +2,10 @@
   "routes": [
     {
       "route": "/",
-      "statusCode": 200,
       "rewrite": "/index.html"
     },
     {
       "route": "/contact",
-      "statusCode": 200,
       "rewrite": "/index.html"
     },
     {

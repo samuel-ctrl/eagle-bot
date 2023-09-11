@@ -4,7 +4,9 @@ import Style from "./style.module.css";
 import { useNavigate } from "react-router-dom";
 import EagleBotLogoSvg from "../../assets/images/svg/eagle-bot-logo.svg";
 import { GoldenButton } from "../../components/button/CustomButton";
-const ContactPage = () => {
+import { FaqsData } from "../../components/atoms/index";
+
+const ContactPage = ({ setFrom }) => {
   const navigate = useNavigate();
   const {
     register,
@@ -18,12 +20,8 @@ const ContactPage = () => {
   };
 
   const handleLogoPress = () => {
-    if (localStorage.getItem("fromHome")) {
-      localStorage.setItem("fromHome", true);
-      navigate(-1);
-    } else {
-      navigate("/");
-    }
+    setFrom("contact");
+    navigate("/");
   };
 
   useEffect(() => {
@@ -109,6 +107,27 @@ const ContactPage = () => {
             style={{ padding: "14px 52px" }}
           />
         </form>{" "}
+      </div>
+      <div className={Style.faqSection}>
+        <h2
+          style={{
+            textAlign: "center",
+            fontFamily: "inter",
+            color: "#ffffffdb",
+          }}
+        >
+          FAQs for &quot;Eagle Bot&quot; - The Next-Gen AI-Powered Browser &amp;
+          Automation Software
+        </h2>
+        <FaqsData />
+      </div>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+        }}
+      >
         <p className={Style.tearmsAndConText}>
           This site is protected by reCAPTCHA and the Google{" "}
           <a href="https://policies.google.com/privacy" target="_blank">

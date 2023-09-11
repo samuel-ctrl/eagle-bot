@@ -17,15 +17,39 @@ import {
   GoldenDesignSvg,
 } from "../../components/designs/Design";
 import { WaitListModel, SubscribModel } from "../../components/model/Model";
+import { Axios } from "../../services/Axios";
 
-const LandingPage = () => {
+const LandingPage = ({ from, setFrom }) => {
   const navigate = useNavigate();
 
   const [openWaitListModel, setOpenWaitListModel] = useState(false);
   const [openSubscribModel, setOpenSubscribModel] = useState(false);
 
-  const handleSubmitWaitListModel = (data) => {};
-  const handleSubmitSubscribModel = (data) => {};
+  const handleSubmitWaitListModel = (data) => {
+    Axios.post("/user", {
+      first_name: data.firstName,
+      last_name: data.lastName,
+      email: data.email,
+    })
+      .then(function (response) {
+        console.log(response);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+  };
+
+  const handleSubmitSubscribModel = (data) => {
+    Axios.post("/subscription", {
+      email: data.email,
+    })
+      .then(function (response) {
+        console.log(response);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+  };
 
   const handleLogoPress = () => {
     window.location.reload();
@@ -38,6 +62,15 @@ const LandingPage = () => {
 
   useEffect(() => {
     document.title = "Eagle Bot";
+    if (from === "contact") {
+      setTimeout(() => {
+        const element = document.getElementById("goto-footer");
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+          setFrom("");
+        }
+      }, 500);
+    }
     return () => {
       document.title = "Eagle Bot";
     };
@@ -201,9 +234,13 @@ const LandingPage = () => {
           />
           <img src={LaptopImage} alt="Eagle Bot Golden Laptop"></img>
         </div>
-        <div className={Style.footer}>
-          <div className={Style.logo} onClick={handleLogoPress}>
-            <img src={EagleBotLogoSvg} alt="EagleBot logo"></img>
+        <div id="goto-footer" className={Style.footer}>
+          <div className={Style.logo}>
+            <img
+              src={EagleBotLogoSvg}
+              alt="EagleBot logo"
+              onClick={handleLogoPress}
+            ></img>
           </div>
 
           <div className={Style.footer_content}>
@@ -213,14 +250,15 @@ const LandingPage = () => {
             </p>
             <GoldenButton
               type={"button"}
-              buttonName={"Contact us for queries"}
-              style={{ fontSize: "14px", padding: "12px" }}
+              buttonName={"CONTACT US"}
+              style={{ fontSize: "14px", padding: "12px 24px" }}
               onClick={() => handleContactUs()}
             />
             <div className={Style.social_link}>
               <img
                 src={LinkedInSvg}
                 alt="LinkedIn logo"
+                style={{ width: "36px" }}
                 onClick={() => {
                   window.open(
                     "https://www.linkedin.com/company/eagle-bot/",

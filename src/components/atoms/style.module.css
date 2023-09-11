@@ -1,0 +1,9 @@
+.faqs_container {
+  cursor: pointer;
+  padding: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.faqs_container:hover {
+  background-color: #c0bbbb34;
+}

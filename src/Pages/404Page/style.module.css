@@ -1,5 +1,9 @@
 .logo {
-  margin: 3% 0 3% 0;
+  margin: 3% 0 0 3%;
+}
+
+.logo img {
+  cursor: pointer;
 }
 
 ._404Container {

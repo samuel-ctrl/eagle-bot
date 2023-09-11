@@ -7,10 +7,11 @@
   min-height: 600px;
 
   .logo {
-    margin: 3% auto;
+    margin: 1% auto;
     max-width: 1440px;
     width: calc(100% - (224px / 1440px * 100%));
     img {
+      width: 200px;
       cursor: pointer;
     }
   }
@@ -44,7 +45,7 @@
         font-size: 5vw;
         font-style: normal;
         font-weight: 700;
-        line-height: 100%; /* 91% */
+        line-height: 91%;
       }
       p {
         margin: 1vw 0;
@@ -76,7 +77,7 @@
           font-size: 35px;
         }
         h2 {
-          font-size: 45px;
+          font-size: 40px;
         }
 
         p {
@@ -237,7 +238,7 @@
     font-size: 5vw;
     font-style: normal;
     font-weight: 700;
-    line-height: 100%; /* 91% */
+    line-height: 91%; /* 91% */
   }
 
   p {
@@ -260,7 +261,7 @@
       font-size: 35px;
     }
     h3 {
-      font-size: 45px;
+      font-size: 40px;
     }
     p {
       width: auto;
@@ -403,11 +404,11 @@
       }
     }
     .vector_content {
-      width: 88%;
+      width: 92%;
       height: 100%;
     }
     h2 {
-      font-size: 45px;
+      font-size: 40px;
       text-align: center;
     }
     p {
@@ -429,17 +430,17 @@
       margin-bottom: 0px;
     }
     .text4 {
-      margin-left: 5%;
+      margin-left: 4%;
     }
   }
   .text5 {
-    margin: 21% 0 0 5%;
+    margin: 19% 0 0 4%;
   }
-  .text {
-    margin: 15% 0 0 3%;
+  .text6 {
+    margin: 15% 0 0 4%;
   }
   .text7 {
-    margin: 19% 0 0 3%;
+    margin: 18% 0 0 4%;
   }
 }
 
@@ -455,7 +456,7 @@
     font-size: 5vw;
     font-style: normal;
     font-weight: 700;
-    line-height: 100%;
+    line-height: 91%;
     margin-bottom: 3.5%;
   }
 
@@ -482,7 +483,9 @@
 
   .logo {
     margin-left: 5vw;
+    height: 10vw;
     img {
+      width: 150px;
       cursor: pointer;
     }
   }
@@ -543,6 +546,7 @@
     overflow: hidden;
     width: 50vw;
     transform: translate(35%, 35%);
+    z-index: -1;
   }
   @media (max-width: 992px) {
     &.footer {
@@ -576,7 +580,7 @@
       display: none;
     }
     .logo {
-      margin-top: 10px;
+      margin-top: 15px;
     }
   }
 }

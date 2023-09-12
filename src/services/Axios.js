@@ -1,12 +1,11 @@
 import axios from "axios";
-import { baseUrl } from "../components/constent/constent";
 
 axios.defaults.headers.common["Content-Type"] = "application/json";
+axios.defaults.headers.common["Authorization"] = "Bearer " + import.meta.env.VITE_STATIC_JWT_TOKEN;
 // const accessToken = localStorage.getItem("accessToken");
 // if (accessToken) {
-//   axios.defaults.headers.common["Authorization"] = "Bearer " + accessToken;
-// }
+  // }
 
 export const Axios = axios.create({
-  baseURL: baseUrl,
+  baseURL: import.meta.env.VITE_BASE_URL,
 });

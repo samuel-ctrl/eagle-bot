@@ -174,7 +174,7 @@ const ContactPage = ({ setFrom }) => {
         alertContent={
           "Thank you for your inquiry! Our team will respond to your message within the next 48 hours."
         }
-        alertType={"success"}
+        alertType={"info"}
       />
       <CustomizedSnackbar
         handleClose={() => setOpenWarning(false)}

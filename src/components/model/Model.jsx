@@ -1,8 +1,11 @@
-import * as React from "react";
+import { useState } from "react";
 import Modal from "@mui/material/Modal";
+import Snackbar from "@mui/material/Snackbar";
+import MuiAlert from "@mui/material/Alert";
 import { useForm } from "react-hook-form";
 import Style from "./model.module.css";
 import { GoldenButton } from "../button/CustomButton";
+import { getIconBySeverity } from "../Utils";
 
 export const WaitListModel = ({ open, handleClose, OnSubmit }) => {
   const {
@@ -154,5 +157,35 @@ export const SubscribModel = ({ open, handleClose, OnSubmit }) => {
         </form>
       </div>
     </Modal>
+  );
+};
+
+export const CustomizedSnackbar = ({
+  handleClose,
+  open,
+  alertContent,
+  alertType,
+}) => {
+  return (
+    <Snackbar
+      open={open}
+      autoHideDuration={6000}
+      onClose={handleClose}
+      anchorOrigin={{
+        vertical: "top",
+        horizontal: "right",
+      }}
+    >
+      <MuiAlert
+        elevation={6}
+        variant="filled"
+        onClose={handleClose}
+        severity={alertType}
+        sx={{ width: "100%" }}
+        icon={getIconBySeverity(alertType)}
+      >
+        {alertContent}
+      </MuiAlert>
+    </Snackbar>
   );
 };

@@ -1,28 +1,18 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 import Style from "./style.module.css";
 import { useNavigate } from "react-router-dom";
 import EagleBotLogoSvg from "../../assets/images/svg/eagle-bot-logo.svg";
 import { GoldenButton } from "../../components/button/CustomButton";
 import { FaqsData } from "../../components/atoms/index";
+import { Axios } from "../../services/Axios";
+import APIENDPOINTS from "../../components/constent/endpoints";
+import { CustomizedSnackbar } from "../../components/model/Model";
 
 const ContactPage = ({ setFrom }) => {
+  const [openSuccess, setOpenSuccess] = useState(false);
+  const [openWarning, setOpenWarning] = useState(false);
   const navigate = useNavigate();
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-    reset,
-  } = useForm();
-
-  const onSubmit = (event) => {
-    reset();
-  };
-
-  const handleLogoPress = () => {
-    setFrom("contact");
-    navigate("/");
-  };
 
   useEffect(() => {
     document.title = "Eagle Bot - Support";
@@ -30,6 +20,35 @@ const ContactPage = ({ setFrom }) => {
       document.title = "Eagle Bot";
     };
   });
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    reset,
+  } = useForm();
+
+  const handleLogoPress = () => {
+    setFrom("contact");
+    navigate("/");
+  };
+
+  const onSubmit = (event) => {
+    Axios.post(APIENDPOINTS.USER_QUERY, {
+      name: event.name,
+      user_email: event.email,
+      query_text: event.message,
+    })
+      .then(function (response) {
+        if (response.status == 200) {
+          setOpenSuccess(true);
+        }
+      })
+      .catch(function (error) {
+        setOpenWarning(true);
+      });
+    reset();
+  };
 
   return (
     <>
@@ -149,6 +168,20 @@ const ContactPage = ({ setFrom }) => {
           </p>
         </div>
       </div>
+      <CustomizedSnackbar
+        handleClose={() => setOpenSuccess(false)}
+        open={openSuccess}
+        alertContent={
+          "Thank you for your inquiry! Our team will respond to your message within the next 48 hours."
+        }
+        alertType={"success"}
+      />
+      <CustomizedSnackbar
+        handleClose={() => setOpenWarning(false)}
+        open={openWarning}
+        alertContent={"Oop's, we can't reach the server."}
+        alertType={"error"}
+      />
     </>
   );
 };

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import { FAQS } from "../constent";
+import { FAQS } from "../constent/data";
 import Style from "./style.module.css";
 
 export const FaqsData = () => {

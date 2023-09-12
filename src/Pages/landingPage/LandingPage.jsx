@@ -16,38 +16,50 @@ import {
   VectorGroupSvg,
   GoldenDesignSvg,
 } from "../../components/designs/Design";
-import { WaitListModel, SubscribModel } from "../../components/model/Model";
+import {
+  WaitListModel,
+  SubscribModel,
+  CustomizedSnackbar,
+} from "../../components/model/Model";
 import { Axios } from "../../services/Axios";
+import APIENDPOINTS from "../../components/constent/endpoints";
 
 const LandingPage = ({ from, setFrom }) => {
   const navigate = useNavigate();
 
   const [openWaitListModel, setOpenWaitListModel] = useState(false);
   const [openSubscribModel, setOpenSubscribModel] = useState(false);
+  const [openWaitlist, setOpenWaitlist] = useState(false);
+  const [openSubscrib, setOpenSubscrib] = useState(false);
+  const [openError, setOpenError] = useState(false);
 
   const handleSubmitWaitListModel = (data) => {
-    Axios.post("/user", {
+    Axios.post(APIENDPOINTS.USER_WAITLIST, {
       first_name: data.firstName,
       last_name: data.lastName,
       email: data.email,
     })
       .then(function (response) {
-        console.log(response);
+        if (response.status === 200) {
+          setOpenWaitlist(true);
+        }
       })
       .catch(function (error) {
-        console.log(error);
+        setOpenError(true);
       });
   };
 
   const handleSubmitSubscribModel = (data) => {
-    Axios.post("/subscription", {
+    Axios.post(APIENDPOINTS.USER_SUBSCRIBE, {
       email: data.email,
     })
       .then(function (response) {
-        console.log(response);
+        if (response.status === 200) {
+          setOpenSubscrib(true);
+        }
       })
       .catch(function (error) {
-        console.log(error);
+        setOpenError(true);
       });
   };
 
@@ -282,6 +294,26 @@ const LandingPage = ({ from, setFrom }) => {
           handleClose={() => setOpenSubscribModel(false)}
           open={openSubscribModel}
           OnSubmit={handleSubmitSubscribModel}
+        />
+        <CustomizedSnackbar
+          handleClose={() => setOpenWaitlist(false)}
+          open={openWaitlist}
+          alertContent={
+            "Fantastic news! You have now been added to our waitlist."
+          }
+          alertType={"success"}
+        />
+        <CustomizedSnackbar
+          handleClose={() => setOpenSubscrib(false)}
+          open={openSubscrib}
+          alertContent={"Excellent news! You have successfully subscribed."}
+          alertType={"success"}
+        />
+        <CustomizedSnackbar
+          handleClose={() => setOpenError(false)}
+          open={openError}
+          alertContent={"Oop's, we can't reach the server."}
+          alertType={"error"}
         />
       </>
     </>

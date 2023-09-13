@@ -83,7 +83,7 @@ export const WaitListModel = ({ open, handleClose, OnSubmit }) => {
               {...register("email", {
                 required: "Email is required",
                 pattern: {
-                  value: /^\S+@\S+$/i,
+                  value: /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/i,
                   message: "Invalid email format",
                 },
               })}
@@ -138,7 +138,7 @@ export const SubscribModel = ({ open, handleClose, OnSubmit }) => {
               {...register("email", {
                 required: "Email is required",
                 pattern: {
-                  value: /^\S+@\S+$/i,
+                  value: /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/i,
                   message: "Invalid email format",
                 },
               })}

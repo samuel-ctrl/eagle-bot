@@ -7,11 +7,11 @@
   min-height: 600px;
 
   .logo {
-    margin: 1% auto;
+    margin: 15px auto;
     max-width: 1440px;
     width: calc(100% - (224px / 1440px * 100%));
     img {
-      width: 200px;
+      width: 190px;
       cursor: pointer;
     }
   }
@@ -36,7 +36,7 @@
         font-family: "Inter", sans-serif;
         font-size: 4.5vw;
         font-style: normal;
-        font-weight: 400;
+        font-weight: 300;
         line-height: 107.698%;
       }
 
@@ -44,7 +44,7 @@
         font-family: "Inter", sans-serif;
         font-size: 5vw;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 600;
         line-height: 91%;
       }
       p {
@@ -52,7 +52,7 @@
         font-family: "Inter", sans-serif;
         font-size: 3vw;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 600;
         line-height: 120%;
       }
 
@@ -237,7 +237,7 @@
     font-family: "Inter", sans-serif;
     font-size: 5vw;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 91%; /* 91% */
   }
 
@@ -339,7 +339,7 @@
     margin-top: 2%;
     font-family: "Inter", sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 4vw;
   }
 
@@ -455,7 +455,7 @@
     font-family: "Inter", sans-serif;
     font-size: 5vw;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 91%;
     margin-bottom: 3.5%;
   }
@@ -465,7 +465,7 @@
     height: 100%;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 600px) {
     h2 {
       font-size: 40px;
     }

@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Modal from "@mui/material/Modal";
 import Snackbar from "@mui/material/Snackbar";
 import MuiAlert from "@mui/material/Alert";
@@ -17,7 +16,6 @@ export const WaitListModel = ({ open, handleClose, OnSubmit }) => {
 
   const handleFormSubmit = (event) => {
     OnSubmit(event);
-    handleClose();
     reset();
   };
 

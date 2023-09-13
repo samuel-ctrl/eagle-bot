@@ -42,6 +42,7 @@ const LandingPage = ({ from, setFrom }) => {
       .then(function (response) {
         if (response.status === 200) {
           setOpenWaitlist(true);
+          setOpenWaitListModel(false);
         }
       })
       .catch(function (error) {
@@ -56,6 +57,7 @@ const LandingPage = ({ from, setFrom }) => {
       .then(function (response) {
         if (response.status === 200) {
           setOpenSubscrib(true);
+          setOpenSubscribModel(false);
         }
       })
       .catch(function (error) {
@@ -312,7 +314,7 @@ const LandingPage = ({ from, setFrom }) => {
         <CustomizedSnackbar
           handleClose={() => setOpenError(false)}
           open={openError}
-          alertContent={"Oop's, we can't reach the server."}
+          alertContent={"Oop's we can't reach the server, try agin later."}
           alertType={"error"}
         />
       </>

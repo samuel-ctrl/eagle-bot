@@ -12,6 +12,7 @@ import { CustomizedSnackbar } from "../../components/model/Model";
 const ContactPage = ({ setFrom }) => {
   const [openSuccess, setOpenSuccess] = useState(false);
   const [openWarning, setOpenWarning] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -34,6 +35,7 @@ const ContactPage = ({ setFrom }) => {
   };
 
   const onSubmit = (event) => {
+    setIsLoading(true);
     Axios.post(APIENDPOINTS.USER_QUERY, {
       name: event.name,
       user_email: event.email,
@@ -41,13 +43,17 @@ const ContactPage = ({ setFrom }) => {
     })
       .then(function (response) {
         if (response.status == 200) {
-          setOpenSuccess(true);
+          setTimeout(() => {
+            setIsLoading(false);
+            setOpenSuccess(true);
+            reset();
+          }, 1000);
         }
       })
       .catch(function (error) {
+        setIsLoading(false);
         setOpenWarning(true);
       });
-    reset();
   };
 
   return (
@@ -123,7 +129,8 @@ const ContactPage = ({ setFrom }) => {
           <GoldenButton
             type={"submit"}
             buttonName={"Send"}
-            style={{ padding: "14px 52px" }}
+            style={{ padding: "12px 48px" }}
+            isLoading={isLoading}
           />
         </form>{" "}
       </div>

@@ -33,7 +33,7 @@ const LandingPage = ({ from, setFrom }) => {
   const [openSubscrib, setOpenSubscrib] = useState(false);
   const [openError, setOpenError] = useState(false);
 
-  const handleSubmitWaitListModel = (data) => {
+  const handleSubmitWaitListModel = (data, reset, setIsLoading) => {
     Axios.post(APIENDPOINTS.USER_WAITLIST, {
       first_name: data.firstName,
       last_name: data.lastName,
@@ -41,27 +41,37 @@ const LandingPage = ({ from, setFrom }) => {
     })
       .then(function (response) {
         if (response.status === 200) {
-          setOpenWaitlist(true);
-          setOpenWaitListModel(false);
+          setTimeout(() => {
+            setIsLoading(false);
+            setOpenWaitlist(true);
+            setOpenWaitListModel(false);
+            reset();
+          }, 1000);
         }
       })
       .catch(function (error) {
+        setIsLoading(false);
         setOpenError(true);
       });
   };
 
-  const handleSubmitSubscribModel = (data) => {
+  const handleSubmitSubscribModel = (data, reset, setIsLoading) => {
     Axios.post(APIENDPOINTS.USER_SUBSCRIBE, {
       email: data.email,
     })
       .then(function (response) {
         if (response.status === 200) {
-          setOpenSubscrib(true);
-          setOpenSubscribModel(false);
+          setTimeout(() => {
+            setIsLoading(false);
+            setOpenSubscrib(true);
+            setOpenSubscribModel(false);
+            reset();
+          }, 1000);
         }
       })
       .catch(function (error) {
         setOpenError(true);
+        setIsLoading(false);
       });
   };
 

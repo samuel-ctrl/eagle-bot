@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Modal from "@mui/material/Modal";
 import Snackbar from "@mui/material/Snackbar";
 import MuiAlert from "@mui/material/Alert";
@@ -7,6 +8,7 @@ import { GoldenButton } from "../button/CustomButton";
 import { getIconBySeverity } from "../Utils";
 
 export const WaitListModel = ({ open, handleClose, OnSubmit }) => {
+  const [isLoading, setIsLoading] = useState(false);
   const {
     register,
     formState: { errors },
@@ -15,8 +17,8 @@ export const WaitListModel = ({ open, handleClose, OnSubmit }) => {
   } = useForm();
 
   const handleFormSubmit = (event) => {
-    OnSubmit(event);
-    reset();
+    setIsLoading(true);
+    OnSubmit(event, reset, setIsLoading);
   };
 
   return (
@@ -93,6 +95,7 @@ export const WaitListModel = ({ open, handleClose, OnSubmit }) => {
             type={"submit"}
             buttonName={"JOIN"}
             style={{ padding: "10px 52px", marginTop: "1%" }}
+            isLoading={isLoading}
           />
         </form>
       </div>
@@ -101,6 +104,7 @@ export const WaitListModel = ({ open, handleClose, OnSubmit }) => {
 };
 
 export const SubscribModel = ({ open, handleClose, OnSubmit }) => {
+  const [isLoading, setIsLoading] = useState(false);
   const {
     register,
     formState: { errors },
@@ -109,9 +113,8 @@ export const SubscribModel = ({ open, handleClose, OnSubmit }) => {
   } = useForm();
 
   const handleFormSubmit = (event) => {
-    OnSubmit(event);
-    handleClose();
-    reset();
+    setIsLoading(true);
+    OnSubmit(event, reset, setIsLoading);
   };
 
   return (
@@ -151,6 +154,7 @@ export const SubscribModel = ({ open, handleClose, OnSubmit }) => {
               paddingBottom: "1.3%",
               marginTop: "1.5%",
             }}
+            isLoading={isLoading}
           />
         </form>
       </div>

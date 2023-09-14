@@ -43,11 +43,9 @@ const ContactPage = ({ setFrom }) => {
     })
       .then(function (response) {
         if (response.status == 200) {
-          setTimeout(() => {
-            setIsLoading(false);
-            setOpenSuccess(true);
-            reset();
-          }, 1000);
+          setIsLoading(false);
+          setOpenSuccess(true);
+          reset();
         }
       })
       .catch(function (error) {

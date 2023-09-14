@@ -34,6 +34,7 @@ const LandingPage = ({ from, setFrom }) => {
   const [openError, setOpenError] = useState(false);
 
   const handleSubmitWaitListModel = (data, reset, setIsLoading) => {
+    console.log("cliked...");
     Axios.post(APIENDPOINTS.USER_WAITLIST, {
       first_name: data.firstName,
       last_name: data.lastName,
@@ -41,12 +42,10 @@ const LandingPage = ({ from, setFrom }) => {
     })
       .then(function (response) {
         if (response.status === 200) {
-          setTimeout(() => {
-            setIsLoading(false);
-            setOpenWaitlist(true);
-            setOpenWaitListModel(false);
-            reset();
-          }, 1000);
+          setIsLoading(false);
+          setOpenWaitlist(true);
+          setOpenWaitListModel(false);
+          reset();
         }
       })
       .catch(function (error) {
@@ -61,12 +60,10 @@ const LandingPage = ({ from, setFrom }) => {
     })
       .then(function (response) {
         if (response.status === 200) {
-          setTimeout(() => {
-            setIsLoading(false);
-            setOpenSubscrib(true);
-            setOpenSubscribModel(false);
-            reset();
-          }, 1000);
+          setIsLoading(false);
+          setOpenSubscrib(true);
+          setOpenSubscribModel(false);
+          reset();
         }
       })
       .catch(function (error) {

@@ -74,7 +74,7 @@ export const FAQS = [
   {
     13: {
       qus: "When is the official release date for Eagle Bot?",
-      ans: "Eagle Bot is set to be released in a month. Stay tuned to our official channels for the exact launch date and other exciting announcements. Subscribe to our monthly newsletter for the latest news on release dates.",
+      ans: "Eagle Bot is set to be launched  during the last week of October 2023. Stay tuned to our official channels for the exact launch date and other exciting announcements. Subscribe to our monthly newsletter for the latest news on release dates.",
     },
   },
   {

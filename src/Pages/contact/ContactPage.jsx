@@ -16,7 +16,7 @@ const ContactPage = ({ setFrom }) => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    document.title = "Eagle Bot - Support";
+    document.title = "Support | Eagle Bot";
     return () => {
       document.title = "Eagle Bot";
     };
@@ -154,11 +154,19 @@ const ContactPage = ({ setFrom }) => {
       >
         <p className={Style.tearmsAndConText}>
           This site is protected by reCAPTCHA and the Google{" "}
-          <a href="https://policies.google.com/privacy" target="_blank">
+          <a
+            href="/privacy-and-policy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Privacy Policy
           </a>{" "}
           and{" "}
-          <a href="https://policies.google.com/terms" target="_blank">
+          <a
+            href="/terms-and-conditions"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Terms of Service
           </a>{" "}
           apply.

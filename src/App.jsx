@@ -4,6 +4,8 @@ import LandingPage from "./Pages/landingPage/LandingPage";
 import ContactPage from "./Pages/contact/ContactPage";
 import { ScrollToTop } from "./components/Utils";
 import NotFound from "./Pages/404Page";
+import TermsAndCons from "./Pages/terms_and_policy/TermsAndCons";
+import PrivacyAndPolicy from "./Pages/terms_and_policy/PrivacyAndPolicy";
 
 function App() {
   const [from, setFrom] = useState("");
@@ -15,6 +17,14 @@ function App() {
         <Route
           path="*"
           element={<NotFound from={from} setFrom={setFrom} />}
+        ></Route>
+        <Route
+          path="/terms-and-conditions"
+          element={<TermsAndCons from={from} setFrom={setFrom} />}
+        ></Route>
+        <Route
+          path="/privacy-and-policy"
+          element={<PrivacyAndPolicy from={from} setFrom={setFrom} />}
         ></Route>
         <Route
           path="/"

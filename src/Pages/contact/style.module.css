@@ -26,7 +26,6 @@ form {
 }
 
 .contact_section h2 {
-  font-family: "Inter", sans-serif;
   font-size: 2.6vw;
   font-weight: 600;
 }
@@ -37,7 +36,7 @@ form .input {
 
 .input input {
   padding: 2.3% 1%;
-  font-family: "Inter", sans-serif;
+
   font-size: 1vw;
   border-radius: 6px;
   color: #000000;
@@ -49,7 +48,7 @@ form .textArea {
 }
 .textArea textarea {
   width: 100%;
-  font-family: "Inter", sans-serif;
+
   border-radius: 6px;
   font-size: 1vw;
   padding: 0.8%;
@@ -58,21 +57,19 @@ form .textArea {
   resize: vertical;
 }
 .tearmsAndConText {
-  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1vw;
   text-align: center;
 }
 
 ::placeholder {
-  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 1vw;
 }
 
 .errorMessage {
   color: rgb(217, 48, 37);
-  font-family: "Inter", sans-serif;
+
   font-weight: 400;
   font-size: 0.9vw;
   margin-top: 1%;
@@ -89,7 +86,7 @@ form .textArea {
 
 .footer .copyRigthText {
   width: 50%;
-  font-family: "Inter", sans-serif;
+
   font-size: small;
   font-weight: 400;
   text-align: center;
@@ -97,7 +94,7 @@ form .textArea {
 
 .footer .SupportText {
   width: 50%;
-  font-family: "Inter", sans-serif;
+
   font-size: small;
   font-weight: 400;
   text-align: center;

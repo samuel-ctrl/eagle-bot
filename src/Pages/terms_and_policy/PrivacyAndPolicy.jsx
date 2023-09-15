@@ -5,7 +5,7 @@ import EagleBotLogoSvg from "../../assets/images/svg/eagle-bot-logo.svg";
 
 const PrivacyAndPolicy = () => {
   useEffect(() => {
-    document.title = "Terms & conditions | Eagle Bot";
+    document.title = "Privacy & Policy | Eagle Bot";
     return () => {
       document.title = "Eagle Bot";
     };

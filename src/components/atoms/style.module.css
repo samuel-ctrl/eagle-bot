@@ -7,3 +7,26 @@
 .faqs_container:hover {
   background-color: #c0bbbb34;
 }
+
+.footer_tools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 5;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  background-color: #dcdcdc;
+  border-radius: 50%;
+}
+
+.footer_tools svg path {
+  color: #4f4f4f;
+}
+
+.footer_tools:hover {
+  opacity: 0.7;
+}

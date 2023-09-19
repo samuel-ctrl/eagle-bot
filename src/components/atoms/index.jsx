@@ -1,6 +1,7 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 import { FAQS } from "../constent/data";
 import Style from "./style.module.css";
 
@@ -59,5 +60,38 @@ export const FaqsData = () => {
         );
       })}
     </>
+  );
+};
+
+export const GoToUpComp = () => {
+  useEffect(() => {
+    const goUp = document.getElementById("goUp");
+    let isHidden = true;
+    window.addEventListener("scroll", () => {
+      const scrollY = window.scrollY;
+      if (scrollY > 100 && isHidden) {
+        goUp.classList.remove("hidden");
+        isHidden = false;
+      } else if (scrollY <= 100 && !isHidden) {
+        goUp.classList.add("hidden");
+        isHidden = true;
+      }
+    });
+
+    return () => {
+      let isHidden = true;
+    };
+  });
+  const handleGoup = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+  };
+  return (
+    <div id="goUp" className={Style.footer_tools} onClick={handleGoup}>
+      <ArrowDropUpIcon sx={{ "& :hover": { color: "#a57033" } }} />
+    </div>
   );
 };

@@ -110,8 +110,8 @@
   display: none;
 }
 .table {
-  border-top: 1px solid #fff;
-  border-left: 1px solid #fff;
+  border-top: 1px solid #ffffff;
+  border-left: 1px solid #ffffff;
   border-radius: 5px;
   font-size: 1rem;
   font-weight: 400;
@@ -120,8 +120,8 @@
 .table th,
 td {
   padding: 1px;
-  border-bottom: 1px solid #fff;
-  border-right: 1px solid #fff;
+  border-bottom: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
 }
 
 @media (max-width: 768px) {

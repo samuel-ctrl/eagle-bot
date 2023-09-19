@@ -106,7 +106,7 @@ const PrivacyAndPolicy = () => {
                 </p>
                 <ul>
                   <li>
-                    Visit our website at
+                    Visit our website at &nbsp;
                     <a href="http://www.eagle-bot.com">
                       http://www.eagle-bot.com
                     </a>
@@ -122,7 +122,7 @@ const PrivacyAndPolicy = () => {
                   you understand your privacy rights and choices. If you do not
                   agree with our policies and practices, please do not use our
                   Services. If you still have any questions or concerns, please
-                  contact us at
+                  contact us at &nbsp;
                   <a href="mailto:privacy@eagle-bot.com">
                     privacy@eagle-bot.com
                   </a>

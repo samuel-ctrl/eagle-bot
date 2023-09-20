@@ -12,7 +12,7 @@ const PrivacyAndPolicy = () => {
     };
   });
   return (
-    <div className="policySection">
+    <>
       <div className={Style.logo}>
         <img
           src={EagleBotLogoSvg}
@@ -23,105 +23,75 @@ const PrivacyAndPolicy = () => {
       <div className={Style.body_container}>
         <div className={Style.menu_container}>
           <h4 className={Style.table_of_content_head}>Table of Contents</h4>
-          <ul>
+          <ol>
             <li>
-              &nbsp;<a href="#question-1">1. WHAT INFORMATION DO WE COLLECT?</a>
-              &nbsp;
+              <a href="#question-1">WHAT INFORMATION DO WE COLLECT?</a>
             </li>
             <li>
-              &nbsp;
-              <a href="#question-2">2. HOW DO WE PROCESS YOUR INFORMATION?</a>
-              &nbsp;
+              <a href="#question-2">HOW DO WE PROCESS YOUR INFORMATION?</a>
             </li>
             <li>
-              &nbsp;
               <a href="#question-3">
-                3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION?
+                WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION?
               </a>
-              &nbsp;
             </li>
             <li>
-              &nbsp;
               <a href="#question-4">
-                4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
+                WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
               </a>
-              &nbsp;
             </li>
             <li>
-              &nbsp;
               <a href="#question-5">
-                5. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
+                DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
               </a>
-              &nbsp;
             </li>
             <li>
-              &nbsp;
               <a href="#question-6">
-                6. IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?
+                IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?
               </a>
-              &nbsp;
             </li>
             <li>
-              &nbsp;
-              <a href="#question-7">7. HOW LONG DO WE KEEP YOUR INFORMATION?</a>
-              &nbsp;
+              <a href="#question-7">HOW LONG DO WE KEEP YOUR INFORMATION?</a>
             </li>
             <li>
-              &nbsp;
-              <a href="#question-8">8. HOW DO WE KEEP YOUR INFORMATION SAFE?</a>
-              &nbsp;
+              <a href="#question-8">HOW DO WE KEEP YOUR INFORMATION SAFE?</a>
             </li>
             <li>
-              &nbsp;<a href="#question-9">9. WHAT ARE YOUR PRIVACY RIGHTS?</a>
-              &nbsp;
+              <a href="#question-9">WHAT ARE YOUR PRIVACY RIGHTS?</a>
             </li>
             <li>
-              &nbsp;
-              <a href="#question-10">10. CONTROLS FOR DO-NOT-TRACK FEATURES</a>
-              &nbsp;
+              <a href="#question-10">CONTROLS FOR DO-NOT-TRACK FEATURES</a>
             </li>
             <li>
-              &nbsp;
               <a href="#question-11">
-                11. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
+                DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
               </a>
-              &nbsp;
             </li>
             <li>
-              &nbsp;
               <a href="#question-12">
-                12. WHAT CATEGORIES OF PERSONAL INFORMATION DO WE COLLECT?
+                WHAT CATEGORIES OF PERSONAL INFORMATION DO WE COLLECT?
               </a>
-              &nbsp;
             </li>
             <li>
-              &nbsp;
               <a href="#question-13">
-                13. DO VIRGINIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
+                DO VIRGINIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
               </a>
-              &nbsp;
             </li>
             <li>
-              &nbsp;
-              <a href="#question-14">14. DO WE MAKE UPDATES TO THIS NOTICE?</a>
-              &nbsp;
+              <a href="#question-14">DO WE MAKE UPDATES TO THIS NOTICE?</a>
             </li>
             <li>
-              &nbsp;
               <a href="#question-15">
-                15. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
+                HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
               </a>
-              &nbsp;
             </li>
             <li>
-              &nbsp;
               <a href="#question-16">
-                16. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT
-                FROM YOU?
+                HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM
+                YOU?
               </a>
-              &nbsp;
             </li>
-          </ul>
+          </ol>
         </div>
         <div className={Style.card_container}>
           <div className={Style.content_container}>
@@ -255,119 +225,86 @@ const PrivacyAndPolicy = () => {
                 <h4 className={Style.table_of_content_head}>
                   Table of Contents
                 </h4>
-                <ul>
+                <ol>
                   <li>
-                    &nbsp;
-                    <a href="#question-1">1. WHAT INFORMATION DO WE COLLECT?</a>
-                    &nbsp;
+                    <a href="#question-1">WHAT INFORMATION DO WE COLLECT?</a>
                   </li>
                   <li>
-                    &nbsp;
                     <a href="#question-2">
-                      2. HOW DO WE PROCESS YOUR INFORMATION?
+                      HOW DO WE PROCESS YOUR INFORMATION?
                     </a>
-                    &nbsp;
                   </li>
                   <li>
-                    &nbsp;
                     <a href="#question-3">
-                      3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR
+                      WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR
                       INFORMATION?
                     </a>
-                    &nbsp;
                   </li>
                   <li>
-                    &nbsp;
                     <a href="#question-4">
-                      4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL
-                      INFORMATION?
+                      WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
                     </a>
-                    &nbsp;
                   </li>
                   <li>
-                    &nbsp;
                     <a href="#question-5">
-                      5. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
+                      DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
                     </a>
-                    &nbsp;
                   </li>
                   <li>
-                    &nbsp;
                     <a href="#question-6">
-                      6. IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?
+                      IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?
                     </a>
-                    &nbsp;
                   </li>
                   <li>
-                    &nbsp;
                     <a href="#question-7">
-                      7. HOW LONG DO WE KEEP YOUR INFORMATION?
+                      HOW LONG DO WE KEEP YOUR INFORMATION?
                     </a>
-                    &nbsp;
                   </li>
                   <li>
-                    &nbsp;
                     <a href="#question-8">
-                      8. HOW DO WE KEEP YOUR INFORMATION SAFE?
+                      HOW DO WE KEEP YOUR INFORMATION SAFE?
                     </a>
-                    &nbsp;
                   </li>
                   <li>
-                    &nbsp;
-                    <a href="#question-9">9. WHAT ARE YOUR PRIVACY RIGHTS?</a>
-                    &nbsp;
+                    <a href="#question-9">WHAT ARE YOUR PRIVACY RIGHTS?</a>
                   </li>
                   <li>
-                    &nbsp;
                     <a href="#question-10">
-                      10. CONTROLS FOR DO-NOT-TRACK FEATURES
+                      CONTROLS FOR DO-NOT-TRACK FEATURES
                     </a>
-                    &nbsp;
                   </li>
                   <li>
-                    &nbsp;
                     <a href="#question-11">
-                      11. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
+                      DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
                     </a>
-                    &nbsp;
                   </li>
                   <li>
-                    &nbsp;
                     <a href="#question-12">
-                      12. WHAT CATEGORIES OF PERSONAL INFORMATION DO WE COLLECT?
+                      WHAT CATEGORIES OF PERSONAL INFORMATION DO WE COLLECT?
                     </a>
-                    &nbsp;
                   </li>
                   <li>
-                    &nbsp;
                     <a href="#question-13">
-                      13. DO VIRGINIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
+                      DO VIRGINIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
                     </a>
-                    &nbsp;
                   </li>
                   <li>
-                    &nbsp;
                     <a href="#question-14">
-                      14. DO WE MAKE UPDATES TO THIS NOTICE?
+                      DO WE MAKE UPDATES TO THIS NOTICE?
                     </a>
-                    &nbsp;
                   </li>
                   <li>
-                    &nbsp;
                     <a href="#question-15">
-                      15. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
+                      HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
                     </a>
-                    &nbsp;
                   </li>
                   <li>
-                    &nbsp;
                     <a href="#question-16">
-                      16. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE
-                      COLLECT FROM YOU?
+                      HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT
+                      FROM YOU?
                     </a>
-                    &nbsp;
                   </li>
-                </ul>
+                </ol>
               </div>
 
               <div id="question-1" className={Style.sub_content_section}>
@@ -1417,13 +1354,28 @@ const PrivacyAndPolicy = () => {
                 </p>
               </div>
             </div>
-            <div className={Style.footer}>
-              <GoToUpComp />
-            </div>
           </div>
         </div>
       </div>
-    </div>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+        }}
+      >
+        <div className={Style.footer}>
+          <GoToUpComp />
+          <p className={Style.copyRigthText}>
+            Copyright © 2023 Eagle-Bot - An Antimatterr Product. All Rights
+            Reserved.
+          </p>
+          <p className={Style.SupportText}>
+            Contact us at support@eagle-bot.com
+          </p>
+        </div>
+      </div>
+    </>
   );
 };
 

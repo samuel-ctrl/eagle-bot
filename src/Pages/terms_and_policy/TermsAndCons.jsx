@@ -523,32 +523,30 @@ const TermsAndCons = () => {
                   <strong>5. SOFTWARE</strong>
                 </h3>
                 <p>
-                  <p>
-                    We may include software for use in connection with our
-                    Services. If such software is accompanied by an end user
-                    license agreement ("EULA"), the terms of the{" "}
-                    <strong>EULA</strong> will govern your use of the software.
-                  </p>
-                  <p>
-                    If such software is not accompanied by a{" "}
-                    <strong>EULA</strong>, then we grant to you a non-exclusive,
-                    revocable, personal, and non-transferable license to use
-                    such software solely in connection with our services and in
-                    accordance with these Legal Terms.
-                  </p>
-                  <p>
-                    Any software and any related documentation is provided "AS
-                    IS" without warranty of any kind, either express or implied,
-                    including, without limitation, the implied warranties of
-                    merchantability, fitness for a particular purpose, or
-                    non-infringement. You accept any and all risk arising out of
-                    use or performance of any software.
-                  </p>
-                  <p>
-                    You may not reproduce or redistribute any software except in
-                    accordance with the <strong>EULA</strong> or these Legal
-                    Terms.
-                  </p>
+                  We may include software for use in connection with our
+                  Services. If such software is accompanied by an end user
+                  license agreement ("EULA"), the terms of the{" "}
+                  <strong>EULA</strong> will govern your use of the software.
+                </p>
+                <p>
+                  If such software is not accompanied by a <strong>EULA</strong>
+                  , then we grant to you a non-exclusive, revocable, personal,
+                  and non-transferable license to use such software solely in
+                  connection with our services and in accordance with these
+                  Legal Terms.
+                </p>
+                <p>
+                  Any software and any related documentation is provided "AS IS"
+                  without warranty of any kind, either express or implied,
+                  including, without limitation, the implied warranties of
+                  merchantability, fitness for a particular purpose, or
+                  non-infringement. You accept any and all risk arising out of
+                  use or performance of any software.
+                </p>
+                <p>
+                  You may not reproduce or redistribute any software except in
+                  accordance with the <strong>EULA</strong> or these Legal
+                  Terms.
                 </p>
               </div>
               <div

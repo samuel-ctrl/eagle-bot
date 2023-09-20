@@ -66,6 +66,7 @@ const ContactPage = ({ setFrom }) => {
             <input
               placeholder="Name"
               name="name"
+              autoComplete="off"
               {...register("name", {
                 minLength: {
                   value: 2,
@@ -88,6 +89,7 @@ const ContactPage = ({ setFrom }) => {
               type="email"
               placeholder="Email"
               name="email"
+              autoComplete="off"
               {...register("email", {
                 required: "Email is required",
                 pattern: {

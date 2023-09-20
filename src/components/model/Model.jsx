@@ -80,6 +80,7 @@ export const WaitListModel = ({ open, handleClose, OnSubmit }) => {
           <div className={Style.input}>
             <input
               placeholder="Email"
+              autoComplete="off"
               {...register("email", {
                 required: "Email is required",
                 pattern: {
@@ -135,6 +136,7 @@ export const SubscribModel = ({ open, handleClose, OnSubmit }) => {
             <input
               style={{}}
               placeholder="Enter your email here"
+              autoComplete="off"
               {...register("email", {
                 required: "Email is required",
                 pattern: {

@@ -2,8 +2,9 @@ import { useEffect } from "react";
 import Style from "./style.module.css";
 import EagleBotLogoSvg from "../../assets/images/svg/eagle-bot-logo.svg";
 import { GoToUpComp } from "../../components/atoms";
-
+import { useNavigate } from "react-router-dom";
 const PrivacyAndPolicy = () => {
+  const navigate = useNavigate();
   useEffect(() => {
     document.title = "Privacy Policy | Eagle Bot";
     return () => {
@@ -13,75 +14,112 @@ const PrivacyAndPolicy = () => {
   return (
     <div className="policySection">
       <div className={Style.logo}>
-        <img src={EagleBotLogoSvg} alt="EagleBot logo"></img>
+        <img
+          src={EagleBotLogoSvg}
+          onClick={() => navigate("/")}
+          alt="EagleBot logo"
+        ></img>
       </div>
       <div className={Style.body_container}>
         <div className={Style.menu_container}>
-          <h4 style={{ textAlign: "center", marginBottom: "5%" }}>
-            SUMMARY OF KEY POINTS
-          </h4>
+          <h4 className={Style.table_of_content_head}>Table of Contents</h4>
           <ul>
             <li>
-              <a href="#question-1">1. WHAT INFORMATION DO WE COLLECT?</a>
+              &nbsp;<a href="#question-1">1. WHAT INFORMATION DO WE COLLECT?</a>
+              &nbsp;
             </li>
             <li>
+              &nbsp;
               <a href="#question-2">2. HOW DO WE PROCESS YOUR INFORMATION?</a>
+              &nbsp;
             </li>
             <li>
+              &nbsp;
               <a href="#question-3">
                 3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION?
               </a>
+              &nbsp;
             </li>
             <li>
+              &nbsp;
               <a href="#question-4">
                 4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?
               </a>
+              &nbsp;
             </li>
             <li>
+              &nbsp;
               <a href="#question-5">
                 5. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
               </a>
+              &nbsp;
             </li>
             <li>
+              &nbsp;
               <a href="#question-6">
                 6. IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?
               </a>
+              &nbsp;
             </li>
             <li>
+              &nbsp;
               <a href="#question-7">7. HOW LONG DO WE KEEP YOUR INFORMATION?</a>
+              &nbsp;
             </li>
             <li>
+              &nbsp;
               <a href="#question-8">8. HOW DO WE KEEP YOUR INFORMATION SAFE?</a>
+              &nbsp;
             </li>
             <li>
-              <a href="#question-9">9. WHAT ARE YOUR PRIVACY RIGHTS?</a>
+              &nbsp;<a href="#question-9">9. WHAT ARE YOUR PRIVACY RIGHTS?</a>
+              &nbsp;
             </li>
             <li>
+              &nbsp;
               <a href="#question-10">10. CONTROLS FOR DO-NOT-TRACK FEATURES</a>
+              &nbsp;
             </li>
             <li>
+              &nbsp;
               <a href="#question-11">
                 11. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
               </a>
+              &nbsp;
             </li>
             <li>
+              &nbsp;
               <a href="#question-12">
-                12. DO VIRGINIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
+                12. WHAT CATEGORIES OF PERSONAL INFORMATION DO WE COLLECT?
               </a>
+              &nbsp;
             </li>
             <li>
-              <a href="#question-13">13. DO WE MAKE UPDATES TO THIS NOTICE?</a>
-            </li>
-            <li>
-              <a href="#question-14">
-                14. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
+              &nbsp;
+              <a href="#question-13">
+                13. DO VIRGINIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
               </a>
+              &nbsp;
             </li>
             <li>
+              &nbsp;
+              <a href="#question-14">14. DO WE MAKE UPDATES TO THIS NOTICE?</a>
+              &nbsp;
+            </li>
+            <li>
+              &nbsp;
               <a href="#question-15">
-                15. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT
+                15. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
+              </a>
+              &nbsp;
+            </li>
+            <li>
+              &nbsp;
+              <a href="#question-16">
+                16. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT
                 FROM YOU?
               </a>
+              &nbsp;
             </li>
           </ul>
         </div>
@@ -107,8 +145,8 @@ const PrivacyAndPolicy = () => {
                 <ul>
                   <li>
                     Visit our website at &nbsp;
-                    <a href="http://www.eagle-bot.com">
-                      http://www.eagle-bot.com
+                    <a href="https://www.eagle-bot.com">
+                      https://www.eagle-bot.com
                     </a>
                     , or any website of ours that links to this privacy notice
                   </li>
@@ -124,9 +162,8 @@ const PrivacyAndPolicy = () => {
                   Services. If you still have any questions or concerns, please
                   contact us at &nbsp;
                   <a href="mailto:privacy@eagle-bot.com">
-                    privacy@eagle-bot.com
+                    privacy@eagle-bot.com.
                   </a>
-                  .
                 </p>
               </div>
               <div
@@ -215,83 +252,120 @@ const PrivacyAndPolicy = () => {
               <div
                 className={`${Style.sub_content_section} ${Style.mobileview_menu}`}
               >
-                <h4 style={{ textAlign: "center", marginBottom: "5%" }}>
-                  SUMMARY OF KEY POINTS
+                <h4 className={Style.table_of_content_head}>
+                  Table of Contents
                 </h4>
                 <ul>
                   <li>
+                    &nbsp;
                     <a href="#question-1">1. WHAT INFORMATION DO WE COLLECT?</a>
+                    &nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#question-2">
                       2. HOW DO WE PROCESS YOUR INFORMATION?
                     </a>
+                    &nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#question-3">
                       3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR
                       INFORMATION?
                     </a>
+                    &nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#question-4">
                       4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL
                       INFORMATION?
                     </a>
+                    &nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#question-5">
                       5. DO WE USE COOKIES AND OTHER TRACKING TECHNOLOGIES?
                     </a>
+                    &nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#question-6">
                       6. IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?
                     </a>
+                    &nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#question-7">
                       7. HOW LONG DO WE KEEP YOUR INFORMATION?
                     </a>
+                    &nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#question-8">
                       8. HOW DO WE KEEP YOUR INFORMATION SAFE?
                     </a>
+                    &nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#question-9">9. WHAT ARE YOUR PRIVACY RIGHTS?</a>
+                    &nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#question-10">
                       10. CONTROLS FOR DO-NOT-TRACK FEATURES
                     </a>
+                    &nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#question-11">
                       11. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
                     </a>
+                    &nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#question-12">
-                      12. DO VIRGINIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
+                      12. WHAT CATEGORIES OF PERSONAL INFORMATION DO WE COLLECT?
                     </a>
+                    &nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#question-13">
-                      13. DO WE MAKE UPDATES TO THIS NOTICE?
+                      13. DO VIRGINIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
                     </a>
+                    &nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#question-14">
-                      14. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
+                      14. DO WE MAKE UPDATES TO THIS NOTICE?
                     </a>
+                    &nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#question-15">
-                      15. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE
+                      15. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?
+                    </a>
+                    &nbsp;
+                  </li>
+                  <li>
+                    &nbsp;
+                    <a href="#question-16">
+                      16. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE
                       COLLECT FROM YOU?
                     </a>
+                    &nbsp;
                   </li>
                 </ul>
               </div>
@@ -789,7 +863,6 @@ const PrivacyAndPolicy = () => {
                     11. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
                   </strong>
                 </h3>
-
                 <p>
                   <strong>In Short: </strong>Yes, if you are a resident of
                   California, you are granted specific rights regarding access
@@ -843,116 +916,133 @@ const PrivacyAndPolicy = () => {
                   adhere to certain rights and obligations regarding your
                   personal information.
                 </p>
+              </div>
+
+              <div id="question-12" className={Style.sub_content_section}>
+                <h3>
+                  <strong>
+                    12. What categories of personal information do we collect?
+                  </strong>
+                </h3>
+                <p>
+                  We have collected the following categories of personal
+                  information in the past twelve(12) months:{" "}
+                </p>
                 <table className={Style.table}>
-                  <tr>
-                    <th>Category</th>
-                    <th>Examples</th>
-                    <th>Collected</th>
-                  </tr>
-                  <tr>
-                    <td>A. Identifiers</td>
-                    <td>
-                      Contact details, such as real name, alias, postal address,
-                      telephone or mobile contact number, unique personal
-                      identifier, online identifier, Internet Protocol address,
-                      email address, and account name
-                    </td>
-                    <td>NO</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      B. Personal information categories listed in the
-                      California Customer Records statute
-                    </td>
-                    <td>
-                      Name, contact information, education, employment,
-                      employment history, and financial information
-                    </td>
-                    <td>NO</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      C. Protected classification characteristics under
-                      California or federal law
-                    </td>
-                    <td>Gender and date of birth</td>
-                    <td>NO</td>
-                  </tr>
-                  <tr>
-                    <td>D. Commercial information</td>
-                    <td>
-                      Transaction information, purchase history, financial
-                      details, and payment information
-                    </td>
-                    <td>NO</td>
-                  </tr>
-                  <tr>
-                    <td>E. Biometric information</td>
-                    <td>Fingerprints and voiceprints</td>
-                    <td>NO</td>
-                  </tr>
-                  <tr>
-                    <td>F. Internet or other similar network activity</td>
-                    <td>
-                      Browsing history, search history, online behavior,
-                      interest data, and interactions with our and other
-                      websites, applications, systems, and advertisements
-                    </td>
-                    <td>NO</td>
-                  </tr>
-                  <tr>
-                    <td>G. Geolocation data</td>
-                    <td>Device location</td>
-                    <td>NO</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      H. Audio, electronic, visual, thermal, olfactory, or
-                      similar information
-                    </td>
-                    <td>
-                      Images and audio, video or call recordings created in
-                      connection with our business activities
-                    </td>
-                    <td>NO</td>
-                  </tr>
-                  <tr>
-                    <td>I. Professional or employment-related information</td>
-                    <td>
-                      Business contact details in order to provide you our
-                      Services at a business level or job title, work history,
-                      and professional qualifications if you apply for a job
-                      with us
-                    </td>
-                    <td>NO</td>
-                  </tr>
-                  <tr>
-                    <td>J. Education Information</td>
-                    <td>Student records and directory information</td>
-                    <td>NO</td>
-                  </tr>
-                  <tr>
-                    <td>K. Inferences drawn from other personal information</td>
-                    <td>
-                      Inferences drawn from any of the collected personal
-                      information listed above to create a profile or summary
-                      about, for example, an individual's preferences and
-                      characteristics
-                    </td>
-                    <td>NO</td>
-                  </tr>
-                  <tr>
-                    <td>L. Sensitive Personal Information</td>
-                    <td></td>
-                    <td>NO</td>
-                  </tr>
+                  <thead>
+                    <tr>
+                      <th>Category</th>
+                      <th>Examples</th>
+                      <th>Collected</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>A. Identifiers</td>
+                      <td>
+                        Contact details, such as real name, alias, postal
+                        address, telephone or mobile contact number, unique
+                        personal identifier, online identifier, Internet
+                        Protocol address, email address, and account name
+                      </td>
+                      <td>Partially (Real name, alias, and email address)</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        B. Personal information categories listed in the
+                        California Customer Records statute
+                      </td>
+                      <td>
+                        Name, contact information, education, employment,
+                        employment history, and financial information
+                      </td>
+                      <td>NO</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        C. Protected classification characteristics under
+                        California or federal law
+                      </td>
+                      <td>Gender and date of birth</td>
+                      <td>NO</td>
+                    </tr>
+                    <tr>
+                      <td>D. Commercial information</td>
+                      <td>
+                        Transaction information, purchase history, financial
+                        details, and payment information
+                      </td>
+                      <td>NO</td>
+                    </tr>
+                    <tr>
+                      <td>E. Biometric information</td>
+                      <td>Fingerprints and voiceprints</td>
+                      <td>NO</td>
+                    </tr>
+                    <tr>
+                      <td>F. Internet or other similar network activity</td>
+                      <td>
+                        Browsing history, search history, online behavior,
+                        interest data, and interactions with our and other
+                        websites, applications, systems, and advertisements
+                      </td>
+                      <td>NO</td>
+                    </tr>
+                    <tr>
+                      <td>G. Geolocation data</td>
+                      <td>Device location</td>
+                      <td>NO</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        H. Audio, electronic, visual, thermal, olfactory, or
+                        similar information
+                      </td>
+                      <td>
+                        Images and audio, video or call recordings created in
+                        connection with our business activities
+                      </td>
+                      <td>NO</td>
+                    </tr>
+                    <tr>
+                      <td>I. Professional or employment-related information</td>
+                      <td>
+                        Business contact details in order to provide you our
+                        Services at a business level or job title, work history,
+                        and professional qualifications if you apply for a job
+                        with us
+                      </td>
+                      <td>NO</td>
+                    </tr>
+                    <tr>
+                      <td>J. Education Information</td>
+                      <td>Student records and directory information</td>
+                      <td>NO</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        K. Inferences drawn from other personal information
+                      </td>
+                      <td>
+                        Inferences drawn from any of the collected personal
+                        information listed above to create a profile or summary
+                        about, for example, an individual's preferences and
+                        characteristics
+                      </td>
+                      <td>NO</td>
+                    </tr>
+                    <tr>
+                      <td>L. Sensitive Personal Information</td>
+                      <td></td>
+                      <td>NO</td>
+                    </tr>
+                  </tbody>
                 </table>
                 <p>
                   We may also collect other personal information outside of
                   these categories through instances where you interact with us
                   in person, online, or by phone or mail in the context of:
                 </p>
-
                 <ul>
                   <li>
                     <strong>
@@ -971,25 +1061,21 @@ const PrivacyAndPolicy = () => {
                     </strong>
                   </li>
                 </ul>
-
                 <h6>
                   <strong>
                     How do we use and share your personal information?
                   </strong>
                 </h6>
-
                 <p>
                   More information about our data collection and sharing
                   practices can be found in this <strong>privacy notice</strong>
                   .
                 </p>
-
                 <p>
-                  You may contact us by visiting <a href="#">Eagle Bot</a>, or
-                  by referring to the contact details at the bottom of this
-                  document.
+                  You may contact us by visiting &nbsp;
+                  <a href="/contact">Eagle Bot</a>, or by referring to the
+                  contact details at the bottom of this document.
                 </p>
-
                 <p>
                   If you are using an authorized agent to exercise your right to
                   opt out we may deny a request if the authorized agent does not
@@ -1009,14 +1095,12 @@ const PrivacyAndPolicy = () => {
                   same strict privacy protection obligations mandated by the
                   CCPA.
                 </p>
-
                 <p>
                   We may use your personal information for our own business
                   purposes, such as for undertaking internal research for
                   technological development and demonstration. This is not
                   considered to be "selling" of your personal information.
                 </p>
-
                 <p>
                   We have not disclosed, sold, or shared any personal
                   information to third parties for a business or commercial
@@ -1029,13 +1113,11 @@ const PrivacyAndPolicy = () => {
                     Your rights with respect to your personal data
                   </strong>
                 </p>
-
                 <p>
                   <strong>
                     Right to request deletion of the data — Request to delete
                   </strong>
                 </p>
-
                 <p>
                   You can ask for the deletion of your personal information. If
                   you ask us to delete your personal information, we will
@@ -1046,13 +1128,10 @@ const PrivacyAndPolicy = () => {
                   from a legal obligation, or any processing that may be
                   required to protect against illegal activities.
                 </p>
-
                 <p>
                   <strong>Right to be informed — Request to know</strong>
                 </p>
-
                 <p>Depending on the circumstances, you have a right to know:</p>
-
                 <ul>
                   <li>whether we collect and use your personal information;</li>
                   <li>
@@ -1084,41 +1163,34 @@ const PrivacyAndPolicy = () => {
                     about you.
                   </li>
                 </ul>
-
                 <p>
                   In accordance with applicable law, we are not obligated to
                   provide or delete consumer information that is de-identified
                   in response to a consumer request or to re-identify individual
                   data to verify a consumer request.
                 </p>
-
                 <p>
                   <strong>
                     Right to Non-Discrimination for the Exercise of a Consumer's
                     Privacy Rights
                   </strong>
                 </p>
-
                 <p>
                   We will not discriminate against you if you exercise your
                   privacy rights.
                 </p>
-
                 <p>
                   <strong>
                     Right to Limit Use and Disclosure of Sensitive Personal
                     Information
                   </strong>
                 </p>
-
                 <p>
                   We do not process consumer's sensitive personal information.
                 </p>
-
                 <p>
                   <strong>Verification process</strong>
                 </p>
-
                 <p>
                   Upon receiving your request, we will need to verify your
                   identity to determine you are the same person about whom we
@@ -1133,7 +1205,6 @@ const PrivacyAndPolicy = () => {
                   provided to us. We may also use other verification methods as
                   the circumstances dictate.
                 </p>
-
                 <p>
                   We will only use personal information provided in your request
                   to verify your identity or authority to make the request. To
@@ -1146,11 +1217,9 @@ const PrivacyAndPolicy = () => {
                   We will delete such additionally provided information as soon
                   as we finish verifying you.
                 </p>
-
                 <p>
                   <strong>Other privacy rights</strong>
                 </p>
-
                 <ul>
                   <li>
                     You may object to the processing of your personal
@@ -1176,19 +1245,18 @@ const PrivacyAndPolicy = () => {
                     the date of the request submission.
                   </li>
                 </ul>
-
                 <p>
                   To exercise these rights, you can contact us by visiting
-                  <a href="#"> Eagle Bot</a>, or by referring to the contact
-                  details at the bottom of this document. If you have a
+                  &nbsp;<a href="/contact">Eagle Bot</a>, or by referring to the
+                  contact details at the bottom of this document. If you have a
                   complaint about how we handle your data, we would like to hear
                   from you.
                 </p>
               </div>
-              <div id="question-12" className={Style.sub_content_section}>
+              <div id="question-13" className={Style.sub_content_section}>
                 <h3>
                   <strong>
-                    12. DO VIRGINIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
+                    13. DO VIRGINIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
                   </strong>
                 </h3>
                 <p>
@@ -1301,9 +1369,9 @@ const PrivacyAndPolicy = () => {
                   complaint.
                 </p>
               </div>
-              <div id="question-13" className={Style.sub_content_section}>
+              <div id="question-14" className={Style.sub_content_section}>
                 <h3>
-                  <strong>13. DO WE MAKE UPDATES TO THIS NOTICE?</strong>
+                  <strong>14. DO WE MAKE UPDATES TO THIS NOTICE?</strong>
                 </h3>
                 <p>
                   <strong>In Short:</strong> Yes, we will update this notice as
@@ -1321,9 +1389,9 @@ const PrivacyAndPolicy = () => {
                   information.
                 </p>
               </div>
-              <div id="question-14" className={Style.sub_content_section}>
+              <div id="question-15" className={Style.sub_content_section}>
                 <h3>
-                  <strong>14. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</strong>
+                  <strong>15. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</strong>
                 </h3>
                 <p>
                   If you have questions or comments about this notice, you may
@@ -1332,10 +1400,10 @@ const PrivacyAndPolicy = () => {
                 </p>
               </div>
 
-              <div id="question-15" className={Style.sub_content_section}>
+              <div id="question-16" className={Style.sub_content_section}>
                 <h3>
                   <strong>
-                    15. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE
+                    16. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE
                     COLLECT FROM YOU?
                   </strong>
                 </h3>
@@ -1344,8 +1412,8 @@ const PrivacyAndPolicy = () => {
                   right to request access to the personal information we collect
                   from you, change that information, or delete it. To request to
                   review, update, or delete your personal information, please
-                  fill out and submit a data subject access request here:
-                  <a href="Eagle Bot">Eagle Bot</a>.
+                  fill out and submit a data subject access request here: &nbsp;
+                  <a href="/contact">Eagle Bot</a>.
                 </p>
               </div>
             </div>

@@ -2,8 +2,10 @@ import { useEffect } from "react";
 import Style from "./style.module.css";
 import EagleBotLogoSvg from "../../assets/images/svg/eagle-bot-logo.svg";
 import { GoToUpComp } from "../../components/atoms";
+import { useNavigate } from "react-router-dom";
 
 const TermsAndCons = () => {
+  const navigate = useNavigate();
   useEffect(() => {
     document.title = "Terms & conditions | Eagle Bot";
     return () => {
@@ -14,100 +16,123 @@ const TermsAndCons = () => {
   return (
     <div className="termsAndConsSection">
       <div className={Style.logo}>
-        <img src={EagleBotLogoSvg} alt="EagleBot logo"></img>
+        <img
+          src={EagleBotLogoSvg}
+          onClick={() => navigate("/")}
+          alt="EagleBot logo"
+        ></img>
       </div>
       <div className={Style.body_container}>
         <div className={Style.menu_container}>
-          <h4 style={{ textAlign: "center", marginBottom: "5%" }}>
-            AGREEMENT TO OUR LEGAL TERMS
-          </h4>
+          <h4 className={Style.table_of_content_head}>Table of Contents</h4>
           <ul>
             <li>
-              <a href="#our_services">1. OUR SERVICES</a>
+              &nbsp;<a href="#our_services">1. OUR SERVICES</a>&nbsp;
             </li>
             <li>
+              &nbsp;
               <a href="#intellectual_property_rights">
                 2. INTELLECTUAL PROPERTY RIGHTS
               </a>
+              &nbsp;
             </li>
             <li>
-              <a href="#user_representations">3. USER REPRESENTATIONS</a>
+              &nbsp;<a href="#user_representations">3. USER REPRESENTATIONS</a>
+              &nbsp;
             </li>
             <li>
-              <a href="#user_registration">4. USER REGISTRATION</a>
+              &nbsp;<a href="#user_registration">4. USER REGISTRATION</a>&nbsp;
             </li>
             <li>
-              <a href="#software">5. SOFTWARE</a>
+              &nbsp;<a href="#software">5. SOFTWARE</a>&nbsp;
             </li>
             <li>
+              &nbsp;
               <a href="#prohibited_activities">6. PROHIBITED ACTIVITIES</a>
+              &nbsp;
             </li>
             <li>
+              &nbsp;
               <a href="#user_generated_contributions">
                 7. USER GENERATED CONTRIBUTIONS
               </a>
+              &nbsp;
             </li>
             <li>
-              <a href="#contribution_license">8. CONTRIBUTION LICENSE</a>
+              &nbsp;<a href="#contribution_license">8. CONTRIBUTION LICENSE</a>
+              &nbsp;
             </li>
             <li>
+              &nbsp;
               <a href="#guidelines_for_reviews">9. GUIDELINES FOR REVIEWS</a>
+              &nbsp;
             </li>
             <li>
-              <a href="#services_management">10. SERVICES MANAGEMENT</a>
+              &nbsp;<a href="#services_management">10. SERVICES MANAGEMENT</a>
+              &nbsp;
             </li>
             <li>
-              <a href="#privacy_policy">11. PRIVACY POLICY</a>
+              &nbsp;<a href="#privacy_policy">11. PRIVACY POLICY</a>&nbsp;
             </li>
             <li>
-              <a href="#term_and_termination">12. TERM AND TERMINATION</a>
+              &nbsp;<a href="#term_and_termination">12. TERM AND TERMINATION</a>
+              &nbsp;
             </li>
             <li>
+              &nbsp;
               <a href="#modifications_and_interruptions">
                 13. MODIFICATIONS AND INTERRUPTIONS
               </a>
+              &nbsp;
             </li>
             <li>
-              <a href="#governing_law">14. GOVERNING LAW</a>
+              &nbsp;<a href="#governing_law">14. GOVERNING LAW</a>&nbsp;
             </li>
             <li>
-              <a href="#dispute_resolution">15. DISPUTE RESOLUTION</a>
+              &nbsp;<a href="#dispute_resolution">15. DISPUTE RESOLUTION</a>
+              &nbsp;
             </li>
             <li>
-              <a href="#corrections">16. CORRECTIONS</a>
+              &nbsp;<a href="#corrections">16. CORRECTIONS</a>&nbsp;
             </li>
             <li>
-              <a href="#disclaimer">17. DISCLAIMER</a>
+              &nbsp;<a href="#disclaimer">17. DISCLAIMER</a>&nbsp;
             </li>
             <li>
+              &nbsp;
               <a href="#limitations_of_liability">
                 18. LIMITATIONS OF LIABILITY
               </a>
+              &nbsp;
             </li>
             <li>
-              <a href="#indemnification">19. INDEMNIFICATION</a>
+              &nbsp;<a href="#indemnification">19. INDEMNIFICATION</a>&nbsp;
             </li>
             <li>
-              <a href="#user_data">20. USER DATA</a>
+              &nbsp;<a href="#user_data">20. USER DATA</a>&nbsp;
             </li>
             <li>
+              &nbsp;
               <a href="#electronic_communications_transactions_and_signatures">
                 21. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES
               </a>
+              &nbsp;
             </li>
             <li>
+              &nbsp;
               <a href="#california_users_and_residents">
                 22. CALIFORNIA USERS AND RESIDENTS
               </a>
+              &nbsp;
             </li>
             <li>
-              <a href="#miscellaneous">23. MISCELLANEOUS</a>
+              &nbsp;<a href="#miscellaneous">23. MISCELLANEOUS</a>&nbsp;
             </li>
             <li>
-              <a href="#cookie_policy">24. COOKIE POLICY</a>
+              &nbsp;<a href="#cookie_policy">24. COOKIE POLICY</a>&nbsp;
             </li>
             <li>
-              <a href="#contact_us">25. CONTACT US</a>
+              &nbsp;<a href="#contact_us">25. CONTACT US</a>&nbsp;
             </li>
           </ul>
         </div>
@@ -243,96 +268,121 @@ const TermsAndCons = () => {
               <div
                 className={`${Style.sub_content_section} ${Style.mobileview_menu}`}
               >
-                <h3 style={{ textAlign: "center", marginBottom: "5%" }}>
-                  AGREEMENT TO OUR LEGAL TERMS
-                </h3>
+                <h4 className={Style.table_of_content_head}>
+                  Table of Contents
+                </h4>
                 <ul>
                   <li>
-                    <a href="#our_services">OUR SERVICES</a>
+                    &nbsp;<a href="#our_services">OUR SERVICES</a>&nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#intellectual_property_rights">
                       INTELLECTUAL PROPERTY RIGHTS
                     </a>
+                    &nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#user_representations">USER REPRESENTATIONS</a>
+                    &nbsp;
                   </li>
                   <li>
-                    <a href="#user_registration">USER REGISTRATION</a>
+                    &nbsp;<a href="#user_registration">USER REGISTRATION</a>
+                    &nbsp;
                   </li>
                   <li>
-                    <a href="#software">SOFTWARE</a>
+                    &nbsp;<a href="#software">SOFTWARE</a>&nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#prohibited_activities">PROHIBITED ACTIVITIES</a>
+                    &nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#user_generated_contributions">
                       USER GENERATED CONTRIBUTIONS
                     </a>
+                    &nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#contribution_license">CONTRIBUTION LICENSE</a>
+                    &nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#guidelines_for_reviews">GUIDELINES FOR REVIEWS</a>
+                    &nbsp;
                   </li>
                   <li>
-                    <a href="#services_management">SERVICES MANAGEMENT</a>
+                    &nbsp;<a href="#services_management">SERVICES MANAGEMENT</a>
+                    &nbsp;
                   </li>
                   <li>
-                    <a href="#privacy_policy">PRIVACY POLICY</a>
+                    &nbsp;<a href="#privacy_policy">PRIVACY POLICY</a>&nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#term_and_termination">TERM AND TERMINATION</a>
+                    &nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#modifications_and_interruptions">
                       MODIFICATIONS AND INTERRUPTIONS
                     </a>
+                    &nbsp;
                   </li>
                   <li>
-                    <a href="#governing_law">GOVERNING LAW</a>
+                    &nbsp;<a href="#governing_law">GOVERNING LAW</a>&nbsp;
                   </li>
                   <li>
-                    <a href="#dispute_resolution">DISPUTE RESOLUTION</a>
+                    &nbsp;<a href="#dispute_resolution">DISPUTE RESOLUTION</a>
+                    &nbsp;
                   </li>
                   <li>
-                    <a href="#corrections">CORRECTIONS</a>
+                    &nbsp;<a href="#corrections">CORRECTIONS</a>&nbsp;
                   </li>
                   <li>
-                    <a href="#disclaimer">DISCLAIMER</a>
+                    &nbsp;<a href="#disclaimer">DISCLAIMER</a>&nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#limitations_of_liability">
                       LIMITATIONS OF LIABILITY
                     </a>
+                    &nbsp;
                   </li>
                   <li>
-                    <a href="#indemnification">INDEMNIFICATION</a>
+                    &nbsp;<a href="#indemnification">INDEMNIFICATION</a>&nbsp;
                   </li>
                   <li>
-                    <a href="#user_data">USER DATA</a>
+                    &nbsp;<a href="#user_data">USER DATA</a>&nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#electronic_communications_transactions_and_signatures">
                       ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES
                     </a>
+                    &nbsp;
                   </li>
                   <li>
+                    &nbsp;
                     <a href="#california_users_and_residents">
                       CALIFORNIA USERS AND RESIDENTS
                     </a>
+                    &nbsp;
                   </li>
                   <li>
-                    <a href="#miscellaneous">MISCELLANEOUS</a>
+                    &nbsp;<a href="#miscellaneous">MISCELLANEOUS</a>&nbsp;
                   </li>
                   <li>
-                    <a href="#cookie_policy">COOKIE POLICY</a>
+                    &nbsp;<a href="#cookie_policy">COOKIE POLICY</a>&nbsp;
                   </li>
                   <li>
-                    <a href="#contact_us">CONTACT US</a>
+                    &nbsp;<a href="#contact_us">CONTACT US</a>&nbsp;
                   </li>
                 </ul>
               </div>
@@ -937,9 +987,9 @@ const TermsAndCons = () => {
                 </h3>
                 <p>We care about data privacy and security.</p>
                 <p>
-                  By using the Services, you agree to be bound by our{" "}
-                  <strong>Privacy Policy</strong> posted on the Services, which
-                  is incorporated into these Legal Terms.
+                  By using the Services, you agree to be bound by our&nbsp;
+                  <a href="/privacy-policy">Privacy Policy</a>&nbsp;posted on
+                  the Services, which is incorporated into these Legal Terms.
                 </p>
                 <p>
                   Please be advised the Services are hosted in India, Poland,
@@ -1088,9 +1138,11 @@ const TermsAndCons = () => {
                   Supplementary Procedures for Consumer Related Disputes ("AAA
                   Consumer Rules"), both of which are available at the{" "}
                   <strong>
+                    &nbsp;
                     <a href="https://www.adr.org/">
                       American Arbitration Association (AAA) website
                     </a>
+                    &nbsp;
                   </strong>
                   . Your arbitration fees and your share of arbitrator
                   compensation shall be governed by the AAA Consumer Rules and,
@@ -1454,8 +1506,8 @@ const TermsAndCons = () => {
                   <strong>
                     This Cookie Policy explains how we use cookies and similar
                     technologies to recognize you when you visit our website at
-                    <a href="https://www.eagle-bot.com"> Eagle Bot</a>{" "}
-                    ("Website").
+                    &nbsp;<a href="https://www.eagle-bot.com"> Eagle Bot</a>
+                    &nbsp; ("Website").
                   </strong>{" "}
                   It explains what these technologies are and why we use them,
                   as well as your rights to control our use of them.{" "}

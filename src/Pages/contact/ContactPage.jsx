@@ -153,23 +153,19 @@ const ContactPage = ({ setFrom }) => {
         }}
       >
         <p className={Style.tearmsAndConText}>
-          This site is protected by reCAPTCHA and the Google{" "}
-          <a
-            href="/privacy-and-policy"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          By utilizing our products and services, you implicitly consent to the
+          Eagle-Bot&nbsp;
+          <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">
             Privacy Policy
-          </a>{" "}
-          and{" "}
+          </a>
+          &nbsp;and&nbsp;
           <a
             href="/terms-and-conditions"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Terms of Service
-          </a>{" "}
-          apply.
+            Terms of Service.
+          </a>
         </p>
         <div className={Style.footer}>
           <p className={Style.copyRigthText}>

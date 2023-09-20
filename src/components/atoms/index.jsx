@@ -91,7 +91,7 @@ export const GoToUpComp = () => {
   };
   return (
     <div id="goUp" className={Style.footer_tools} onClick={handleGoup}>
-      <ArrowDropUpIcon sx={{ "& :hover": { color: "#a57033" } }} />
+      <ArrowDropUpIcon />
     </div>
   );
 };

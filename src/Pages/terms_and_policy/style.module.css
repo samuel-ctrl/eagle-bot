@@ -55,6 +55,14 @@
   font-weight: 500;
 }
 
+.table_of_content_head {
+  color: var(--rustic-brown-color);
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+
 .content_container h6 {
   font-size: 1rem;
 }
@@ -78,7 +86,7 @@
 
 .panel_body h3 {
   font-size: 1.125rem;
-  border-left: 3px solid #a57033;
+  border-left: 3px solid var(--orange-brown-color);
   padding-left: 0.911rem;
   margin-left: -0.911rem;
 }
@@ -96,10 +104,17 @@
 
 .sub_content_section ul {
   padding: inherit !important;
+  list-style-type: none;
+}
+
+.sub_content_section li::before {
+  content: "\2756";
+  color: var(--rustic-brown-color);
+  display: inline-block;
+  width: 2em;
 }
 
 .sub_content_section li {
-  list-style-type: circle;
   font-size: 0.875rem;
   line-height: 2;
   margin: 0.5rem 0;
@@ -112,7 +127,6 @@
 .table {
   border-top: 1px solid #ffffff;
   border-left: 1px solid #ffffff;
-  border-radius: 5px;
   font-size: 1rem;
   font-weight: 400;
   line-height: 2;

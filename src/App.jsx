@@ -23,7 +23,7 @@ function App() {
           element={<TermsAndCons from={from} setFrom={setFrom} />}
         ></Route>
         <Route
-          path="/privacy-and-policy"
+          path="/privacy-policy"
           element={<PrivacyAndPolicy from={from} setFrom={setFrom} />}
         ></Route>
         <Route

@@ -14,16 +14,13 @@ const NotFound = () => {
     };
   });
 
-  const handleLogoPress = () => {
-    navigate("/");
-  };
   return (
     <>
       <div className={Style.logo}>
         <img
           src={EagleBotLogoSvg}
           alt="EagleBot logo"
-          onClick={handleLogoPress}
+          onClick={() => navigate("/")}
         ></img>
       </div>
       <div className={Style._404Container}>

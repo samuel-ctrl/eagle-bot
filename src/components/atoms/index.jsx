@@ -54,7 +54,10 @@ export const FaqsData = () => {
               </p>
             )}
             <div
-              style={{ marginTop: "20px", borderBottom: "1px solid #7c7a7a" }}
+              style={{
+                marginTop: "20px",
+                borderBottom: "1px solid var(--light-grey-color)",
+              }}
             ></div>
           </div>
         );

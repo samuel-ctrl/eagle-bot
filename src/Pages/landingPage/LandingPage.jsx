@@ -8,6 +8,9 @@ import DeviceScreenImage from "../../assets/images/png/device-screen.png";
 import DeviceScreenMobileImage from "../../assets/images/png/device-screen-mobile.png";
 import LaptopImage from "../../assets/images/png/golden-laptop.png";
 import BrowerImage from "../../assets/images/png/Browser.png";
+import CanvasThumbnail from "../../assets/images/jpg/canvas_thumbnail.jpg";
+import IntroVideo from "../../assets/videos/eagle_browser_and_chatbot_Intro.mp4";
+import CanvasVideo from "../../assets/videos/Canvas_v2.mp4";
 import AboutImage from "../../assets/images/png/about-background.png";
 import LinkedInSvg from "../../assets/images/svg/linkedin-logo.svg";
 import {
@@ -154,7 +157,34 @@ const LandingPage = ({ from, setFrom }) => {
             commands into actions, all within a custom browser designed for
             seamless integration.
           </p>
-          <img src={BrowerImage} alt="Eagle Bot Browser Image"></img>
+          <div className={Style.videoPanel}>
+            <div className={Style.videoContainer}>
+              <video
+                width={"100%"}
+                height={"auto"}
+                title="Video of Eagle Browser and Chat-Bot"
+                poster={BrowerImage}
+                controls
+              >
+                <source src={IntroVideo} type="video/mp4"></source>
+                Your browser does not support HTML5 video.
+              </video>
+              <h4>Eagle Browser and Chat-Bot</h4>
+            </div>
+            <div className={Style.videoContainer}>
+              <video
+                width={"100%"}
+                height={"auto"}
+                title="Video of Eagle Canvas"
+                poster={CanvasThumbnail}
+                controls
+              >
+                <source src={CanvasVideo} type="video/mp4"></source>
+                Your browser does not support HTML5 video.
+              </video>
+              <h4>Eagle Canvas</h4>
+            </div>
+          </div>
         </div>
       </div>
 

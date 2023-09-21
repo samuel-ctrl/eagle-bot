@@ -6,7 +6,7 @@
   
     "globalHeaders": {
       "content-security-policy": "default-src 'self'; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; frame-ancestors 'self'; connect-src 'self' https://eagle-bot-landing-service.azurewebsites.net; object-src 'none'",
-      "Access-Control-Allow-Origin": "https://www.eagle-bot.com, https://eagle-bot.com",
+      "Access-Control-Allow-Origin": "*",
       "X-Frame-Options": "SAMEORIGIN",
       "X-Permitted-Cross-Domain-Policies": "none",
       "Referrer-Policy":"no-referrer",

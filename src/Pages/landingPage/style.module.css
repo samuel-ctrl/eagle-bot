@@ -214,10 +214,8 @@
 }
 .about_section .videoPanel {
   width: 80%;
-  gap: 50px;
 }
 .about_section .videoPanel .videoContainer {
-  width: 50%;
   position: relative;
 }
 .about_section .videoPanel .videoContainer video {
@@ -277,11 +275,12 @@
     width: 100%;
     height: 100%;
   }
-  .about_section .videoPanel .videoContainer {
-    width: 100%;
+  .about_section .videoPanel {
+    width: 95%;
   }
   .about_section .videoPanel .videoContainer h4 {
-    font-size: 18px;
+    font-size: 16px;
+    padding: 5px;
   }
 }
 

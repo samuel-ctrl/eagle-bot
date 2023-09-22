@@ -115,8 +115,6 @@ const LandingPage = ({ from, setFrom }) => {
   });
 
   const videoStyle = {
-    width: "100%",
-    height: "auto",
     opacity: isPlaying ? 1 : isHovered ? 0.7 : 1,
   };
 

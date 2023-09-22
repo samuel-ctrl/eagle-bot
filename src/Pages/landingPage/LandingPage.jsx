@@ -42,11 +42,12 @@ const LandingPage = ({ from, setFrom }) => {
   const [isPlaying, setIsPlaying] = useState(false);
 
   const settings = {
-    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
   };
 
   const handleSubmitWaitListModel = (data, reset, setIsLoading) => {
@@ -140,6 +141,28 @@ const LandingPage = ({ from, setFrom }) => {
   const handlePause = () => {
     setIsPlaying(false);
   };
+
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, right: "-23px" }}
+        onClick={onClick}
+      />
+    );
+  }
+
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, left: "-39px" }}
+        onClick={onClick}
+      />
+    );
+  }
   return (
     <>
       <div className={Style.banner_section}>

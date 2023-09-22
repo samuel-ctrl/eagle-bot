@@ -216,6 +216,10 @@
 .about_section .videoPanel {
   width: 80%;
 }
+.about_section .videoPanel .slick-prev:before,
+.about_section .videoPanel .slick-next:before {
+  font-size: 38px;
+}
 .about_section .videoPanel .videoContainer {
   position: relative;
 }

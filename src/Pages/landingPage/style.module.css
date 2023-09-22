@@ -136,6 +136,7 @@
 @media (max-width: 600px) {
   .banner_section {
     gap: 40px;
+    height: auto;
     height: -moz-fit-content;
     height: fit-content;
   }
@@ -414,6 +415,7 @@
     font-size: 18px;
     line-height: 27px;
     text-align: center;
+    width: auto;
     width: -moz-fit-content;
     width: fit-content;
   }

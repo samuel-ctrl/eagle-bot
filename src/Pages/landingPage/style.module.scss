@@ -150,6 +150,7 @@
 
   @media (max-width: 600px) {
     gap: 40px;
+    height: auto;
     height: fit-content;
     .banner_img {
       transform: unset;
@@ -439,6 +440,7 @@
       font-size: 18px;
       line-height: 27px;
       text-align: center;
+      width: auto;
       width: fit-content;
     }
     h3 {

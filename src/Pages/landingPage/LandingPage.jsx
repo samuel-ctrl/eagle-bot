@@ -171,7 +171,11 @@ const LandingPage = ({ from, setFrom }) => {
           </div>
         </div>
         <div className={Style.banner_img}>
-          <img src={GoldAndPinkImage} className={Style.vector} />
+          <img
+            src={GoldAndPinkImage}
+            className={Style.vector}
+            alt="eagle bot design"
+          />
           <img
             src={DeviceScreenImage}
             className={`${Style.device} ${Style.windowView}`}
@@ -185,7 +189,11 @@ const LandingPage = ({ from, setFrom }) => {
         </div>
       </div>
       <div className={Style.hd_about_section}>
-        <img className={Style.about_img} src={AboutImage}></img>
+        <img
+          className={Style.about_img}
+          src={AboutImage}
+          alt="eagle bot about image"
+        ></img>
         <div className={Style.about_section}>
           <h2>About</h2>
           <h3>Eagle Bot</h3>

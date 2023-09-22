@@ -5,7 +5,7 @@
   },
   
     "globalHeaders": {
-      "content-security-policy": "default-src 'self'; font-src 'self' https://fonts.gstatic.com; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; frame-ancestors 'self'; connect-src 'self' https://eagle-bot-landing-service.azurewebsites.net; object-src 'none'",
+      "content-security-policy": "default-src 'self'; font-src 'self' https://fonts.gstatic.com data:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; frame-ancestors 'self'; connect-src 'self' https://eagle-bot-landing-service.azurewebsites.net; object-src 'none'",
       "Access-Control-Allow-Origin": "*",
       "X-Frame-Options": "SAMEORIGIN",
       "X-Permitted-Cross-Domain-Policies": "none",

@@ -32,7 +32,6 @@ import APIENDPOINTS from "../../components/constent/endpoints";
 
 const LandingPage = ({ from, setFrom }) => {
   const navigate = useNavigate();
-  const videoRef = useRef(null);
   const hideHeaderTimeoutRef = useRef(null);
   const [openWaitListModel, setOpenWaitListModel] = useState(false);
   const [openSubscribModel, setOpenSubscribModel] = useState(false);
@@ -217,12 +216,10 @@ const LandingPage = ({ from, setFrom }) => {
                   Eagle Browser and Chat-Bot
                 </h4>
                 <video
-                  ref={videoRef}
                   width={"100%"}
                   height={"auto"}
                   poster={BrowerThumbnail}
                   controls
-                  preload="auto"
                   onMouseMove={handleMouseMove}
                   onMouseOut={handleMouseOut}
                   onPlay={handlePlay}
@@ -243,12 +240,10 @@ const LandingPage = ({ from, setFrom }) => {
                   Eagle Canvas
                 </h4>
                 <video
-                  ref={videoRef}
                   width={"100%"}
                   height={"auto"}
                   poster={CanvasThumbnail}
                   controls
-                  preload="auto"
                   onMouseMove={handleMouseMove}
                   onMouseOut={handleMouseOut}
                   onPlay={handlePlay}

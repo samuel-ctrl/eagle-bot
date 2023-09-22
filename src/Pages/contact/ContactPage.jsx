@@ -139,7 +139,7 @@ const ContactPage = ({ setFrom }) => {
           style={{
             textAlign: "center",
             fontFamily: "inter",
-            color: "var(--white-color)db",
+            color: "#ffffffdb",
           }}
         >
           FAQs for &quot;Eagle Bot&quot; - The Next-Gen AI-Powered Browser &amp;

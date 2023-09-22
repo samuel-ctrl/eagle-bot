@@ -47,7 +47,7 @@ export const FaqsData = () => {
                   marginTop: "20px",
                   fontFamily: "Inter, sans-serif",
                   fontweight: "400",
-                  color: "var(--white-color)db",
+                  color: "#ffffffdb",
                 }}
               >
                 {ans}

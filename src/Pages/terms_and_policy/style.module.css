@@ -177,4 +177,11 @@ td {
   .content_container h1 {
     font-size: 1.5rem;
   }
+  .footer .copyRigthText {
+    font-size: 12px;
+  }
+
+  .footer .SupportText {
+    font-size: 12px;
+  }
 }

@@ -1,4 +1,7 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { useNavigate } from "react-router-dom";
 import Style from "./style.module.css";
 import EagleBotLogoSvg from "../../assets/images/svg/eagle-bot-logo.svg";
@@ -7,8 +10,8 @@ import GoldAndPinkImage from "../../assets/images/png/gold-and-pink.png";
 import DeviceScreenImage from "../../assets/images/png/device-screen.png";
 import DeviceScreenMobileImage from "../../assets/images/png/device-screen-mobile.png";
 import LaptopImage from "../../assets/images/png/golden-laptop.png";
-import BrowerImage from "../../assets/images/png/Browser.png";
-import CanvasThumbnail from "../../assets/images/jpg/canvas_thumbnail.jpg";
+import BrowerThumbnail from "../../assets/images/png/browser_thumbnail.png";
+import CanvasThumbnail from "../../assets/images/png/canvas_thumbnail.png";
 import IntroVideo from "../../assets/videos/eagle_browser_and_chatbot_Intro.mp4";
 import CanvasVideo from "../../assets/videos/Canvas_v2.mp4";
 import AboutImage from "../../assets/images/png/about-background.png";
@@ -29,15 +32,25 @@ import APIENDPOINTS from "../../components/constent/endpoints";
 
 const LandingPage = ({ from, setFrom }) => {
   const navigate = useNavigate();
-
+  const videoRef = useRef(null);
+  const hideHeaderTimeoutRef = useRef(null);
   const [openWaitListModel, setOpenWaitListModel] = useState(false);
   const [openSubscribModel, setOpenSubscribModel] = useState(false);
   const [openWaitlist, setOpenWaitlist] = useState(false);
   const [openSubscrib, setOpenSubscrib] = useState(false);
   const [openError, setOpenError] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
 
   const handleSubmitWaitListModel = (data, reset, setIsLoading) => {
-    console.log("cliked...");
     Axios.post(APIENDPOINTS.USER_WAITLIST, {
       first_name: data.firstName,
       last_name: data.lastName,
@@ -95,11 +108,41 @@ const LandingPage = ({ from, setFrom }) => {
         }
       }, 500);
     }
+
     return () => {
       document.title = "Eagle Bot";
     };
   });
 
+  const videoStyle = {
+    width: "100%",
+    height: "auto",
+    opacity: isPlaying ? 1 : isHovered ? 0.7 : 1,
+  };
+
+  const handleMouseMove = () => {
+    setIsHovered(true);
+
+    if (hideHeaderTimeoutRef.current) {
+      clearTimeout(hideHeaderTimeoutRef.current);
+    }
+
+    hideHeaderTimeoutRef.current = setTimeout(() => {
+      setIsHovered(false);
+    }, 2500);
+  };
+
+  const handleMouseOut = () => {
+    setIsHovered(false);
+  };
+
+  const handlePlay = () => {
+    setIsPlaying(true);
+  };
+
+  const handlePause = () => {
+    setIsPlaying(false);
+  };
   return (
     <>
       <div className={Style.banner_section}>
@@ -158,32 +201,59 @@ const LandingPage = ({ from, setFrom }) => {
             seamless integration.
           </p>
           <div className={Style.videoPanel}>
-            <div className={Style.videoContainer}>
-              <video
-                width={"100%"}
-                height={"auto"}
-                title="Video of Eagle Browser and Chat-Bot"
-                poster={BrowerImage}
-                controls
-              >
-                <source src={IntroVideo} type="video/mp4"></source>
-                Your browser does not support HTML5 video.
-              </video>
-              <h4>Eagle Browser and Chat-Bot</h4>
-            </div>
-            <div className={Style.videoContainer}>
-              <video
-                width={"100%"}
-                height={"auto"}
-                title="Video of Eagle Canvas"
-                poster={CanvasThumbnail}
-                controls
-              >
-                <source src={CanvasVideo} type="video/mp4"></source>
-                Your browser does not support HTML5 video.
-              </video>
-              <h4>Eagle Canvas</h4>
-            </div>
+            <Slider {...settings}>
+              <div className={Style.videoContainer}>
+                <h4
+                  style={{
+                    display: isHovered || !isPlaying ? "block" : "none",
+                  }}
+                >
+                  Eagle Browser and Chat-Bot
+                </h4>
+                <video
+                  ref={videoRef}
+                  width={"100%"}
+                  height={"auto"}
+                  poster={BrowerThumbnail}
+                  controls
+                  preload="auto"
+                  onMouseMove={handleMouseMove}
+                  onMouseOut={handleMouseOut}
+                  onPlay={handlePlay}
+                  onPause={handlePause}
+                  style={videoStyle}
+                >
+                  <source src={IntroVideo} type="video/mp4" label="1080p" />
+                  <source src={IntroVideo} type="video/mp4" label="720p" />
+                  Your browser does not support HTML5 video.
+                </video>
+              </div>
+              <div className={Style.videoContainer}>
+                <h4
+                  style={{
+                    display: isHovered || !isPlaying ? "block" : "none",
+                  }}
+                >
+                  Eagle Canvas
+                </h4>
+                <video
+                  ref={videoRef}
+                  width={"100%"}
+                  height={"auto"}
+                  poster={CanvasThumbnail}
+                  controls
+                  preload="auto"
+                  onMouseMove={handleMouseMove}
+                  onMouseOut={handleMouseOut}
+                  onPlay={handlePlay}
+                  onPause={handlePause}
+                  style={videoStyle}
+                >
+                  <source src={CanvasVideo} type="video/mp4"></source>
+                  Your browser does not support HTML5 video.
+                </video>
+              </div>
+            </Slider>
           </div>
         </div>
       </div>

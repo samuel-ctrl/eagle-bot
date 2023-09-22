@@ -39,7 +39,7 @@ form .input {
 
   font-size: 1vw;
   border-radius: 6px;
-  color: #000000;
+  color: var(--black-color);
   width: 100%;
 }
 
@@ -52,7 +52,7 @@ form .textArea {
   border-radius: 6px;
   font-size: 1vw;
   padding: 0.8%;
-  color: #000000;
+  color: var(--black-color);
   min-height: 40px;
   resize: vertical;
 }
@@ -81,7 +81,7 @@ form .textArea {
   width: 90%;
   padding-top: 1%;
   margin: 3% 0;
-  border-top: 1px solid #ffffffdb;
+  border-top: 1px solid var(--white-color) db;
 }
 
 .footer .copyRigthText {

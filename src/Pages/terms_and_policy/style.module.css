@@ -89,7 +89,7 @@
 }
 
 .sub_content_section {
-  background: #ffffff10;
+  background: var(--white-color) 10;
   padding: 20px 10px;
   margin-bottom: 10px;
   border-radius: 5px;
@@ -128,8 +128,8 @@
   display: none;
 }
 .table {
-  border-top: 1px solid #ffffff;
-  border-left: 1px solid #ffffff;
+  border-top: 1px solid var(--white-color);
+  border-left: 1px solid var(--white-color);
   font-size: 1rem;
   font-weight: 400;
   line-height: 2;
@@ -137,8 +137,8 @@
 .table th,
 td {
   padding: 1px;
-  border-bottom: 1px solid #ffffff;
-  border-right: 1px solid #ffffff;
+  border-bottom: 1px solid var(--white-color);
+  border-right: 1px solid var(--white-color);
 }
 .footer {
   display: flex;
@@ -146,7 +146,7 @@ td {
   width: 90%;
   padding-top: 1%;
   margin: 3% 0;
-  border-top: 1px solid #ffffffdb;
+  border-top: 1px solid var(--white-color) db;
 }
 .footer .copyRigthText {
   width: 50%;

@@ -32,9 +32,9 @@
 
   font-size: 1.1rem;
   border-radius: 4vw;
-  color: #000000;
+  color: var(--black-color);
   border: 2px solid #ffee00;
-  background-color: #ffffff;
+  background-color: var(--white-color);
 }
 
 .popupForm ::placeholder {

@@ -6,17 +6,19 @@
   --rustic-brown-color: #a57033;
   --grey-color: #5a5a5a;
   --light-grey-color: #7c7a7a;
+  --black-color: #000000;
+  --white-color: #ffffff;
 }
 
 body {
   overflow-x: hidden;
-  background-color: #000000;
+  background-color: var(--black-color);
 }
 
 * {
   margin: 0;
   padding: 0;
-  color: #ffffff;
+  color: var(--white-color);
   font-family: "Inter", sans-serif;
   border: none;
   box-sizing: content-box;

@@ -1,6 +1,5 @@
 .goldenButton {
-  width: auto;
-  width: fit-content;
+  width: max-content;
   cursor: pointer;
   padding: 1.1vw 4vw;
 

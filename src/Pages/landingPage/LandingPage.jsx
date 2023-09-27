@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -10,7 +10,7 @@ import GoldAndPinkImage from "../../assets/images/png/gold-and-pink.png";
 import DeviceScreenImage from "../../assets/images/png/device-screen.png";
 import DeviceScreenMobileImage from "../../assets/images/png/device-screen-mobile.png";
 import LaptopImage from "../../assets/images/png/golden-laptop.png";
-import BrowerThumbnail from "../../assets/images/png/browser_thumbnail.png";
+import BrowserThumbnail from "../../assets/images/png/browser_thumbnail.png";
 import CanvasThumbnail from "../../assets/images/png/canvas_thumbnail.png";
 import IntroVideo from "../../assets/videos/eagle_browser_and_chatbot_Intro.mp4";
 import CanvasVideo from "../../assets/videos/Canvas_v2.mp4";
@@ -29,25 +29,21 @@ import {
 } from "../../components/model/Model";
 import { Axios } from "../../services/Axios";
 import APIENDPOINTS from "../../components/constent/endpoints";
+import VideoComponent from "../../components/atoms/video_comp/videoComp";
 
 const LandingPage = ({ from, setFrom }) => {
   const navigate = useNavigate();
-  const hideHeaderTimeoutRef = useRef(null);
   const [openWaitListModel, setOpenWaitListModel] = useState(false);
   const [openSubscribModel, setOpenSubscribModel] = useState(false);
   const [openWaitlist, setOpenWaitlist] = useState(false);
   const [openSubscrib, setOpenSubscrib] = useState(false);
   const [openError, setOpenError] = useState(false);
-  const [isHovered, setIsHovered] = useState(false);
-  const [isPlaying, setIsPlaying] = useState(false);
 
   const settings = {
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
   };
 
   const handleSubmitWaitListModel = (data, reset, setIsLoading) => {
@@ -112,57 +108,8 @@ const LandingPage = ({ from, setFrom }) => {
     return () => {
       document.title = "Eagle Bot";
     };
-  });
+  }, []);
 
-  const videoStyle = {
-    opacity: isPlaying ? 1 : isHovered ? 0.7 : 1,
-  };
-
-  const handleMouseMove = () => {
-    setIsHovered(true);
-
-    if (hideHeaderTimeoutRef.current) {
-      clearTimeout(hideHeaderTimeoutRef.current);
-    }
-
-    hideHeaderTimeoutRef.current = setTimeout(() => {
-      setIsHovered(false);
-    }, 2500);
-  };
-
-  const handleMouseOut = () => {
-    setIsHovered(false);
-  };
-
-  const handlePlay = () => {
-    setIsPlaying(true);
-  };
-
-  const handlePause = () => {
-    setIsPlaying(false);
-  };
-
-  function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-      <div
-        className={className}
-        style={{ ...style, right: "-23px" }}
-        onClick={onClick}
-      />
-    );
-  }
-
-  function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
-    return (
-      <div
-        className={className}
-        style={{ ...style, left: "-39px" }}
-        onClick={onClick}
-      />
-    );
-  }
   return (
     <>
       <div className={Style.banner_section}>
@@ -186,7 +133,6 @@ const LandingPage = ({ from, setFrom }) => {
             </p>
             <GoldenButton
               type={"button"}
-              style={{}}
               buttonName={"JOIN WAITLIST"}
               onClick={() => setOpenWaitListModel(true)}
             />
@@ -230,53 +176,16 @@ const LandingPage = ({ from, setFrom }) => {
           </p>
           <div className={Style.videoPanel}>
             <Slider {...settings}>
-              <div className={Style.videoContainer}>
-                <h4
-                  style={{
-                    display: isHovered || !isPlaying ? "block" : "none",
-                  }}
-                >
-                  Eagle Browser and Chat-Bot
-                </h4>
-                <video
-                  width={"100%"}
-                  height={"auto"}
-                  poster={BrowerThumbnail}
-                  controls
-                  onMouseMove={handleMouseMove}
-                  onMouseOut={handleMouseOut}
-                  onPlay={handlePlay}
-                  onPause={handlePause}
-                  style={videoStyle}
-                >
-                  <source src={IntroVideo} type="video/mp4" label="1080p" />
-                  <source src={IntroVideo} type="video/mp4" label="720p" />
-                  Your browser does not support HTML5 video.
-                </video>
-              </div>
-              <div className={Style.videoContainer}>
-                <h4
-                  style={{
-                    display: isHovered || !isPlaying ? "block" : "none",
-                  }}
-                >
-                  Eagle Canvas
-                </h4>
-                <video
-                  width={"100%"}
-                  height={"auto"}
-                  poster={CanvasThumbnail}
-                  controls
-                  onMouseMove={handleMouseMove}
-                  onMouseOut={handleMouseOut}
-                  onPlay={handlePlay}
-                  onPause={handlePause}
-                  style={videoStyle}
-                >
-                  <source src={CanvasVideo} type="video/mp4"></source>
-                  Your browser does not support HTML5 video.
-                </video>
-              </div>
+              <VideoComponent
+                headerText="Eagle Browser and Chat-Bot"
+                poster={BrowserThumbnail}
+                source={IntroVideo}
+              />
+              <VideoComponent
+                headerText="Eagle Canvas"
+                poster={CanvasThumbnail}
+                source={CanvasVideo}
+              />
             </Slider>
           </div>
         </div>
@@ -295,7 +204,7 @@ const LandingPage = ({ from, setFrom }) => {
       </div>
 
       <div className={Style.features_section}>
-        <div className={Style.golden_vector} style={{ position: "relative" }}>
+        <div className={Style.golden_vector}>
           <div className={Style.vector_content}>
             <h3 className={Style.text1}>
               <div className={Style.h4}>01</div>
@@ -373,7 +282,6 @@ const LandingPage = ({ from, setFrom }) => {
           </h2>
           <GoldenButton
             type={"button"}
-            style={{}}
             buttonName={"SUBSCRIBE"}
             onClick={() => setOpenSubscribModel(true)}
           />
@@ -396,14 +304,13 @@ const LandingPage = ({ from, setFrom }) => {
             <GoldenButton
               type={"button"}
               buttonName={"CONTACT US"}
-              style={{ fontSize: "14px", padding: "12px 24px" }}
+              className={Style.contactBtn}
               onClick={() => handleContactUs()}
             />
             <div className={Style.social_link}>
               <img
                 src={LinkedInSvg}
                 alt="LinkedIn logo"
-                style={{ width: "36px" }}
                 onClick={() => {
                   window.open(
                     "https://www.linkedin.com/company/eagle-bot/",

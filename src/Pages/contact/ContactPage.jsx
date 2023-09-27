@@ -84,7 +84,7 @@ const ContactPage = ({ setFrom }) => {
               </p>
             )}
           </div>
-          <div className={Style.input} style={{}}>
+          <div className={Style.input}>
             <input
               type="email"
               placeholder="Email"
@@ -129,45 +129,37 @@ const ContactPage = ({ setFrom }) => {
           <GoldenButton
             type={"submit"}
             buttonName={"Send"}
-            style={{ padding: "12px 48px" }}
+            className={Style.sendBtn}
             isLoading={isLoading}
           />
         </form>{" "}
       </div>
       <div className={Style.faqSection}>
-        <h2
-          style={{
-            textAlign: "center",
-            fontFamily: "inter",
-            color: "#ffffffdb",
-          }}
-        >
+        <h2 className={Style.faq_header}>
           FAQs for &quot;Eagle Bot&quot; - The Next-Gen AI-Powered Browser &amp;
           Automation Software
         </h2>
         <FaqsData />
       </div>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-        }}
-      >
+      <div className={Style.footer_sec}>
         <p className={Style.tearmsAndConText}>
           By utilizing our products and services, you implicitly consent to the
           Eagle-Bot&nbsp;
-          <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">
-            Privacy Policy
-          </a>
+          <strong>
+            <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">
+              Privacy Policy
+            </a>
+          </strong>
           &nbsp;and&nbsp;
-          <a
-            href="/terms-and-conditions"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Terms of Service.
-          </a>
+          <strong>
+            <a
+              href="/terms-and-conditions"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Terms of Service.
+            </a>
+          </strong>
         </p>
         <div className={Style.footer}>
           <p className={Style.copyRigthText}>

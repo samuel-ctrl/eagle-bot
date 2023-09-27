@@ -8,13 +8,35 @@
   background-color: #c0bbbb34;
 }
 
+.faqs_question {
+  font-weight: 400;
+  line-height: "24px";
+}
+
+.faqs_answer {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffffdb;
+}
+
+.faqs_upAndDownArrow {
+  display: inline;
+  float: right;
+}
+
+.faqs_seperator {
+  margin-top: 20px;
+  border-bottom: 1px solid var(--light-grey-color);
+}
+
 .footer_tools {
   display: flex;
   justify-content: center;
   align-items: center;
   position: fixed;
   bottom: 20px;
-  right: 10px;
+  right: 25px;
   z-index: 5;
   cursor: pointer;
   width: 36px;

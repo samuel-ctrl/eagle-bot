@@ -40,6 +40,13 @@ a:hover {
   color: var(--yellow-green-color);
 }
 
+.slick-next {
+  right: -23px;
+}
+.slick-prev {
+  left: -39px;
+}
+
 .slick-prev:before,
 .slick-next:before {
   font-size: 36px;

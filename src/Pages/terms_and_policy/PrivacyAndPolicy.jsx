@@ -96,12 +96,10 @@ const PrivacyAndPolicy = () => {
         <div className={Style.card_container}>
           <div className={Style.content_container}>
             <div className={Style.panel_head}>
-              <h1 style={{ textAlign: "center" }}>Eagle Bot Privacy Policy</h1>
+              <h1>Eagle Bot Privacy Policy</h1>
             </div>
             <div className={Style.panel_body}>
-              <p style={{ borderBottom: "1px solid gray" }}>
-                Last updated Sept. 15, 2023
-              </p>
+              <p className={Style.update}>Last updated Sept. 15, 2023</p>
               <div id="overview" className={Style.sub_content_section}>
                 <h3>
                   <strong>PRIVACY NOTICE</strong>
@@ -1357,13 +1355,7 @@ const PrivacyAndPolicy = () => {
           </div>
         </div>
       </div>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-        }}
-      >
+      <div className={Style.footer_section}>
         <div className={Style.footer}>
           <GoToUpComp />
           <p className={Style.copyRigthText}>

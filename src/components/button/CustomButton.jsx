@@ -4,14 +4,13 @@ import CircularProgress from "@mui/material/CircularProgress";
 export const GoldenButton = ({
   type,
   buttonName,
-  style,
   onClick,
   isLoading,
+  className,
 }) => {
   return (
     <button
-      className={`${Style.goldenButton} ${Style.btn_anime}`}
-      style={style}
+      className={`${Style.goldenButton} ${Style.btn_anime} ${className}`}
       type={type}
       onClick={onClick}
       disabled={isLoading}

@@ -116,14 +116,10 @@ const TermsAndCons = () => {
         <div className={Style.card_container}>
           <div className={Style.content_container}>
             <div className={Style.panel_head}>
-              <h1 style={{ textAlign: "center" }}>
-                Eagle Bot Terms & Conditions
-              </h1>
+              <h1>Eagle Bot Terms & Conditions</h1>
             </div>
             <div className={Style.panel_body}>
-              <p style={{ borderBottom: "1px solid gray" }}>
-                Last updated Sept. 15, 2023
-              </p>
+              <p className={Style.update}>Last updated Sept. 15, 2023</p>
               <div
                 id="agreement_to_our_legal_terms"
                 className={Style.sub_content_section}
@@ -1579,13 +1575,7 @@ const TermsAndCons = () => {
           </div>
         </div>
       </div>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-        }}
-      >
+      <div className={Style.footer_section}>
         <div className={Style.footer}>
           <GoToUpComp />
           <p className={Style.copyRigthText}>

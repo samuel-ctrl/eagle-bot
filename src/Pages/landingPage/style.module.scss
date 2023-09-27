@@ -66,10 +66,6 @@
         p {
           font-size: 50px;
         }
-        button {
-          padding: 15px 30px 15px 30px;
-          font-size: 24px;
-        }
       }
       @media (max-width: 992px) {
         h1 {
@@ -225,28 +221,9 @@
   position: relative;
   .videoPanel {
     width: 80%;
-
-    .videoContainer {
-      position: relative;
-      video {
-        transition: opacity 0.3s ease;
-        border-radius: 5px;
-      }
-      h4 {
-        width: 100%;
-        transition: background-color 0.3s ease;
-        position: absolute;
-        top: 0;
-        left: 0;
-        font-size: 26px;
-        padding: 10px;
-        color: var(--white-color);
-        background-color: rgb(0 0 0 / 43%);
-      }
-    }
   }
   h2 {
-    color: var(--grey-color);
+    color: var(--light-grey-color);
     font-size: 4.5vw;
     font-style: normal;
     font-weight: 400;
@@ -262,7 +239,7 @@
 
   p {
     width: 56vw;
-    margin: 1vw 0 6vw 0;
+    margin: 1vw 0;
     color: var(--light-grey-color);
     text-align: center;
     font-size: 20px;
@@ -290,13 +267,7 @@
       height: 100%;
     }
     .videoPanel {
-      width: 95%;
-      .videoContainer {
-        h4 {
-          font-size: 16px;
-          padding: 5px;
-        }
-      }
+      width: 90%;
     }
   }
 }
@@ -350,7 +321,9 @@
     width: 25%;
     margin-left: 4%;
   }
-
+  .golden_vector {
+    position: relative;
+  }
   .vector_content {
     position: absolute;
     display: flex;
@@ -363,7 +336,6 @@
 
   h2 {
     margin-top: 2%;
-
     font-style: normal;
     font-weight: 600;
     font-size: 4vw;
@@ -372,8 +344,7 @@
   p {
     margin: 1vw 0;
     width: 95%;
-    color: var(--grey-color);
-
+    color: var(--light-grey-color);
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -554,10 +525,16 @@
     .support {
       margin: 0 0 2vw 2vw;
     }
+    .contactBtn {
+      padding: 10px 12px;
+      font-size: 14px;
+    }
     .social_link {
       display: flex;
       justify-content: center;
       img {
+        width: 36px;
+        height: auto;
         cursor: pointer;
       }
     }
@@ -570,10 +547,6 @@
     z-index: -1;
   }
   @media (max-width: 992px) {
-    &.footer {
-      width: 95vw;
-      margin: auto;
-    }
     .footer_content {
       padding-right: 8px;
       padding-top: 14px;

@@ -27,11 +27,16 @@ form {
 
 .contact_section h2 {
   font-size: 2.6vw;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 form .input {
   width: 32%;
+}
+
+form .sendBtn {
+  padding: 8px 28px;
+  font-size: 18px;
 }
 
 .input input {
@@ -48,7 +53,6 @@ form .textArea {
 }
 .textArea textarea {
   width: 100%;
-
   border-radius: 6px;
   font-size: 1vw;
   padding: 0.8%;
@@ -58,7 +62,7 @@ form .textArea {
 }
 .tearmsAndConText {
   font-weight: 400;
-  font-size: 1vw;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -69,7 +73,6 @@ form .textArea {
 
 .errorMessage {
   color: rgb(217, 48, 37);
-
   font-weight: 400;
   font-size: 0.9vw;
   margin-top: 1%;
@@ -86,16 +89,14 @@ form .textArea {
 
 .footer .copyRigthText {
   width: 50%;
-
-  font-size: small;
+  font-size: 14px;
   font-weight: 400;
   text-align: center;
 }
 
 .footer .SupportText {
   width: 50%;
-
-  font-size: small;
+  font-size: 14px;
   font-weight: 400;
   text-align: center;
 }
@@ -106,6 +107,18 @@ form .textArea {
   flex-direction: column;
   margin: auto;
   gap: 22px;
+}
+
+.faq_header {
+  font-weight: 400;
+  text-align: center;
+  color: #ffffffdb;
+}
+
+.footer_sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media (max-width: 992px) {
@@ -138,7 +151,7 @@ form .textArea {
   }
   .tearmsAndConText {
     width: 95%;
-    font-size: 12px;
+    font-size: 10px;
   }
   .footer .copyRigthText {
     font-size: 10px;

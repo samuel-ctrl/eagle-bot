@@ -94,8 +94,8 @@ export const WaitListModel = ({ open, handleClose, OnSubmit }) => {
 
           <GoldenButton
             type={"submit"}
+            className={Style.sendBtn}
             buttonName={"JOIN"}
-            style={{ padding: "10px 52px", marginTop: "1%" }}
             isLoading={isLoading}
           />
         </form>
@@ -134,7 +134,6 @@ export const SubscribModel = ({ open, handleClose, OnSubmit }) => {
         >
           <div className={Style.input}>
             <input
-              style={{}}
               placeholder="Enter your email here"
               autoComplete="off"
               {...register("email", {
@@ -151,11 +150,7 @@ export const SubscribModel = ({ open, handleClose, OnSubmit }) => {
           <GoldenButton
             type={"submit"}
             buttonName={"Submit"}
-            style={{
-              paddingTop: "1.3%",
-              paddingBottom: "1.3%",
-              marginTop: "1.5%",
-            }}
+            className={Style.submitButton}
             isLoading={isLoading}
           />
         </form>

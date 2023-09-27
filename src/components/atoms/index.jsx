@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
@@ -29,36 +29,14 @@ export const FaqsData = () => {
             key={index}
             onClick={() => toggleQuestion(key)}
           >
-            <h3
-              style={{
-                fontFamily: "Inter, sans-serif",
-                fontweight: "400",
-                lineheight: "24px",
-              }}
-            >
+            <h3 className={Style.faqs_question}>
               {key}. {qus}
-              <div style={{ display: "inline", float: "right" }}>
+              <div className={Style.faqs_upAndDownArrow}>
                 {isOpen ? <KeyboardArrowUpIcon /> : <KeyboardArrowDownIcon />}
               </div>
             </h3>
-            {isOpen && (
-              <p
-                style={{
-                  marginTop: "20px",
-                  fontFamily: "Inter, sans-serif",
-                  fontweight: "400",
-                  color: "#ffffffdb",
-                }}
-              >
-                {ans}
-              </p>
-            )}
-            <div
-              style={{
-                marginTop: "20px",
-                borderBottom: "1px solid var(--light-grey-color)",
-              }}
-            ></div>
+            {isOpen && <p className={Style.faqs_answer}>{ans}</p>}
+            <div className={Style.faqs_seperator}></div>
           </div>
         );
       })}
@@ -80,10 +58,6 @@ export const GoToUpComp = () => {
         isHidden = true;
       }
     });
-
-    return () => {
-      let isHidden = true;
-    };
   });
   const handleGoup = () => {
     window.scrollTo({

@@ -5,7 +5,7 @@
   },
   
     "globalHeaders": {
-      "content-security-policy": "default-src 'self' https://eagle-bot-landing-service.azurewebsites.net; font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com data:; script-src 'self'; style-src 'self' https://fonts.googleapis.com https://unpkg.com/mui@latest/dist/mui.min.css; frame-ancestors 'self'; connect-src 'self' https://eagle-bot-landing-service.azurewebsites.net; base-uri 'self'; report-uri 'none'; object-src 'none';",
+      "content-security-policy": "default-src 'self' https://eagle-bot-landing-service.azurewebsites.net; font-src 'self' https://fonts.googleapis.com https://fonts.gstatic.com data:; script-src 'self'; style-src 'self' https://fonts.googleapis.com https://unpkg.com; frame-ancestors 'self'; connect-src 'self' https://eagle-bot-landing-service.azurewebsites.net; base-uri 'self'; report-uri 'none'; object-src 'none';",
       "Strict-Transport-Security": "max-age=31536000",
       "Access-Control-Allow-Origin": "www.eagle-bot.com",
       "X-Frame-Options": "SAMEORIGIN",

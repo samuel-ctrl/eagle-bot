@@ -109,7 +109,22 @@ const LandingPage = ({ from, setFrom }) => {
       document.title = "Eagle Bot";
     };
   }, []);
+  function handleCloseWaitlist() {
+    setOpenWaitlist(false);
+  }
 
+  function handleCloseSubscrib() {
+    setOpenSubscrib(false);
+  }
+
+  function handleCloseError() {
+    setOpenError(false);
+  }
+
+  const handleCloseAll = () => {
+    setOpenSubscribModel(false);
+    setOpenWaitListModel(false);
+  };
   return (
     <>
       <div className={Style.banner_section}>
@@ -326,17 +341,17 @@ const LandingPage = ({ from, setFrom }) => {
           </div>
         </div>
         <WaitListModel
-          handleClose={() => setOpenWaitListModel(false)}
+          handleClose={handleCloseAll}
           open={openWaitListModel}
           OnSubmit={handleSubmitWaitListModel}
         />
         <SubscribModel
-          handleClose={() => setOpenSubscribModel(false)}
+          handleClose={handleCloseAll}
           open={openSubscribModel}
           OnSubmit={handleSubmitSubscribModel}
         />
         <CustomizedSnackbar
-          handleClose={() => setOpenWaitlist(false)}
+          handleClose={handleCloseWaitlist}
           open={openWaitlist}
           alertContent={
             "Fantastic news! You have now been added to our waitlist."
@@ -344,13 +359,13 @@ const LandingPage = ({ from, setFrom }) => {
           alertType={"success"}
         />
         <CustomizedSnackbar
-          handleClose={() => setOpenSubscrib(false)}
+          handleClose={handleCloseSubscrib}
           open={openSubscrib}
           alertContent={"Excellent news! You have successfully subscribed."}
           alertType={"success"}
         />
         <CustomizedSnackbar
-          handleClose={() => setOpenError(false)}
+          handleClose={handleCloseError}
           open={openError}
           alertContent={"Oop's we can't reach the server, try agin later."}
           alertType={"error"}

@@ -15,7 +15,11 @@ export const GoldenButton = ({
       onClick={onClick}
       disabled={isLoading}
     >
-      {isLoading ? <CircularProgress size={"1.2rem"} /> : buttonName}
+      {isLoading ? (
+        <CircularProgress size={"1.2rem"} style={{ padding: "0px 14px" }} />
+      ) : (
+        buttonName
+      )}
     </button>
   );
 };

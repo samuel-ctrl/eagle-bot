@@ -182,7 +182,7 @@ const ContactPage = ({ setFrom }) => {
       <CustomizedSnackbar
         handleClose={() => setOpenWarning(false)}
         open={openWarning}
-        alertContent={"Oop's we can't reach the server, try agin later."}
+        alertContent={"Oop's we can't reach the server, try again later."}
         alertType={"error"}
       />
     </>

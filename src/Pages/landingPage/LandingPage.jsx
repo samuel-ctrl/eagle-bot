@@ -367,7 +367,7 @@ const LandingPage = ({ from, setFrom }) => {
         <CustomizedSnackbar
           handleClose={handleCloseError}
           open={openError}
-          alertContent={"Oop's we can't reach the server, try agin later."}
+          alertContent={"Oop's we can't reach the server, try again later."}
           alertType={"error"}
         />
       </>

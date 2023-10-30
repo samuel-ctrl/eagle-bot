@@ -6,6 +6,7 @@ import { ScrollToTop } from "./components/Utils";
 import NotFound from "./Pages/404Page";
 import TermsAndCons from "./Pages/terms_and_policy/TermsAndCons";
 import PrivacyAndPolicy from "./Pages/terms_and_policy/PrivacyAndPolicy";
+import CookiePolicy from "./Pages/terms_and_policy/cookiePolicy";
 
 function App() {
   const [from, setFrom] = useState("");
@@ -25,6 +26,10 @@ function App() {
         <Route
           path="/privacy-policy"
           element={<PrivacyAndPolicy from={from} setFrom={setFrom} />}
+        ></Route>
+        <Route
+          path="/cookie-policy"
+          element={<CookiePolicy from={from} setFrom={setFrom} />}
         ></Route>
         <Route
           path="/"

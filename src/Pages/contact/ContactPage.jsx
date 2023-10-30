@@ -157,7 +157,12 @@ const ContactPage = ({ setFrom }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Terms of Service.
+              Terms of Service,
+            </a>
+          </strong>
+          <strong>
+            <a href="/cookie-policy" target="_blank" rel="noopener noreferrer">
+              Cookie Policy.
             </a>
           </strong>
         </p>

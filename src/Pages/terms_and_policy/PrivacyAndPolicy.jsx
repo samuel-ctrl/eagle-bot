@@ -99,31 +99,33 @@ const PrivacyAndPolicy = () => {
               <h1>Eagle Bot Privacy Policy</h1>
             </div>
             <div className={Style.panel_body}>
-              <p className={Style.update}>Last updated Sept. 15, 2023</p>
+              <p className={Style.update}>Last updated October 27, 2023</p>
               <div id="overview" className={Style.sub_content_section}>
                 <h3>
                   <strong>PRIVACY NOTICE</strong>
                 </h3>
                 <p>
-                  This privacy notice for Antimatterr LLC ("we," "us," or
-                  "our"), describes how and why we might collect, store, use,
-                  and/or share ("process") your information when you use our
-                  services ("Services"), such as when you:
+                This privacy notice for Eagle Bot PTE LTD (doing business as Eagle Bot) ("we," "us," or "our"), describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("Services"), such as when you:
                 </p>
                 <ul>
                   <li>
                     Visit our website at &nbsp;
-                    <a href="https://www.eagle-bot.com">
-                      https://www.eagle-bot.com
+                    <a href="https://platform.eagle-bot.com">
+                    https://platform.eagle-bot.com
                     </a>
-                    , or any website of ours that links to this privacy notice
+                    , or any website of ours under the ‘eagle-bot’ domain that links to this privacy notice.
                   </li>
                   <li>
-                    Engage with us in other related ways, including any sales,
-                    marketing, or events
+                  Download and use our desktop application (Eagle Browser) on Windows and MacOS, or any other application of ours that links to this privacy notice.
+                  </li>
+                  <li>
+                  Engage with us in other related ways, including any sales, marketing, or events
+                  </li>
+                  <li>
+                  Questions or concerns? Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at privacy@eagle-bot.com.
                   </li>
                 </ul>
-                <p>
+                {/* <p>
                   Questions or concerns? Reading this privacy notice will help
                   you understand your privacy rights and choices. If you do not
                   agree with our policies and practices, please do not use our
@@ -132,7 +134,7 @@ const PrivacyAndPolicy = () => {
                   <a href="mailto:privacy@eagle-bot.com">
                     privacy@eagle-bot.com.
                   </a>
-                </p>
+                </p> */}
               </div>
               <div
                 id="summary-of-key-points"
@@ -210,11 +212,11 @@ const PrivacyAndPolicy = () => {
                   accordance with applicable data protection laws.
                 </p>
 
-                <h6>
-                  (i) Want to learn more about what we do with any information
-                  we collect?
-                </h6>
-                <p>Review the privacy notice in full.</p>
+                <p>
+                  Want to learn more about what we do with any information
+                  we collect? <b>Review the privacy notice in full</b>
+                </p>
+                
               </div>
 
               <div

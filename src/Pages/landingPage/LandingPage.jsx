@@ -244,7 +244,7 @@ const LandingPage = ({ from, setFrom }) => {
 
             <h3 className={Style.text4}>
               <div className={Style.h4}>04</div>
-              Eagle-Bot's innovative integration with DALL-E and Midjourney
+              Eagle-Bot's innovative integration with DALL-E and Stable Diffusion
               unleashes a world of creativity and customization in visual
               content.
             </h3>

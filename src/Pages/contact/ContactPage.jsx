@@ -147,31 +147,31 @@ const ContactPage = ({ setFrom }) => {
           Eagle-Bot&nbsp;
           <strong>
             <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">
-              Privacy Policy
+              Privacy Policy,
             </a>
           </strong>
-          &nbsp;and&nbsp;
           <strong>
             <a
               href="/terms-and-conditions"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Terms of Service,
+              &nbsp;Terms of Service,
             </a>
           </strong>
           <strong>
             <a href="/cookie-policy" target="_blank" rel="noopener noreferrer">
-              &nbsp;Cookie Policy,
+              &nbsp;Cookie Policy
             </a>
           </strong>
+          &nbsp;and&nbsp;
           <strong>
             <a
               href="/end-user-license-agreement"
               target="_blank"
               rel="noopener noreferrer"
             >
-              &nbsp;End User License Agreement.
+              End User License Agreement.
             </a>
           </strong>
         </p>

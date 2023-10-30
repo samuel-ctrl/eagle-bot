@@ -7,6 +7,7 @@ import NotFound from "./Pages/404Page";
 import TermsAndCons from "./Pages/terms_and_policy/TermsAndCons";
 import PrivacyAndPolicy from "./Pages/terms_and_policy/PrivacyAndPolicy";
 import CookiePolicy from "./Pages/terms_and_policy/cookiePolicy";
+import Eula from "./Pages/terms_and_policy/Eula"
 
 function App() {
   const [from, setFrom] = useState("");
@@ -30,6 +31,10 @@ function App() {
         <Route
           path="/cookie-policy"
           element={<CookiePolicy from={from} setFrom={setFrom} />}
+        ></Route>
+        <Route
+          path="/end-user-license-agreement"
+          element={<Eula from={from} setFrom={setFrom} />}
         ></Route>
         <Route
           path="/"

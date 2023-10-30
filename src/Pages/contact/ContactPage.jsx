@@ -162,7 +162,16 @@ const ContactPage = ({ setFrom }) => {
           </strong>
           <strong>
             <a href="/cookie-policy" target="_blank" rel="noopener noreferrer">
-              Cookie Policy.
+              &nbsp;Cookie Policy,
+            </a>
+          </strong>
+          <strong>
+            <a
+              href="/end-user-license-agreement"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              &nbsp;End User License Agreement.
             </a>
           </strong>
         </p>

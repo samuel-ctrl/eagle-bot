@@ -146,13 +146,13 @@ const ContactPage = ({ setFrom }) => {
           By utilizing our products and services, you implicitly consent to the
           Eagle-Bot&nbsp;
           <strong>
-            <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">
+            <a href="/privacypolicy" target="_blank" rel="noopener noreferrer">
               Privacy Policy,
             </a>
           </strong>
           <strong>
             <a
-              href="/terms-and-conditions"
+              href="/termsofuse"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -160,14 +160,14 @@ const ContactPage = ({ setFrom }) => {
             </a>
           </strong>
           <strong>
-            <a href="/cookie-policy" target="_blank" rel="noopener noreferrer">
+            <a href="/cookiepolicy" target="_blank" rel="noopener noreferrer">
               &nbsp;Cookie Policy
             </a>
           </strong>
           &nbsp;and&nbsp;
           <strong>
             <a
-              href="/end-user-license-agreement"
+              href="/EULA"
               target="_blank"
               rel="noopener noreferrer"
             >

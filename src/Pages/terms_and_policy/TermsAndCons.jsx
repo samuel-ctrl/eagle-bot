@@ -41,6 +41,15 @@ const TermsAndCons = () => {
               <a href="#user_registration">USER REGISTRATION</a>
             </li>
             <li>
+              <a href="#purchases_and_payment">PURCHASES AND PAYMENT</a>
+            </li>
+            <li>
+              <a href="#free_trail">FREE TRIAL</a>
+            </li>
+            <li>
+              <a href="#cancellation">CANCELLATION</a>
+            </li>
+            <li>
               <a href="#software">SOFTWARE</a>
             </li>
             <li>
@@ -56,6 +65,9 @@ const TermsAndCons = () => {
             </li>
             <li>
               <a href="#guidelines_for_reviews">GUIDELINES FOR REVIEWS</a>
+            </li>
+            <li>
+              <a href="#social_media">SOCIAL MEDIA</a>
             </li>
             <li>
               <a href="#services_management">SERVICES MANAGEMENT</a>
@@ -106,9 +118,6 @@ const TermsAndCons = () => {
               <a href="#miscellaneous">MISCELLANEOUS</a>
             </li>
             <li>
-              <a href="#cookie_policy">COOKIE POLICY</a>
-            </li>
-            <li>
               <a href="#contact_us">CONTACT US</a>
             </li>
           </ol>
@@ -128,16 +137,18 @@ const TermsAndCons = () => {
                   <strong>AGREEMENT TO OUR LEGAL TERMS</strong>
                 </h3>
                 <p>
-                  We are Eagle Bot PTE LTD, doing business as Eagle Bot
-                  ("Company," "we," "us," "our"), a company registered in
-                  Singapore at 160 Robinson Rd, #14 04, Singapore 068914,
-                  Singapore 068914.
+                  We are Eagle Bot PTE LTD, doing business as Eagle Bot (
+                  <strong>"Company," "we," "us," "our"</strong>), a company
+                  registered in Singapore at 160 Robinson Rd, #14 04, Singapore
+                  068914, Singapore 068914.
                 </p>
                 <p>
                   We operate the website{" "}
-                  <a href="https://platform.eagle-bot.com">
-                    https://platform.eagle-bot.com
-                  </a>{" "}
+                  <b>
+                    <a href="https://platform.eagle-bot.com">
+                      https://platform.eagle-bot.com
+                    </a>{" "}
+                  </b>
                   (the "Site"), as well as any other related products and
                   services that refer or link to these legal terms (the "Legal
                   Terms") (collectively, the "Services").
@@ -161,9 +172,10 @@ const TermsAndCons = () => {
                   We will provide you with prior notice of any scheduled changes
                   to the Services you are using. The modified Legal Terms will
                   become effective upon posting or notifying you by
-                  notifications@eagle-bot.com, as stated in the email message.
-                  By continuing to use the Services after the effective date of
-                  any changes, you agree to be bound by the modified terms.
+                  <strong>notifications@eagle-bot.com</strong>, as stated in the
+                  email message. By continuing to use the Services after the
+                  effective date of any changes, you agree to be bound by the
+                  modified terms.
                 </p>
                 <p>
                   The Services are intended for users who are at least 13 years
@@ -267,7 +279,7 @@ const TermsAndCons = () => {
                   your records.
                 </p>
               </div> */}
-              <div
+              {/* <div
                 className={`${Style.sub_content_section} ${Style.mobileview_menu}`}
               >
                 <h4 className={Style.table_of_content_head}>
@@ -289,7 +301,7 @@ const TermsAndCons = () => {
                     <a href="#user_registration">USER REGISTRATION</a>
                   </li>
                   <li>
-                    <a href="#purchase_and_payment">PURCHASES AND PAYMENT</a>
+                    <a href="#purchases_and_payment">PURCHASES AND PAYMENT</a>
                   </li>
                   <li>
                     <a href="#free_trail">FREE TRIAL</a>
@@ -371,7 +383,7 @@ const TermsAndCons = () => {
                     <a href="#contact_us">CONTACT US</a>
                   </li>
                 </ol>
-              </div>
+              </div> */}
               <div id="our_services" className={Style.sub_content_section}>
                 <h3>
                   <strong>1. OUR SERVICES</strong>
@@ -600,7 +612,7 @@ const TermsAndCons = () => {
                 </p>
               </div>
               <div
-                id="purchases_and_payments"
+                id="purchases_and_payment"
                 className={Style.sub_content_section}
               >
                 <h3>
@@ -1751,8 +1763,6 @@ const TermsAndCons = () => {
                   <strong>Singapore 068914</strong>
                   <br></br>
                   <strong>Singapore</strong>
-                  <br></br>
-                  <strong>Phone: (+91)9663775458</strong>
                   <br></br>
                   <strong>support@eagle-bot.com</strong>
                   <br></br>

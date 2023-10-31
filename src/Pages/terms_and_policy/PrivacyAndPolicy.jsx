@@ -46,35 +46,33 @@ const PrivacyAndPolicy = () => {
               </a>
             </li>
             <li>
-              <a href="#question-6">
+              <a href="#question-6">HOW DO WE HANDLE YOUR SOCIAL LOGINS?</a>
+            </li>
+            <li>
+              <a href="#question-7">
                 IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?
               </a>
             </li>
             <li>
-              <a href="#question-7">HOW LONG DO WE KEEP YOUR INFORMATION?</a>
+              <a href="#question-8">HOW LONG DO WE KEEP YOUR INFORMATION?</a>
             </li>
             <li>
-              <a href="#question-8">HOW DO WE KEEP YOUR INFORMATION SAFE?</a>
+              <a href="#question-9">HOW DO WE KEEP YOUR INFORMATION SAFE?</a>
             </li>
             <li>
-              <a href="#question-9">WHAT ARE YOUR PRIVACY RIGHTS?</a>
+              <a href="#question-10">WHAT ARE YOUR PRIVACY RIGHTS?</a>
             </li>
             <li>
-              <a href="#question-10">CONTROLS FOR DO-NOT-TRACK FEATURES</a>
-            </li>
-            <li>
-              <a href="#question-11">
-                DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
-              </a>
+              <a href="#question-11">CONTROLS FOR DO-NOT-TRACK FEATURES</a>
             </li>
             <li>
               <a href="#question-12">
-                WHAT CATEGORIES OF PERSONAL INFORMATION DO WE COLLECT?
+                DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
               </a>
             </li>
             <li>
               <a href="#question-13">
-                DO VIRGINIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
+                DO OTHER REGIONS HAVE SPECIFIC PRIVACY RIGHTS?E?
               </a>
             </li>
             <li>
@@ -105,24 +103,36 @@ const PrivacyAndPolicy = () => {
                   <strong>PRIVACY NOTICE</strong>
                 </h3>
                 <p>
-                This privacy notice for Eagle Bot PTE LTD (doing business as Eagle Bot) ("we," "us," or "our"), describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("Services"), such as when you:
+                  This privacy notice for <strong>Eagle Bot PTE LTD</strong>{" "}
+                  (doing business as Eagle Bot) ("we," "us," or "our"),
+                  describes how and why we might collect, store, use, and/or
+                  share ("process") your information when you use our services
+                  ("Services"), such as when you:
                 </p>
                 <ul>
                   <li>
                     Visit our website at &nbsp;
                     <a href="https://platform.eagle-bot.com">
-                    https://platform.eagle-bot.com
+                      https://platform.eagle-bot.com
                     </a>
-                    , or any website of ours under the ‘eagle-bot’ domain that links to this privacy notice.
+                    , or any website of ours under the ‘eagle-bot’ domain that
+                    links to this privacy notice.
                   </li>
                   <li>
-                  Download and use our desktop application (Eagle Browser) on Windows and MacOS, or any other application of ours that links to this privacy notice.
+                    Download and use our desktop application (
+                    <strong>Eagle Browser</strong>) on Windows and MacOS, or any
+                    other application of ours that links to this privacy notice.
                   </li>
                   <li>
-                  Engage with us in other related ways, including any sales, marketing, or events
+                    Engage with us in other related ways, including any sales,
+                    marketing, or events
                   </li>
                   <li>
-                  Questions or concerns? Reading this privacy notice will help you understand your privacy rights and choices. If you do not agree with our policies and practices, please do not use our Services. If you still have any questions or concerns, please contact us at privacy@eagle-bot.com.
+                    Questions or concerns? Reading this privacy notice will help
+                    you understand your privacy rights and choices. If you do
+                    not agree with our policies and practices, please do not use
+                    our Services. If you still have any questions or concerns,
+                    please contact us at <strong>privacy@eagle-bot.com</strong>.
                   </li>
                 </ul>
                 {/* <p>
@@ -151,7 +161,9 @@ const PrivacyAndPolicy = () => {
                   for.
                 </p>
 
-                <h6>(a) What personal information do we process?</h6>
+                <strong>
+                  <h6>(a) What personal information do we process?</h6>
+                </strong>
                 <p>
                   When you visit, use, or navigate our Services, we may process
                   personal information depending on how you interact with us and
@@ -160,13 +172,22 @@ const PrivacyAndPolicy = () => {
                   disclose to us.
                 </p>
 
-                <h6>(b) Do we process any sensitive personal information?</h6>
-                <p>We do not process sensitive personal information.</p>
+                <strong>
+                  <h6>(b) Do we process any sensitive personal information?</h6>
+                </strong>
+                <p>
+                  We may process sensitive personal information when necessary
+                  with your consent or as otherwise permitted by applicable law.
+                </p>
 
-                <h6>(c) Do we receive any information from third parties?</h6>
+                <strong>
+                  <h6>(c) Do we receive any information from third parties?</h6>
+                </strong>
                 <p>We do not receive any information from third parties.</p>
 
-                <h6>(d) How do we process your information?</h6>
+                <strong>
+                  <h6>(d) How do we process your information?</h6>
+                </strong>
                 <p>
                   We process your information to provide, improve, and
                   administer our Services, communicate with you, for security
@@ -177,15 +198,19 @@ const PrivacyAndPolicy = () => {
                 </p>
 
                 <h6>
-                  (e) In what situations and with which parties do we share
-                  personal information?
+                  <strong>
+                    (e) In what situations and with which parties do we share
+                    personal information?
+                  </strong>
                 </h6>
                 <p>
                   We may share information in specific situations and with
                   specific third parties.
                 </p>
 
-                <h6>(f) How do we keep your information safe?</h6>
+                <strong>
+                  <h6>(f) How do we keep your information safe?</h6>
+                </strong>
                 <p>
                   We have organizational and technical processes and procedures
                   in place to protect your personal information. However, no
@@ -197,26 +222,32 @@ const PrivacyAndPolicy = () => {
                   your information.
                 </p>
 
-                <h6>(g) What are your rights?</h6>
+                <strong>
+                  <h6>(g) What are your rights?</h6>
+                </strong>
                 <p>
                   Depending on where you are located geographically, the
                   applicable privacy law may mean you have certain rights
-                  regarding your personal information.
+                  regarding your personal information. Learn more about your
+                  privacy rights.
                 </p>
 
-                <h6>(h) How do you exercise your rights?</h6>
+                <strong>
+                  <h6>(h) How do you exercise your rights?</h6>
+                </strong>
                 <p>
-                  The easiest way to exercise your rights is by submitting a
-                  data subject access request or by contacting us using the
-                  contact form. We will consider and act upon any request in
-                  accordance with applicable data protection laws.
+                  The easiest way to exercise your rights is by visiting &nbsp;
+                  <a href="https://www.eagle-bot.com/contact">
+                    https://www.eagle-bot.com/contact
+                  </a>
+                  , or by contacting us. We will consider and act upon any
+                  request in accordance with applicable data protection laws.
                 </p>
 
                 <p>
-                  Want to learn more about what we do with any information
-                  we collect? <b>Review the privacy notice in full</b>
+                  Want to learn more about what we do with any information we
+                  collect? <b>Review the privacy notice in full</b>
                 </p>
-                
               </div>
 
               <div
@@ -330,17 +361,143 @@ const PrivacyAndPolicy = () => {
                   information we collect may include the following:
                 </p>
                 <ul>
-                  <li>names</li>
-                  <li>email addresses</li>
+                  <li>Names</li>
+                  <li>Phone numbers</li>
+                  <li>Email addresses</li>
+                  <li>Mailing addresses</li>
+                  <li>Contact preferences</li>
+                  <li>Contact or authentication data</li>
+                  <li>Billing addresses</li>
+                  <li>Debit/credit card numbers</li>
                 </ul>
                 <p>
-                  <strong>Sensitive Information.</strong> We do not process
-                  sensitive information.
+                  <strong>Sensitive Information.</strong> When necessary, with
+                  your consent or as otherwise permitted by applicable law, we
+                  process the following categories of sensitive information:
+                  financial data
+                </p>
+                <p>
+                  <strong>Payment Data</strong>. We may collect data necessary
+                  to process your payment if you make purchases, such as your
+                  payment instrument number, and the security code associated
+                  with your payment instrument. All payment data is stored by
+                  Stripe. You may find their privacy notice link(s) here:
+                  <a href="https://stripe.com/en-in/privacy">
+                    https://stripe.com/en-in/privacy
+                  </a>
+                  .
+                </p>
+                <p>
+                  <strong>Social Media Login Data.</strong> We may provide you
+                  with the option to register with us using your existing social
+                  media account details, like your Facebook, Twitter, or other
+                  social media account. If you choose to register in this way,
+                  we will collect the information described in the section
+                  called "HOW DO WE HANDLE YOUR SOCIAL LOGINS?" below.
+                </p>
+                <p>
+                  <strnog>Application Data</strnog>. If you use our
+                  application(s), we also may collect the following information
+                  if you choose to provide us with access or permission:
+                </p>
+                <p>
+                  <strong>Geolocation Information</strong>. We may request
+                  access or permission to track location-based information from
+                  your mobile device, either continuously or while you are using
+                  our mobile application(s), to provide certain location-based
+                  services. If you wish to change our access or permissions, you
+                  may do so in your device's settings.
+                </p>
+                <p>
+                  <strnog>Mobile Device Data</strnog>. We automatically collect
+                  device information (such as your mobile device ID, model, and
+                  manufacturer), operating system, version information and
+                  system configuration information, device and application
+                  identification numbers, browser type and version, hardware
+                  model Internet service provider and/or mobile carrier, and
+                  Internet Protocol (IP) address (or proxy server). If you are
+                  using our application(s), we may also collect information
+                  about the phone network associated with your mobile device,
+                  your mobile device’s operating system or platform, the type of
+                  mobile device you use, your mobile device’s unique device ID,
+                  and information about the features of our application(s) you
+                  accessed. This information is primarily needed to maintain the
+                  security and operation of our application(s), for
+                  troubleshooting, and for our internal analytics and reporting
+                  purposes.
                 </p>
                 <p>
                   All personal information that you provide to us must be true,
                   complete, and accurate, and you must notify us of any changes
                   to such personal information.
+                </p>
+                <p>
+                  <strong>Information automatically collected In Short</strong>:
+                  Some information — such as your Internet Protocol (IP) address
+                  and/or browser and device characteristics — is collected
+                  automatically when you visit our Services.
+                </p>
+                <p>
+                  We automatically collect certain information when you visit,
+                  use, or navigate the Services. This information does not
+                  reveal your specific identity (like your name or contact
+                  information) but may include device and usage information,
+                  such as your IP address, browser and device characteristics,
+                  operating system, language preferences, referring URLs, device
+                  name, country, location, information about how and when you
+                  use our Services, and other technical information. This
+                  information is primarily needed to maintain the security and
+                  operation of our Services, and for our internal analytics and
+                  reporting purposes.
+                </p>
+                <p>
+                  Like many businesses, we also collect information through
+                  cookies and similar technologies. You can find out more about
+                  this in our Cookie Notice:
+                  <a href="https://www.eagle-bot.com/cookiepolicy">
+                    https://www.eagle-bot.com/cookiepolicy
+                  </a>
+                  .
+                </p>
+                <p>
+                  <strong>The information we collect includes:</strong>
+                </p>
+                <p>
+                  <b>Log and Usage Data.</b> Log and usage data is
+                  service-related, diagnostic, usage, and performance
+                  information our servers automatically collect when you access
+                  or use our Services and which we record in log files.
+                  Depending on how you interact with us, this log data may
+                  include your IP address, device information, browser type, and
+                  settings and information about your activity in the Services
+                  (such as the date/time stamps associated with your usage,
+                  pages and files viewed, searches, and other actions you take
+                  such as which features you use), device event information
+                  (such as system activity, error reports (sometimes called
+                  "crash dumps"), and hardware{" "}
+                </p>
+                <p>
+                  <b> Device Data</b>. We collect device data such as
+                  information about your computer, phone, tablet, or other
+                  device you use to access the Services. Depending on the device
+                  used, this device data may include information such as your IP
+                  address (or proxy server), device and application
+                  identification numbers, location, browser type, hardware
+                  model, Internet service provider and/or mobile carrier,
+                  operating system, and system configuration information.
+                </p>
+                <p>
+                  <b>Location Data.</b> We collect location data such as
+                  information about your device's location, which can be either
+                  precise or imprecise. How much information we collect depends
+                  on the type and settings of the device you use to access the
+                  Services. For example, we may use GPS and other technologies
+                  to collect geolocation data that tells us your current
+                  location (based on your IP address). You can opt out of
+                  allowing us to collect this information either by refusing
+                  access to the information or by disabling your Location
+                  setting on your device. However, if you choose to opt out, you
+                  may not be able to use certain aspects of the Services
                 </p>
               </div>
               <div id="question-2" className={Style.sub_content_section}>
@@ -360,10 +517,62 @@ const PrivacyAndPolicy = () => {
                 </p>
                 <ul>
                   <li>
-                    To facilitate account creation and authentication and
-                    otherwise manage user accounts. We may process your
-                    information so you can create and log in to your account, as
-                    well as keep your account in working order.
+                    To streamline the process of creating and authenticating
+                    accounts while effectively managing user profiles, we may
+                    handle your data. This enables you to easily establish and
+                    access your account while ensuring its smooth operation.
+                    It's important to note that accounts on EagleBot are
+                    established through third-party authentication services such
+                    as Google, Apple, Microsoft, Atlassian, Twitter, AWS and
+                    Whatsapp. As a result, the data of users who create accounts
+                    on EagleBot is also retained by the authentication providers
+                    they use to log in to the application. Please find their
+                    privacy policies here:
+                    <ul>
+                      <li>
+                        <a href="https://policies.google.com/privacy?hl=en-US">
+                          Google: https://policies.google.com/privacy?hl=en-US
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://privacy.microsoft.com/en-ca/privacystatement">
+                          Microsoft:
+                          https://privacy.microsoft.com/en-ca/privacystatement
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.apple.com/legal/privacy/en-ww/">
+                          Apple: https://www.apple.com/legal/privacy/en-ww/
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://twitter.com/en/privacy">
+                          Twitter: https://twitter.com/en/privacy
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.whatsapp.com/legal/privacy-policy">
+                          WhatsApp:
+                          https://www.whatsapp.com/legal/privacy-policy
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.atlassian.com/legal/privacy-policy#what-this-policy-covers">
+                          Atlassian:
+                          https://www.atlassian.com/legal/privacy-policy#what-this-policy-covers
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://aws.amazon.com/privacy/">
+                          AWS: https://aws.amazon.com/privacy/
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    To deliver and facilitate delivery of services to the user.
+                    We may process your information to provide you with the
+                    requested service.
                   </li>
                   <li>
                     To respond to user inquiries/offer support to users. We may
@@ -375,7 +584,17 @@ const PrivacyAndPolicy = () => {
                     To send administrative information to you. We may process
                     your information to send you details about our products and
                     services, changes to our terms and policies, and other
-                    similar information.
+                    similar information..
+                  </li>
+                  <li>
+                    To fulfill and manage your orders. We may process your
+                    information to fulfill and manage your orders, payments,
+                    returns, and exchanges made through the Services.
+                  </li>
+                  <li>
+                    To request feedback. We may process your information when
+                    necessary to request feedback and to contact you about your
+                    use of our Services.
                   </li>
                   <li>
                     To send you marketing and promotional communications. We may
@@ -385,8 +604,68 @@ const PrivacyAndPolicy = () => {
                     emails at any time. For more information, see "WHAT ARE YOUR
                     PRIVACY RIGHTS?" below.
                   </li>
-                  <li>To save or protect an individual's vital interests.</li>
+                  <li>
+                    To protect our Services. We may process your information as
+                    part of our efforts to keep our Services safe and secure,
+                    including fraud monitoring and prevention.
+                  </li>
+                  <li>
+                    To identify usage trends. We may process information about
+                    how you use our Services to better understand how they are
+                    being used so we can improve them.
+                  </li>
+                  <li>
+                    To determine the effectiveness of our marketing and
+                    promotional campaigns. We may process your information to
+                    better understand how to provide marketing and promotional
+                    campaigns that are most relevant to you.
+                  </li>
+                  <li>
+                    To save or protect an individual's vital interest. We may
+                    process your information when necessary to save or protect
+                    an individual’s vital interest, such as to prevent harm.
+                  </li>
                 </ul>
+                <h2>EAGLE BOT “Robotic Process Automation (RPA) DISCLAIMER</h2>
+                <p>
+                  The RPA (Robotic Process Automation) feature of Eagle Bot is a
+                  first in the world and currently in the Beta testing phase.
+                  This feature serves as a tool to enable automation replay with
+                  backend AI engines for assistance in Smart RPA Automations.
+                  This feature logs keystrokes and mouse clicks and users are
+                  hereby advised to exercise caution and prudence when utilizing
+                  this feature.
+                </p>
+                <p>
+                  <strnog>
+                    Please be aware that during the Beta testing phase, Eagle
+                    Bot's RPA feature is not intended for handling sensitive
+                    data, including but not limited to credentials, financial
+                    information, or other highly sensitive data types
+                  </strnog>
+                  . This will change in the near future, however, presently,
+                  users who choose to input such data into the system while
+                  training the AI algorithms do so at their own discretion and
+                  risk. We will clearly notify all users when there are controls
+                  built in to handle sensitive data through the platform and by
+                  sending notifications to every user via email.
+                </p>
+                <p>
+                  Eagle Bot holds no liabilities or responsibilities for any
+                  potential consequences arising from the inclusion of sensitive
+                  data in the RPA training process. Users are strongly
+                  encouraged to use placeholder or dummy data for training
+                  purposes to safeguard sensitive information.
+                </p>
+                <p>
+                  By participating in the Beta testing of Eagle Bot's RPA
+                  feature, users acknowledge and accept the terms of this
+                  disclaimer, and they assume full responsibility for their
+                  actions and data input choices. Eagle Bot is not liable for
+                  any issues, losses, or damages that may arise from the misuse
+                  or inclusion of sensitive data during the Beta testing of the
+                  RPA feature.
+                </p>
               </div>
               <div id="question-3" className={Style.sub_content_section}>
                 <h3>
@@ -405,8 +684,11 @@ const PrivacyAndPolicy = () => {
                   our legitimate business interests.
                 </p>
                 <p>
-                  If you are located in the EU or UK, this section applies to
-                  you.
+                  <u>
+                    If you are located in the EU or UK, this section applies to
+                    you
+                  </u>
+                  .
                 </p>
                 <p>
                   The General Data Protection Regulation (GDPR) and UK GDPR
@@ -443,6 +725,18 @@ const PrivacyAndPolicy = () => {
                       Send users information about special offers and discounts
                       on our products and services
                     </li>
+                    <li>
+                      Analyze how our Services are used so we can improve them
+                      to engage and retain users
+                    </li>
+                    <li>Support our marketing activities</li>
+                    <li>
+                      Diagnose problems and/or prevent fraudulent activities
+                    </li>
+                    <li>
+                      Understand how our users use our products and services so
+                      we can improve user experience
+                    </li>
                   </ul>
                   <li>
                     <strong>Legal Obligations.</strong> We may process your
@@ -461,7 +755,9 @@ const PrivacyAndPolicy = () => {
                   </li>
                 </ul>
                 <p>
-                  If you are located in Canada, this section applies to you.
+                  <u>
+                    If you are located in Canada, this section applies to you.
+                  </u>
                 </p>
                 <p>
                   We may process your information if you have given us specific
@@ -538,7 +834,39 @@ const PrivacyAndPolicy = () => {
                   following third parties.
                 </p>
                 <p>
-                  We may need to share your personal information in the
+                  <strong>
+                    Vendors, Consultants, and Other Third-Party Service
+                    Providers
+                  </strong>
+                  . We may share your data with third-party vendors, service
+                  providers, contractors, or agents ("third parties") who
+                  perform services for us or on our behalf and require access to
+                  such information to do that work. We have contracts in place
+                  with our third parties, which are designed to help safeguard
+                  your personal information. This means that they cannot do
+                  anything with your personal information unless we have
+                  instructed them to do it. They will also not share your
+                  personal information with any organization apart from us. They
+                  also commit to protect the data they hold on our behalf and to
+                  retain it for the period we instruct. The categories of third
+                  parties we may share personal information with are as follows:
+                </p>
+                <ul>
+                  <li>Cloud Computing Services</li>
+                  <li>Communication & Collaboration Tools</li>
+                  <li>Data Analytics Services</li>
+                  <li>Data Storage Service Providers</li>
+                  <li>Finance & Accounting Tools</li>
+                  <li>Payment Processors</li>
+                  <li>Performance Monitoring Tools</li>
+                  <li>Sales & Marketing Tools</li>
+                  <li>Testing Tools</li>
+                  <li>User Account Registration & Authentication Services</li>
+                  <li>Website Hosting Service Providers</li>
+                  <li>Affiliate Marketing Programs</li>
+                </ul>
+                <p>
+                  We also may need to share your personal information in the
                   following situations:
                 </p>
                 <ul>
@@ -575,16 +903,54 @@ const PrivacyAndPolicy = () => {
                   tracking technologies to collect and store your information.
                 </p>
                 <p>
-                  We may use cookies and similar tracking technologies (like web
-                  beacons and pixels) to access or store information. Specific
-                  information about how we use such technologies and how you can
-                  refuse certain cookies is set out in our Cookie Policy.
+                  We may use cookies and similar tracking technologies to access
+                  or store information. Specific information about how we use
+                  such technologies and how you can refuse certain cookies is
+                  set out in our Cookie Notice:
+                  <a href="http://www.eagle-bot.com/cookiepolicy">
+                    http://www.eagle-bot.com/cookiepolicy
+                  </a>
                 </p>
               </div>
+
+              <div id="question-6" className={Style.sub_content_section}>
+                <h3>
+                  <strong>6. HOW DO WE HANDLE YOUR SOCIAL LOGINS?</strong>
+                </h3>
+                <p>
+                  <strong>In Short:</strong> If you choose to register or log in
+                  to our Services using a social media account, we may have
+                  access to certain information about you.
+                </p>
+                <p>
+                  Our Services offer you the ability to register and log in
+                  using your third-party social media account details (like your
+                  Facebook or Twitter logins). Where you choose to do this, we
+                  will receive certain profile information about you from your
+                  social media provider. The profile information we receive may
+                  vary depending on the social media provider concerned, but
+                  will often include your name, email address, friends list (
+                  <strong>requires additional user consent</strong>S), and
+                  profile picture, as well as other information you choose to
+                  make public on such a social media platform.
+                </p>
+                <p>
+                  We will use the information we receive only for the purposes
+                  that are described in this privacy notice or that are
+                  otherwise made clear to you on the relevant Services. Please
+                  note that we do not control, and are not responsible for,
+                  other uses of your personal information by your third-party
+                  social media provider. We recommend that you review their
+                  privacy notice to understand how they collect, use, and share
+                  your personal information, and how you can set your privacy
+                  preferences on their sites and apps.
+                </p>
+              </div>
+
               <div id="question-6" className={Style.sub_content_section}>
                 <h3>
                   <strong>
-                    6. IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?
+                    7. IS YOUR INFORMATION TRANSFERRED INTERNATIONALLY?
                   </strong>
                 </h3>
                 <p>
@@ -592,16 +958,17 @@ const PrivacyAndPolicy = () => {
                   your information in countries other than your own.
                 </p>
                 <p>
-                  Our servers are located in India, Poland, and the United
-                  States. If you are accessing our Services from outside India,
-                  Poland, and the United States, please be aware that your
+                  Our servers are located in the United States, Poland and
+                  India. If you are accessing our Services from outside the
+                  United States, Poland and India, please be aware that your
                   information may be transferred to, stored, and processed by us
                   in our facilities and by those third parties with whom we may
                   share your personal information (see "WHEN AND WITH WHOM DO WE
-                  SHARE YOUR PERSONAL INFORMATION?" above), in other countries.
+                  SHARE YOUR PERSONAL INFORMATION?" above), in and other
+                  countries.
                 </p>
                 <p>
-                  If you are a resident in the European Economic Area (EEA),
+                  IIf you are a resident in the European Economic Area (EEA),
                   United Kingdom (UK), or Switzerland, then these countries may
                   not necessarily have data protection laws or other similar
                   laws as comprehensive as those in your country. However, we
@@ -610,9 +977,7 @@ const PrivacyAndPolicy = () => {
                   applicable law.
                 </p>
                 <p>
-                  <strong>
-                    European Commission's Standard Contractual Clauses:
-                  </strong>
+                  <u>European Commission's Standard Contractual Clauses:</u>
                 </p>
                 <p>
                   We have implemented measures to protect your personal
@@ -623,17 +988,14 @@ const PrivacyAndPolicy = () => {
                   protect all personal information that they process originating
                   from the EEA or UK in accordance with European data protection
                   laws and regulations. Our Standard Contractual Clauses can be
-                  provided upon request.
-                </p>
-                <p>
-                  We have implemented similar appropriate safeguards with our
-                  third-party service providers and partners, and further
-                  details can be provided upon request.
+                  provided upon request. We have implemented similar appropriate
+                  safeguards with our third-party service providers and partners
+                  and further details can be provided upon request.
                 </p>
               </div>
-              <div id="question-7" className={Style.sub_content_section}>
+              <div id="question-8" className={Style.sub_content_section}>
                 <h3>
-                  <strong>7. HOW LONG DO WE KEEP YOUR INFORMATION?</strong>
+                  <strong>8. HOW LONG DO WE KEEP YOUR INFORMATION?</strong>
                 </h3>
                 <p>
                   <strong>In Short:</strong> We keep your information for as
@@ -659,9 +1021,9 @@ const PrivacyAndPolicy = () => {
                   deletion is possible.
                 </p>
               </div>
-              <div id="question-8" className={Style.sub_content_section}>
+              <div id="question-9" className={Style.sub_content_section}>
                 <h3>
-                  <strong>8. HOW DO WE KEEP YOUR INFORMATION SAFE?</strong>
+                  <strong>9. HOW DO WE KEEP YOUR INFORMATION SAFE?</strong>
                 </h3>
                 <p>
                   <strong>In Short:</strong> We aim to protect your personal
@@ -684,9 +1046,9 @@ const PrivacyAndPolicy = () => {
                   access the Services within a secure environment.
                 </p>
               </div>
-              <div id="question-9" className={Style.sub_content_section}>
+              <div id="question-10" className={Style.sub_content_section}>
                 <h3>
-                  <strong>9. WHAT ARE YOUR PRIVACY RIGHTS?</strong>
+                  <strong>10. WHAT ARE YOUR PRIVACY RIGHTS?</strong>
                 </h3>
                 <p>
                   <strong>In Short:</strong> In some regions, such as the
@@ -731,6 +1093,8 @@ const PrivacyAndPolicy = () => {
                   any time. You can withdraw your consent at any time by
                   contacting us using the contact details provided in the
                   section "HOW CAN YOU CONTACT US ABOUT THIS NOTICE?" below.
+                </p>
+                <p>
                   However, please note that this will not affect the lawfulness
                   of the processing before its withdrawal nor, when applicable
                   law allows, will it affect the processing of your personal
@@ -755,36 +1119,52 @@ const PrivacyAndPolicy = () => {
                 <p>
                   <strong>Account Information:</strong> If you would at any time
                   like to review or change the information in your account or
-                  terminate your account, you can: Contact us using the contact
-                  information provided. Upon your request to terminate your
-                  account, we will deactivate or delete your account and
-                  information from our active databases. However, we may retain
-                  some information in our files to prevent fraud, troubleshoot
-                  problems, assist with any investigations, enforce our legal
-                  terms and/or comply with applicable legal requirements.
+                  terminate your account, you can:
                 </p>
+
+                <ul>
+                  <li>
+                    Log in to your account settings and update your user account
+                  </li>
+                  <li>Contact us using the contact information provided.</li>
+                  <li>
+                    Upon your request to terminate your account, we will
+                    deactivate or delete your account and information from our
+                    active databases. However, we may retain some information in
+                    our files to prevent fraud, troubleshoot problems, assist
+                    with any investigations, enforce our legal terms and/or
+                    comply with applicable legal requirements.
+                  </li>
+                </ul>
+
                 <p>
-                  <strong>Cookies and similar technologies:</strong> Most Web
+                  <strong>Cookies and similar technologies</strong>: Most Web
                   browsers are set to accept cookies by default. If you prefer,
                   you can usually choose to set your browser to remove cookies
                   and to reject cookies. If you choose to remove cookies or
                   reject cookies, this could affect certain features or services
-                  of our Services. You may also opt out of interest-based
-                  advertising by advertisers on our Services. If you have
-                  questions or comments about your privacy rights, you may email
-                  us at privacy@eagle-bot.com.
+                  of our Services. For further information, please see our
+                  Cookie Notice:{" "}
+                  <a href="http://www.eagle-bot.com/cookiepolicy">
+                    http://www.eagle-bot.com/cookiepolicy
+                  </a>
+                  .
+                </p>
+                <p>
+                  If you have questions or comments about your privacy rights,
+                  you may email us at privacy@eagle-bot.com.
                 </p>
               </div>
-              <div id="question-10" className={Style.sub_content_section}>
+              <div id="question-11" className={Style.sub_content_section}>
                 <h3>
-                  <strong>10. CONTROLS FOR DO-NOT-TRACK FEATURES</strong>
+                  <strong>11. CONTROLS FOR DO-NOT-TRACK FEATURES</strong>
                 </h3>
                 <p>
                   Most web browsers and some mobile operating systems and mobile
                   applications include a Do-Not-Track ("DNT") feature or setting
                   you can activate to signal your privacy preference not to have
                   data about your online browsing activities monitored and
-                  collected. At this stage, no uniform technology standard for
+                  collected. At this stage no uniform technology standard for
                   recognizing and implementing DNT signals has been finalized.
                   As such, we do not currently respond to DNT browser signals or
                   any other mechanism that automatically communicates your
@@ -794,76 +1174,25 @@ const PrivacyAndPolicy = () => {
                   privacy notice.
                 </p>
               </div>
-              <div id="question-11" className={Style.sub_content_section}>
-                <h3>
-                  <strong>
-                    11. DO CALIFORNIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
-                  </strong>
-                </h3>
-                <p>
-                  <strong>In Short: </strong>Yes, if you are a resident of
-                  California, you are granted specific rights regarding access
-                  to your personal information.
-                </p>
-                <p>
-                  <strong>California Civil Code Section 1798.83</strong>, also
-                  known as the "Shine The Light" law, permits our users who are
-                  California residents to request and obtain from us, once a
-                  year and free of charge, information about categories of
-                  personal information (if any)we disclosed to third parties for
-                  direct marketing purposes and the names and addresses of all
-                  third parties with which we shared personal information in the
-                  immediately preceding calendar year.
-                </p>
-                <p>
-                  If you are a California resident and would like to make such a
-                  request, please submit your request in writing to us using the
-                  contact information provided below.
-                </p>
-                <p>
-                  If you are under 18 years of age, reside in California, and
-                  have a registered account with Services, you have the right to
-                  request removal of unwanted data that you publicly post on the
-                  Services. To request removal of such data, please contact us
-                  using the contact information provided below and include the
-                  email address associated with your account and a statement
-                  that you reside in California. We will make sure the data is
-                  not publicly displayed on the Services, but please be aware
-                  that the data may not be completely or comprehensively removed
-                  from all our systems (e.g. , backups, etc.).
-                </p>
-                <h4>CCPA Privacy Notice</h4>
-                <p>
-                  The California Code of Regulations defines a "resident" as:
-                </p>
-                <ul>
-                  <li>
-                    Every individual who is in the State of California for other
-                    than a temporary or transitory purpose and
-                  </li>
-                  <li>
-                    Every individual who is domiciled in the State of California
-                    who is outside the State of California for a temporary or
-                    transitory purpose
-                  </li>
-                </ul>
-                <p>All other individuals are defined as "non-residents."</p>
-                <p>
-                  If this definition of "resident" applies to you, we must
-                  adhere to certain rights and obligations regarding your
-                  personal information.
-                </p>
-              </div>
-
               <div id="question-12" className={Style.sub_content_section}>
                 <h3>
                   <strong>
-                    12. What categories of personal information do we collect?
+                    12. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY
+                    RIGHTS??
                   </strong>
                 </h3>
                 <p>
+                  <strong>In Short: </strong> If you are a resident of
+                  California, Colorado, Connecticut, Utah or Virginia, you are
+                  granted specific rights regarding access to your personal
+                  information.
+                </p>
+                <p>
+                  <u>What categories of personal information do we collect?</u>
+                </p>
+                <p>
                   We have collected the following categories of personal
-                  information in the past twelve(12) months:{" "}
+                  information in the past twelve (12) months:
                 </p>
                 <table className={Style.table}>
                   <thead>
@@ -882,17 +1211,14 @@ const PrivacyAndPolicy = () => {
                         personal identifier, online identifier, Internet
                         Protocol address, email address, and account name
                       </td>
-                      <td>Partially (Real name, alias, and email address)</td>
+                      <td>YES</td>
                     </tr>
                     <tr>
                       <td>
                         B. Personal information categories listed in the
                         California Customer Records statute
                       </td>
-                      <td>
-                        Name, contact information, education, employment,
-                        employment history, and financial information
-                      </td>
+                      <td>Education, employment, and employment history.</td>
                       <td>NO</td>
                     </tr>
                     <tr>
@@ -907,9 +1233,10 @@ const PrivacyAndPolicy = () => {
                       <td>D. Commercial information</td>
                       <td>
                         Transaction information, purchase history, financial
-                        details, and payment information
+                        details, and payment information for purchases made on
+                        the Eagle Bot Platform
                       </td>
-                      <td>NO</td>
+                      <td>YES</td>
                     </tr>
                     <tr>
                       <td>E. Biometric information</td>
@@ -921,14 +1248,15 @@ const PrivacyAndPolicy = () => {
                       <td>
                         Browsing history, search history, online behavior,
                         interest data, and interactions with our and other
-                        websites, applications, systems, and advertisements
+                        websites, applications, systems, and advertisements on
+                        the Eagle Browser
                       </td>
-                      <td>NO</td>
+                      <td>YES</td>
                     </tr>
                     <tr>
                       <td>G. Geolocation data</td>
                       <td>Device location</td>
-                      <td>NO</td>
+                      <td>YES</td>
                     </tr>
                     <tr>
                       <td>
@@ -958,7 +1286,7 @@ const PrivacyAndPolicy = () => {
                     </tr>
                     <tr>
                       <td>
-                        K. Inferences drawn from other personal information
+                        K. Inferences drawn from collected personal information
                       </td>
                       <td>
                         Inferences drawn from any of the collected personal
@@ -970,90 +1298,136 @@ const PrivacyAndPolicy = () => {
                     </tr>
                     <tr>
                       <td>L. Sensitive Personal Information</td>
-                      <td></td>
-                      <td>NO</td>
+                      <td>
+                        Account login information, debit or credit card numbers
+                        and precise geolocation
+                      </td>
+                      <td>YES</td>
                     </tr>
                   </tbody>
                 </table>
+                <p>
+                  We will use and retain the collected personal information as
+                  needed to provide the Services or for:
+                </p>
+                <p>Category A - As long as the user has an account with us</p>
+                <p>Category D - As long as the user has an account with us</p>
+                <p>Category F - As long as the user has an account with us</p>
+                <p>Category G - As long as the user has an account with us</p>
+                <p>Category L - As long as the user has an account with us</p>
+                <p>
+                  Category L information may be used, or disclosed to a service
+                  provider or contractor, for additional, specified purposes.
+                  You have the right to limit the use or disclosure of your
+                  sensitive personal information.
+                </p>
                 <p>
                   We may also collect other personal information outside of
                   these categories through instances where you interact with us
                   in person, online, or by phone or mail in the context of:
                 </p>
                 <ul>
+                  <li>Receiving help through our customer support channels;</li>
+                  <li>Participation in customer surveys or contests; and</li>
                   <li>
-                    <strong>
-                      Receiving help through our customer support channels;
-                    </strong>
-                  </li>
-                  <li>
-                    <strong>
-                      Participation in customer surveys or contests; and
-                    </strong>
-                  </li>
-                  <li>
-                    <strong>
-                      Facilitation in the delivery of our Services and to
-                      respond to your inquiries.
-                    </strong>
+                    Facilitation in the delivery of our Services and to respond
+                    to your inquiries
                   </li>
                 </ul>
-                <h6>
-                  <strong>
-                    How do we use and share your personal information?
-                  </strong>
-                </h6>
+                <p>How do we use and share your personal information?</p>
                 <p>
-                  More information about our data collection and sharing
-                  practices can be found in this <strong>privacy notice</strong>
-                  .
+                  <b>
+                    We do not engage in the SALE of any user data collected. The
+                    sole purpose of collecting this data is to ensure the proper
+                    functioning of the Eagle Bot platform.
+                  </b>
                 </p>
                 <p>
-                  You may contact us by visiting &nbsp;
-                  <a href="/contact">Eagle Bot</a>, or by referring to the
-                  contact details at the bottom of this document.
+                  Learn about how we use your personal information in the
+                  section, "HOW DO WE PROCESS YOUR INFORMATION?"
                 </p>
                 <p>
-                  If you are using an authorized agent to exercise your right to
-                  opt out we may deny a request if the authorized agent does not
-                  submit proof that they have been validly authorized to act on
-                  your behalf.
-                </p>
-                <h6>
-                  <strong>
+                  <strnog>
                     Will your information be shared with anyone else?
-                  </strong>
-                </h6>
+                  </strnog>
+                </p>
                 <p>
                   We may disclose your personal information with our service
                   providers pursuant to a written contract between us and each
-                  service provider. Each service provider is a for-profit entity
-                  that processes the information on our behalf, following the
-                  same strict privacy protection obligations mandated by the
-                  CCPA.
+                  service provider. Learn more about how we disclose personal
+                  information in the section, "WHEN AND WITH WHOM DO WE SHARE
+                  YOUR PERSONAL INFORMATION?"
                 </p>
                 <p>
                   We may use your personal information for our own business
                   purposes, such as for undertaking internal research for
                   technological development and demonstration. This is not
-                  considered to be "selling" of your personal information.
+                  considered to be "selling" your personal information.
                 </p>
                 <p>
-                  We have not disclosed, sold, or shared any personal
-                  information to third parties for a business or commercial
-                  purpose in the preceding twelve (12) months. We will not sell
-                  or share personal information in the future belonging to
-                  website visitors, users, and other consumers.
+                  We have not sold or shared any personal information to third
+                  parties for a business or commercial purpose in the preceding
+                  twelve (12) months
                 </p>
                 <p>
-                  <strong>
-                    Your rights with respect to your personal data
-                  </strong>
+                  <b>California Residents</b>
                 </p>
                 <p>
-                  <strong>
+                  California Civil Code Section 1798.83, also known as the
+                  "Shine The Light" law permits our users who are California
+                  residents to request and obtain from us, once a year and free
+                  of charge, information about categories of personal
+                  information (if any) we disclosed to third parties for direct
+                  marketing purposes and the names and addresses of all third
+                  parties with which we shared personal information in the
+                  immediately preceding calendar year. If you are a California
+                  resident and would like to make such a request, please submit
+                  your request in writing to us using the contact information
+                  provided below.
+                </p>
+                <p>
+                  If you are under 18 years of age, reside in California, and
+                  have a registered account with the Services, you have the
+                  right to request removal of unwanted data that you publicly
+                  post on the Services. To request removal of such data, please
+                  contact us using the contact information provided below and
+                  include the email address associated with your account and a
+                  statement that you reside in California. We will make sure the
+                  data is not publicly displayed on the Services, but please be
+                  aware that the data may not be completely or comprehensively
+                  removed from all our systems (e.g., backups, etc.).
+                </p>
+                <p>
+                  <strong>CCPA Privacy Notice</strong>
+                </p>
+                <p>
+                  This section applies only to California residents. Under the
+                  California Consumer Privacy Act (CCPA), you have the rights
+                  listed below.
+                </p>
+                <p>
+                  The California Code of Regulations defines a "residents" as:
+                </p>
+                <p>
+                  (1) every individual who is in the State of California for
+                  other than a temporary or transitory purpose and
+                </p>
+                <p>
+                  (2) every individual who is domiciled in the State of
+                  California who is outside the State of California for a
+                  temporary or transitory purpose
+                </p>
+                <p>All other individuals are defined as "non-residents."</p>
+                <p>
+                  If this definition of "resident" applies to you, we must
+                  adhere to certain rights and obligations regarding your
+                  personal information.
+                </p>
+                <p>Your rights with respect to your personal data</p>
+                <p>
+                  <u>
                     Right to request deletion of the data — Request to delete
-                  </strong>
+                  </u>
                 </p>
                 <p>
                   You can ask for the deletion of your personal information. If
@@ -1066,7 +1440,7 @@ const PrivacyAndPolicy = () => {
                   required to protect against illegal activities.
                 </p>
                 <p>
-                  <strong>Right to be informed — Request to know</strong>
+                  <u>Right to be informed — Request to know</u>
                 </p>
                 <p>Depending on the circumstances, you have a right to know:</p>
                 <ul>
@@ -1099,34 +1473,79 @@ const PrivacyAndPolicy = () => {
                     the specific pieces of personal information we collected
                     about you.
                   </li>
+                  <li>
+                    In accordance with applicable law, we are not obligated to
+                    provide or delete consumer information that is de-identified
+                    in response to a consumer request or to re-identify
+                    individual data to verify a consumer request.
+                  </li>
                 </ul>
                 <p>
-                  In accordance with applicable law, we are not obligated to
-                  provide or delete consumer information that is de-identified
-                  in response to a consumer request or to re-identify individual
-                  data to verify a consumer request.
-                </p>
-                <p>
-                  <strong>
-                    Right to Non-Discrimination for the Exercise of a Consumer's
+                  <u>
+                    Right to Non-Discrimination for the Exercise of a Consumer’s
                     Privacy Rights
-                  </strong>
+                  </u>
                 </p>
                 <p>
                   We will not discriminate against you if you exercise your
                   privacy rights.
                 </p>
                 <p>
-                  <strong>
-                    Right to Limit Use and Disclosure of Sensitive Personal
-                    Information
-                  </strong>
+                  Right to Limit Use and Disclosure of Sensitive Personal
+                  Information
+                </p>
+                <p>If the business collects any of the following:</p>
+                <ul>
+                  <li>
+                    social security information, drivers' licenses, state ID
+                    cards, passport numbers
+                  </li>
+                  <li>account login information</li>
+                  <li>
+                    credit card numbers, financial account information, or
+                    credentials allowing access to such accounts
+                  </li>
+                  <li>precise geolocation</li>
+                  <li>
+                    racial or ethnic origin, religious or philosophical beliefs,
+                    union membership
+                  </li>
+                  <li>
+                    the contents of email and text, unless the business is the
+                    intended recipient of the communication
+                  </li>
+                  <li>genetic data, biometric data, and health data</li>
+                  <li>data concerning sexual orientation and sex life</li>
+                  <li>
+                    you have the right to direct that business to limit its use
+                    of your sensitive personal information to that use which is
+                    necessary to perform the Services.
+                  </li>
+                </ul>
+                <p>
+                  Once a business receives your request, they are no longer
+                  allowed to use or disclose your sensitive personal information
+                  for any other purpose unless you provide consent for the use
+                  or disclosure of sensitive personal information for additional
+                  purposes.
                 </p>
                 <p>
-                  We do not process consumer's sensitive personal information.
+                  Please note that sensitive personal information that is
+                  collected or processed without the purpose of inferring
+                  characteristics about a consumer is not covered by this right,
+                  as well as the publicly available information.
                 </p>
                 <p>
-                  <strong>Verification process</strong>
+                  To exercise your right to limit use and disclosure of
+                  sensitive personal information, please email
+                  privacy@eagle-bot.com or visit:
+                  <a href="https://www.eagle-bot.com/contact">
+                    https://www.eagle-bot.com/contact
+                  </a>
+                  .
+                </p>
+                <p>
+                  <b>Verification process</b>
                 </p>
                 <p>
                   Upon receiving your request, we will need to verify your
@@ -1156,82 +1575,109 @@ const PrivacyAndPolicy = () => {
                 </p>
                 <p>
                   <strong>Other privacy rights</strong>
+                  <ul>
+                    <li>
+                      You may object to the processing of your personal
+                      information.
+                    </li>
+                    <li>
+                      You may request correction of your personal data if it is
+                      incorrect or no longer relevant, or ask to restrict the
+                      processing of the information.
+                    </li>
+                    <li>
+                      You can designate an authorized agent to make a request
+                      under the CCPA on your behalf. We may deny a request from
+                      an authorized agent that does not submit proof that they
+                      have been validly authorized to act on your behalf in
+                      accordance with the CCPA.
+                    </li>
+                    <li>
+                      You may request to opt out from future selling or sharing
+                      of your personal information to third parties. Upon
+                      receiving an opt-out request, we will act upon the request
+                      as soon as feasibly possible, but no later than fifteen
+                      (15) days from the date of the request submission.
+                    </li>
+                    <li>
+                      To exercise these rights, you can contact us by visiting{" "}
+                      <a href="https://www.eagle-bot.com/contact">
+                        https://www.eagle-bot.com/contact
+                      </a>
+                      , by email at{" "}
+                      <a href="mailto:privacy@eagle-bot.com">
+                        privacy@eagle-bot.com
+                      </a>
+                      , by visiting{" "}
+                      <a href="https://www.eagle-bot.com/contact">
+                        https://www.eagle-bot.com/contact
+                      </a>
+                      , or by referring to the contact details at the bottom of
+                      this document. If you have a complaint about how we handle
+                      your data, we would like to hear from you.
+                    </li>
+                  </ul>
+                  <p>
+                    <b>Colorado Residents</b>
+                  </p>
+                  <p>
+                    This section applies only to Colorado residents. Under the
+                    Colorado Privacy Act (CPA), you have the rights listed
+                    below. However, these rights are not absolute, and in
+                    certain cases, we may decline your request as permitted by
+                    law.
+                  </p>
+                  <ul>
+                    <li>
+                      Right to be informed whether or not we are processing your
+                      personal data
+                    </li>
+                    <li>Right to access your personal data</li>
+                    <li>Right to correct inaccuracies in your personal data</li>
+                    <li>Right to request deletion of your personal data</li>
+                    <li>
+                      Right to obtain a copy of the personal data you previously
+                      shared with us
+                    </li>
+                    <li>
+                      Right to opt out of the processing of your personal data
+                      if it is used for targeted advertising, the sale of
+                      personal data, or profiling in furtherance of decisions
+                      that produce legal or similarly significant effects
+                      ("profiling")
+                    </li>
+                    <li>
+                      To submit a request to exercise these rights described
+                      above, please email{" "}
+                      <a href="mailto:privacy@eagle-bot.com">
+                        privacy@eagle-bot.com
+                      </a>{" "}
+                      or visit{" "}
+                      <a href="https://www.eagle-bot.com/contact">
+                        https://www.eagle-bot.com/contact
+                      </a>
+                      .
+                    </li>
+                  </ul>
+                  <p>
+                    If we decline to take action regarding your request and you
+                    wish to appeal our decision, please email us at
+                    privacy@eagle-bot.com. Within forty-five (45) days of
+                    receipt of an appeal, we will inform you in writing of any
+                    action taken or not taken in response to the appeal,
+                    including a written explanation of the reasons for the
+                    decisions.
+                  </p>
                 </p>
-                <ul>
-                  <li>
-                    You may object to the processing of your personal
-                    information.
-                  </li>
-                  <li>
-                    You may request correction of your personal data if it is
-                    incorrect or no longer relevant, or ask to restrict the
-                    processing of the information.
-                  </li>
-                  <li>
-                    You can designate an authorized agent to make a request
-                    under the CCPA on your behalf. We may deny a request from an
-                    authorized agent that does not submit proof that they have
-                    been validly authorized to act on your behalf in accordance
-                    with the CCPA.
-                  </li>
-                  <li>
-                    You may request to opt out from future selling or sharing of
-                    your personal information to third parties. Upon receiving
-                    an opt-out request, we will act upon the request as soon as
-                    feasibly possible, but no later than fifteen (15) days from
-                    the date of the request submission.
-                  </li>
-                </ul>
                 <p>
-                  To exercise these rights, you can contact us by visiting
-                  &nbsp;<a href="/contact">Eagle Bot</a>, or by referring to the
-                  contact details at the bottom of this document. If you have a
-                  complaint about how we handle your data, we would like to hear
-                  from you.
-                </p>
-              </div>
-              <div id="question-13" className={Style.sub_content_section}>
-                <h3>
-                  <strong>
-                    13. DO VIRGINIA RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?
-                  </strong>
-                </h3>
-                <p>
-                  <strong>In Short:</strong> Yes, if you are a resident of
-                  Virginia, you may be granted specific rights regarding access
-                  to and use of your personal information.
+                  <b>Connecticut Residents</b>
                 </p>
                 <p>
-                  <strong>Virginia CDPA Privacy Notice</strong>
-                </p>
-                <p>Under the Virginia Consumer Data Protection Act (CDPA):</p>
-                <ul>
-                  <li>
-                    "Consumer" means a natural person who is a resident of the
-                    Commonwealth acting only in an individual or household
-                    context. It does not include a natural person acting in a
-                    commercial or employment context.
-                  </li>
-                  <li>
-                    "Personal data" means any information that is linked or
-                    reasonably linkable to an identified or identifiable natural
-                    person. "Personal data" does not include de-identified data
-                    or publicly available information.
-                  </li>
-                  <li>
-                    "Sale of personal data" means the exchange of personal data
-                    for monetary consideration.
-                  </li>
-                </ul>
-                <p>
-                  If this definition "consumer" applies to you, we must adhere
-                  to certain rights and obligations regarding your personal
-                  data.
-                </p>
-                <p>
-                  <strong>
-                    Your rights with respect to your personal data
-                  </strong>
+                  This section applies only to Connecticut residents. Under the
+                  Connecticut Data Privacy Act (CTDPA), you have the rights
+                  listed below. However, these rights are not absolute, and in
+                  certain cases, we may decline your request as permitted by
+                  law.
                 </p>
                 <ul>
                   <li>
@@ -1251,29 +1697,121 @@ const PrivacyAndPolicy = () => {
                     data, or profiling in furtherance of decisions that produce
                     legal or similarly significant effects ("profiling")
                   </li>
+                  <li>
+                    To submit a request to exercise these rights described
+                    above, please email privacy@eagle-bot.com or visit{" "}
+                    <a href="https://www.eagle-bot.com/contact">
+                      https://www.eagle-bot.com/contact
+                    </a>
+                    .
+                  </li>
                 </ul>
                 <p>
-                  We have not sold any personal data to third parties for
-                  business or commercial purposes. We will not sell personal
-                  data in the future belonging to website visitors, users, and
-                  other consumers.
+                  If we decline to take action regarding your request and you
+                  wish to appeal our decision, please email us at
+                  privacy@eagle-bot.com. Within sixty (60) days of receipt of an
+                  appeal, we will inform you in writing of any action taken or
+                  not taken in response to the appeal, including a written
+                  explanation of the reasons for the decisions.
                 </p>
                 <p>
-                  <strong>
-                    Exercise your rights provided under the Virginia CDPA
-                  </strong>
+                  <b>Utah Residents</b>
                 </p>
                 <p>
-                  More information about our data collection and sharing
-                  practices can be found in this privacy notice.
+                  This section applies only to Utah residents. Under the Utah
+                  Consumer Privacy Act (UCPA), you have the rights listed below.
+                  However, these rights are not absolute, and in certain cases,
+                  we may decline your request as permitted by law.
+                </p>
+                <ul>
+                  <li>
+                    Right to be informed whether or not we are processing your
+                    personal data
+                  </li>
+                  <li>Right to access your personal data</li>
+                  <li>Right to request deletion of your personal data</li>
+                  <li>
+                    Right to obtain a copy of the personal data you previously
+                    shared with us
+                  </li>
+                  <li>
+                    Right to opt out of the processing of your personal data if
+                    it is used for targeted advertising or the sale of personal
+                    data
+                  </li>
+                  <li>
+                    To submit a request to exercise these rights described
+                    above, please email privacy@eagle-bot.com or visit{" "}
+                    <a href="https://www.eagle-bot.com/contact">
+                      https://www.eagle-bot.com/contact
+                    </a>
+                    .
+                  </li>
+                </ul>
+                <p>
+                  <b>Virginia Residents</b>
+                </p>
+                <p>Under the Virginia Consumer Data Protection Act (VCDPA):</p>
+                <p>
+                  "Consumer" means a natural person who is a resident of the
+                  Commonwealth acting only in an individual or household
+                  context. It does not include a natural person acting in a
+                  commercial or employment context.
                 </p>
                 <p>
-                  You may contact us by email at privacy@eagle-bot.com, by
-                  submitting a data subject access request, or by referring to
-                  the contact details at the bottom of this document.
+                  "Personal data" means any information that is linked or
+                  reasonably linkable to an identified or identifiable natural
+                  person. "Personal data" does not include de-identified data or
+                  publicly available information.
                 </p>
                 <p>
-                  <strong>Verification process</strong>
+                  "Sale of personal data" means the exchange of personal data
+                  for monetary consideration.
+                </p>
+                <p>
+                  If this definition of "consumer" applies to you, we must
+                  adhere to certain rights and obligations regarding your
+                  personal data.
+                </p>
+                <p>Your rights with respect to your personal data</p>
+                <ul>
+                  <li>
+                    Right to be informed whether or not we are processing your
+                    personal data
+                  </li>
+                  <li>Right to access your personal data</li>
+                  <li>Right to correct inaccuracies in your personal data</li>
+                  <li>Right to request deletion of your personal data</li>
+                  <li>
+                    Right to obtain a copy of the personal data you previously
+                    shared with us
+                  </li>
+                  <li>
+                    Right to opt out of the processing of your personal data if
+                    it is used for targeted advertising, the sale of personal
+                    data, or profiling in furtherance of decisions that produce
+                    legal or similarly significant effects ("profiling")
+                  </li>
+                  <li>
+                    Exercise your rights provided under the Virginia VCDPA
+                  </li>
+                  <li>
+                    You may contact us by email at privacy@eagle-bot.com or
+                    visit{" "}
+                    <a href="https://www.eagle-bot.com/contact">
+                      https://www.eagle-bot.com/contact
+                    </a>
+                    .
+                  </li>
+                </ul>
+                <p>
+                  If you are using an authorized agent to exercise your rights,
+                  we may deny a request if the authorized agent does not submit
+                  proof that they have been validly authorized to act on your
+                  behalf.
+                </p>
+                <p>
+                  <b>Verification process</b>
                 </p>
                 <p>
                   We may request that you provide additional information
@@ -1292,7 +1830,7 @@ const PrivacyAndPolicy = () => {
                   extension.
                 </p>
                 <p>
-                  <strong>Right to appeal</strong>
+                  <b>Right to appeal</b>
                 </p>
                 <p>
                   If we decline to take action regarding your request, we will
@@ -1302,8 +1840,83 @@ const PrivacyAndPolicy = () => {
                   appeal, we will inform you in writing of any action taken or
                   not taken in response to the appeal, including a written
                   explanation of the reasons for the decisions. If your appeal
-                  if denied, you may contact the Attorney General to submit a
+                  is denied, you may contact the Attorney General to submit a
                   complaint.
+                </p>
+              </div>
+
+              <div id="question-13" className={Style.sub_content_section}>
+                <h3>
+                  <strong>
+                    13. DO OTHER REGIONS HAVE SPECIFIC PRIVACY RIGHTS?
+                  </strong>
+                </h3>
+                <p>
+                  <strong>In Short:</strong> You may have additional rights
+                  based on the country you reside in.
+                </p>
+                <p>
+                  <b>Australia and New Zealand</b>
+                </p>
+                <p>
+                  We collect and process your personal information under the
+                  obligations and conditions set by Australia's Privacy Act 1988
+                  and New Zealand's Privacy Act 2020 (Privacy Act).
+                </p>
+                <p>
+                  This privacy notice satisfies the notice requirements defined
+                  in both Privacy Acts, in particular: what personal information
+                  we collect from you, from which sources, for which purposes,
+                  and other recipients of your personal information.
+                </p>
+                <p>
+                  If you do not wish to provide the personal information
+                  necessary to fulfill their applicable purpose, it may affect
+                  our ability to provide our services, in particular:
+                </p>
+                <ul>
+                  <li>offer you the products or services that you want</li>
+                  <li>respond to or help with your requests</li>
+                  <li>manage your account with us</li>
+                  <li>confirm your identity and protect your account</li>
+                  <li>
+                    At any time, you have the right to request access to or
+                    correction of your personal information. You can make such a
+                    request by contacting us by using the contact details
+                    provided in the section "HOW CAN YOU REVIEW, UPDATE, OR
+                    DELETE THE DATA WE COLLECT FROM YOU?"
+                  </li>
+                </ul>
+                <p>
+                  If you believe we are unlawfully processing your personal
+                  information, you have the right to submit a complaint about a
+                  breach of the Australian Privacy Principles to the Office of
+                  the Australian Information Commissioner and a breach of New
+                  Zealand's Privacy Principles to the Office of New Zealand
+                  Privacy Commissioner.
+                </p>
+                <p>
+                  <b>Republic of South Africa</b>
+                </p>
+                <p>
+                  At any time, you have the right to request access to or
+                  correction of your personal information. You can make such a
+                  request by contacting us by using the contact details provided
+                  in the section "HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA
+                  WE COLLECT FROM YOU?"
+                </p>
+                <p>
+                  If you are unsatisfied with the manner in which we address any
+                  complaint with regard to our processing of personal
+                  information, you can contact the office of the regulator, the
+                  details of which are:
+                </p>
+                <p>The Information Regulator (South Africa)</p>
+                <p>General enquiries: enquiries@inforegulator.org.za</p>
+                <p>
+                  Complaints (complete POPIA/PAIA form 5):
+                  PAIAComplaints@inforegulator.org.za &
+                  POPIAComplaints@inforegulator.org.za
                 </p>
               </div>
               <div id="question-14" className={Style.sub_content_section}>
@@ -1332,11 +1945,14 @@ const PrivacyAndPolicy = () => {
                 </h3>
                 <p>
                   If you have questions or comments about this notice, you may
-                  contact our Data Protection Officer (DPO), by email at
-                  privacy@eagle-bot.com.
+                  contact our Data Protection Officer (DPO) by email at
+                  privacy@eagle-bot.com , or contact us by post at:
                 </p>
+                <p>Eagle Bot PTE LTD</p>
+                <p>160 Robinson Rd, #14 04, Singapore 068914</p>
+                <p>Singapore 068914</p>
+                <p>Singapore</p>
               </div>
-
               <div id="question-16" className={Style.sub_content_section}>
                 <h3>
                   <strong>
@@ -1349,8 +1965,11 @@ const PrivacyAndPolicy = () => {
                   right to request access to the personal information we collect
                   from you, change that information, or delete it. To request to
                   review, update, or delete your personal information, please
-                  fill out and submit a data subject access request here: &nbsp;
-                  <a href="/contact">Eagle Bot</a>.
+                  visit:{" "}
+                  <a href="https://www.eagle-bot.com/contact">
+                    https://www.eagle-bot.com/contact
+                  </a>{" "}
+                  .
                 </p>
               </div>
             </div>

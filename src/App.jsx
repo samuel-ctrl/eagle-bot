@@ -21,19 +21,19 @@ function App() {
           element={<NotFound from={from} setFrom={setFrom} />}
         ></Route>
         <Route
-          path="/terms-and-conditions"
+          path="/termsofuse"
           element={<TermsAndCons from={from} setFrom={setFrom} />}
         ></Route>
         <Route
-          path="/privacy-policy"
+          path="/privacypolicy"
           element={<PrivacyAndPolicy from={from} setFrom={setFrom} />}
         ></Route>
         <Route
-          path="/cookie-policy"
+          path="/cookiepolicy"
           element={<CookiePolicy from={from} setFrom={setFrom} />}
         ></Route>
         <Route
-          path="/end-user-license-agreement"
+          path="/EULA"
           element={<Eula from={from} setFrom={setFrom} />}
         ></Route>
         <Route

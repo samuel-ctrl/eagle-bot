@@ -769,8 +769,10 @@ const TermsAndCons = () => {
                   <strong>By email</strong>: support@eagle-bot.com
                 </p>
                 <p>
-                  <strong>Via a form on our website</strong>:
-                  https://www.eagle-bot.com/contact
+                  <strong>Via a form on our website</strong>:&nbsp;
+                  <a href="https://www.eagle-bot.com/contact">
+                    https://www.eagle-bot.com/contact
+                  </a>
                 </p>
                 <p>
                   We will contact you via email if we have any questions or

@@ -53,6 +53,9 @@ const TermsAndCons = () => {
               <a href="#software">SOFTWARE</a>
             </li>
             <li>
+              <a href="#refund_policy">REFUND_POLICY</a>
+            </li>
+            <li>
               <a href="#prohibited_activities">PROHIBITED ACTIVITIES</a>
             </li>
             <li>
@@ -722,6 +725,56 @@ const TermsAndCons = () => {
                   and all risk arising out of use or performance of any
                   software. You may not reproduce or redistribute any software
                   except in accordance with the EULA or these Legal Terms.
+                </p>
+              </div>
+              <div id="refund_policy" className={Style.sub_content_section}>
+                <h3>
+                  <strong>9. REFUND POLICY</strong>
+                </h3>
+                <p>
+                  For the purposes of this Return and Refund Policy we establish
+                  the following definitions: “Products” means all products and
+                  services sold at eagle-bot.com
+                </p>
+                <p>
+                  “Orders” refers to your requests to purchase a Product from
+                  us.
+                </p>
+                <p>
+                  “Website” refers to Eagle Bot, accessible at eagle-bot.com and
+                  all other pages within the eagle-bot domain.
+                </p>
+                <h3>What’s Eagle Bot Return and Refund Policy?</h3>
+                <p>
+                  <strong>We do not process any refunds at the moment</strong>.
+                </p>
+                <h3>Return Policy Exceptions</h3>
+                <p>
+                  <strong>Return & Refund Process</strong>
+                </p>
+                <p>
+                  If for any reason you feel that the purchase is eligible for a
+                  refund, please make sure that you follow the steps below to
+                  start the return process and we would review each case
+                  individually.
+                </p>
+                <p>
+                  <strong>Notify us</strong>
+                </p>
+                <p>
+                  Please notify us as soon as possible of your intention for a
+                  refund for a particular product. You can notify us
+                </p>
+                <p>
+                  <strong>By email</strong>: support@eagle-bot.com
+                </p>
+                <p>
+                  <strong>Via a form on our website</strong>:
+                  https://www.eagle-bot.com/contact
+                </p>
+                <p>
+                  We will contact you via email if we have any questions or
+                  concerns regarding your Refund request within 10 working days.
                 </p>
               </div>
               <div

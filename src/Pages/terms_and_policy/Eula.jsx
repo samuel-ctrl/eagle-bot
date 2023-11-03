@@ -385,27 +385,24 @@ const Eula = () => {
                 <h3>
                   <strong>3. TECHNICAL REQUIREMENTS</strong>
                 </h3>
-                <p>
-                  3.1 The Licensed Application requires a firmware version 2.0.0
-                  or higher. Licensor recommends using the latest version of the
-                  firmware.
-                </p>
-                <p>
-                  3.2 Licensor attempts to keep the Licensed Application updated
-                  so that it complies with modified/new versions of the firmware
-                  and new hardware. You are not granted rights to claim such an
-                  update.
-                </p>
-                <p>
-                  3.3 You acknowledge that it is Your responsibility to confirm
-                  and determine that the app end-user device on which You intend
-                  to use the Licensed Application satisfies the technical
-                  specifications mentioned above
-                </p>
-                <p>
-                  3.4 Licensor reserves the right to modify the technical
-                  specifications as it sees appropriate at any time.
-                </p>
+                <h4>
+                  <strong>Windows 10/11 64bit</strong>
+                </h4>
+                <ul>
+                  <li>x86 CPU with 2 cores</li>
+                  <li>8 GB RAM</li>
+                  <li>4 GB HDD/SSD</li>
+                  <li>Modern 3D graphics card with at least 1GB</li>
+                </ul>
+                <h4>
+                  <strong>MacOS 13.6.1+</strong>
+                </h4>
+                <ul>
+                  <li>x86 CPU with 2 cores or M1+ CPU</li>
+                  <li>8 GB RAM</li>
+                  <li>4 GB HDD/SSD</li>
+                  <li>Modern 3D graphics card with at least 1GB</li>
+                </ul>
               </div>
 
               <div id="question-4" className={Style.sub_content_section}>

@@ -7,7 +7,9 @@ import NotFound from "./Pages/404Page";
 import TermsAndCons from "./Pages/terms_and_policy/TermsAndCons";
 import PrivacyAndPolicy from "./Pages/terms_and_policy/PrivacyAndPolicy";
 import CookiePolicy from "./Pages/terms_and_policy/cookiePolicy";
-import Eula from "./Pages/terms_and_policy/Eula"
+import Eula from "./Pages/terms_and_policy/Eula";
+import MicrosoftTutorial from "./Pages/tutorials/microsoft";
+import GoogleTutorial from "./Pages/tutorials/google";
 
 function App() {
   const [from, setFrom] = useState("");
@@ -35,6 +37,14 @@ function App() {
         <Route
           path="/EULA"
           element={<Eula from={from} setFrom={setFrom} />}
+        ></Route>
+        <Route
+          path="/microsoft-tutorial"
+          element={<MicrosoftTutorial from={from} setFrom={setFrom} />}
+        ></Route>
+        <Route
+          path="/google-tutorial"
+          element={<GoogleTutorial from={from} setFrom={setFrom} />}
         ></Route>
         <Route
           path="/"

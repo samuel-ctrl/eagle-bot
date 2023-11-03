@@ -3,6 +3,11 @@
   background-color: black;
 }
 
+.large-image {
+  width: 10px; /* Adjust the width as needed */
+  height: 10px; /* Adjust the height as needed */
+}
+
 .logo img {
   margin: 15px 0 0 3%;
   width: 190px;

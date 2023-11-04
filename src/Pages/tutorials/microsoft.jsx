@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import Style from "../terms_and_policy/style.module.css";
 import EagleBotLogoSvg from "../../assets/images/svg/eagle-bot-logo.svg";
-import AzurePng from "../../assets/images/png/create-service-principal-azure-aad.png";
+import Azure1 from "../../assets/images/png/azure1.png";
 import AzureNewReg from "../../assets/images/png/azure-new-reg.png";
 import AzureReg from "../../assets/images/png/azure-register.png";
 import AzureNewApp from "../../assets/images/png/azure-new-app.png";
@@ -37,7 +37,10 @@ const MicrosoftTutorial = () => {
         <div className={Style.card_container}>
           <div className={Style.content_container}>
             <div className={Style.panel_head}>
-              <h1>Instructions for Microsoft Azure App Registration</h1>
+              <h1>
+                Instructions for generating Microsoft Azure Client Id and Client
+                Secret
+              </h1>
             </div>
             <div className={Style.panel_body}>
               {/* <p className={Style.update}>Last updated October 27, 2023</p> */}
@@ -51,18 +54,19 @@ const MicrosoftTutorial = () => {
                 </p>
                 <p>
                   2. Select <strong>Microsoft Entra ID</strong> from the
-                  left-hand side menu.
+                  left-hand side menu. In the Microsoft Entra Overview page, you
+                  can find the <strong>Microsoft Entra tenant ID</strong>.
                 </p>
 
                 <img
-                  src={AzurePng}
+                  src={Azure1}
                   alt="Azure logo"
                   style={{ width: "700px", height: "400px" }}
                   // className="large-image"
                 ></img>
                 <p>
-                  3. Select <strong>App registrations</strong> and +{" "}
-                  <strong>New registration.</strong>
+                  3. Now Go ahead and Select <strong>App registrations</strong>{" "}
+                  and + <strong>New registration.</strong>
                 </p>
                 <img
                   src={AzureNewReg}
@@ -81,11 +85,10 @@ const MicrosoftTutorial = () => {
                   </strong>
                 </p>
                 <p>
-                  6. For <strong>Redirect URI</strong> select{" "}
-                  <strong>Web</strong> and enter any URL you want. If you have
-                  an authentication endpoint for your organization you want to
-                  use, this is the place. Otherwise https://example.com/auth
-                  will do.
+                  6. For the <strong>Redirect URI</strong>, select{" "}
+                  <strong>'Web'</strong> and enter the desired URL. If you don't
+                  have an authentication endpoint for your organization, you can
+                  use https://example.com/auth.
                 </p>
                 <p>7. Then select Register.</p>
                 <img
@@ -159,8 +162,13 @@ const MicrosoftTutorial = () => {
                   style={{ width: "700px", height: "400px" }}
                   // className="large-image"
                 ></img>
+                <p>
+                  6. Voila! You now have all the required fields such as
+                  tenantId, clientId, and clientSecret. Enter them in the
+                  corresponding Eagle Bot form fields.
+                </p>
               </div>
-
+              {/* 
               <div className={Style.sub_content_section}>
                 <h3>
                   <strong>Adding the secret to your Azure Key Vault</strong>
@@ -209,7 +217,7 @@ const MicrosoftTutorial = () => {
                 <p>
                   5. Select <strong>Create</strong> to complete
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

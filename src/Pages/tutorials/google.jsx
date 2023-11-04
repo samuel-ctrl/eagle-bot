@@ -52,10 +52,10 @@ const GoogleTutorial = () => {
                   </a>
                 </p>
                 <p>
-                  2. Expand the menu by Google Cloud Platform, and click IAM &
-                  Admin.
+                  2. Access the Google Cloud Platform menu, then click on{" "}
+                  <strong>"IAM & Admin."</strong>
                 </p>
-                <p>3. Click ‘Service accounts’.</p>
+                <p>3. Select "Service accounts.".</p>
                 <img
                   src={Gcp1}
                   alt="GCP Image"
@@ -73,8 +73,9 @@ const GoogleTutorial = () => {
                   // className="large-image"
                 ></img>
                 <p>
-                  If the button is not visible, create a project first in order
-                  to 'Create Service Account’.
+                  If the <strong>‘Create Service Account’</strong> button is not
+                  visible, create a project first in order to create a service
+                  account’.
                 </p>
                 <img
                   src={Gcp3}
@@ -83,9 +84,9 @@ const GoogleTutorial = () => {
                   // className="large-image"
                 ></img>
                 <p>
-                  5. Create the service account by entering the name, ID, and
-                  description at the ‘Create Service Account’ process. Then
-                  grant the access and create the account.
+                  5. To create the service account, provide the name, ID, and
+                  description during the 'Create Service Account' process.
+                  Proceed to grant access and finalize the account creation.
                 </p>
                 <img
                   src={Gcp4}
@@ -93,7 +94,7 @@ const GoogleTutorial = () => {
                   style={{ width: "700px", height: "400px" }}
                   // className="large-image"
                 ></img>
-                <p>6. Click on Email of the service account.</p>
+                <p>6. Select the email associated with the service account.</p>
                 <img
                   src={Gcp5}
                   alt="GCP Image"

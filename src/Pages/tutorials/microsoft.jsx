@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import Style from "../terms_and_policy/style.module.css";
 import EagleBotLogoSvg from "../../assets/images/svg/eagle-bot-logo.svg";
-import Azure1 from "../../assets/images/png/azure1.png";
+import azure from "../../assets/images/png/azure.png";
 import AzureNewReg from "../../assets/images/png/azure-new-reg.png";
 import AzureReg from "../../assets/images/png/azure-register.png";
 import AzureNewApp from "../../assets/images/png/azure-new-app.png";
@@ -59,7 +59,7 @@ const MicrosoftTutorial = () => {
                 </p>
 
                 <img
-                  src={Azure1}
+                  src={azure}
                   alt="Azure logo"
                   style={{ width: "700px", height: "400px" }}
                   // className="large-image"

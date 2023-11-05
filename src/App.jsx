@@ -10,6 +10,9 @@ import CookiePolicy from "./Pages/terms_and_policy/cookiePolicy";
 import Eula from "./Pages/terms_and_policy/Eula";
 import MicrosoftTutorial from "./Pages/tutorials/microsoft";
 import GoogleTutorial from "./Pages/tutorials/google";
+import AWSTutorial from "./Pages/tutorials/aws";
+import EagleBrowserStaticPage from "./Pages/static_pages/eagleBrowserStaticPage";
+import DefaultSearchShortcuts from "./Pages/static_pages/defaultSearchShortcuts";
 
 function App() {
   const [from, setFrom] = useState("");
@@ -45,6 +48,18 @@ function App() {
         <Route
           path="/google-tutorial"
           element={<GoogleTutorial from={from} setFrom={setFrom} />}
+        ></Route>
+        <Route
+          path="/aws-tutorial"
+          element={<AWSTutorial from={from} setFrom={setFrom} />}
+        ></Route>
+        <Route
+          path="/eagle-browser-settings"
+          element={<EagleBrowserStaticPage from={from} setFrom={setFrom} />}
+        ></Route>
+        <Route
+          path="/default-search-shortcuts-malware"
+          element={<DefaultSearchShortcuts from={from} setFrom={setFrom} />}
         ></Route>
         <Route
           path="/"

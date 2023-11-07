@@ -8,11 +8,9 @@ import TermsAndCons from "./Pages/terms_and_policy/TermsAndCons";
 import PrivacyAndPolicy from "./Pages/terms_and_policy/PrivacyAndPolicy";
 import CookiePolicy from "./Pages/terms_and_policy/cookiePolicy";
 import Eula from "./Pages/terms_and_policy/Eula";
-import MicrosoftTutorial from "./Pages/tutorials/microsoft";
-import GoogleTutorial from "./Pages/tutorials/google";
-import AWSTutorial from "./Pages/tutorials/aws";
 import EagleBrowserStaticPage from "./Pages/static_pages/eagleBrowserStaticPage";
 import DefaultSearchShortcuts from "./Pages/static_pages/defaultSearchShortcuts";
+import CloudAcessTutorials from "./Pages/tutorials/cloudAccessTutorials";
 
 function App() {
   const [from, setFrom] = useState("");
@@ -42,16 +40,8 @@ function App() {
           element={<Eula from={from} setFrom={setFrom} />}
         ></Route>
         <Route
-          path="/microsoft-tutorial"
-          element={<MicrosoftTutorial from={from} setFrom={setFrom} />}
-        ></Route>
-        <Route
-          path="/google-tutorial"
-          element={<GoogleTutorial from={from} setFrom={setFrom} />}
-        ></Route>
-        <Route
-          path="/aws-tutorial"
-          element={<AWSTutorial from={from} setFrom={setFrom} />}
+          path="/cloud-access-tutorials"
+          element={<CloudAcessTutorials from={from} setFrom={setFrom} />}
         ></Route>
         <Route
           path="/eagle-browser-settings"

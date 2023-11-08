@@ -3,6 +3,9 @@ import Style from "../terms_and_policy/style.module.css";
 import EagleBotLogoSvg from "../../assets/images/svg/eagle-bot-logo.svg";
 import { useNavigate } from "react-router-dom";
 
+const titleStyle = {
+  fontSize: "50px", // Adjust the pixel value to change the font size
+};
 const PricingInformation = () => {
   const navigate = useNavigate();
   useEffect(() => {
@@ -25,7 +28,7 @@ const PricingInformation = () => {
         <div className={Style.card_container}>
           <div className={Style.content_container}>
             <div className={Style.panel_head}>
-              <h1>Eagle Bot Pricing</h1>
+              <h1 style={titleStyle}><u>Eagle Bot Pricing</u></h1>
             </div>
             <div className={Style.panel_body}>
               <div className={Style.sub_content_section}></div>
@@ -34,7 +37,11 @@ const PricingInformation = () => {
                 to perform. This includes performing an action and content
                 generation from LLMs.
               </p>
-              <p>1 Eagle Coin = $0.00004 USD</p>
+              <p>
+                The cost of 1 Eagle Coin fluctuates between $0.000035 -
+                0.00005USD depending on market conditions, changing
+                infrastructure and API integration costs.
+              </p>
               <table className={Style.table}>
                 <thead>
                   <tr>
@@ -115,7 +122,7 @@ const PricingInformation = () => {
                   <tr>
                     <td>Submitting a verified Eagle Browser Extension***</td>
                     <td>+(200,000) Eagle Coins</td>
-                    <td>+$8</td>
+                    <td>+$8 to +$10</td>
                   </tr>
                 </tbody>
               </table>

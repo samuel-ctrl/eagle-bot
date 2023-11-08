@@ -3,6 +3,10 @@ import Style from "../terms_and_policy/style.module.css";
 import EagleBotLogoSvg from "../../assets/images/svg/eagle-bot-logo.svg";
 import { useNavigate } from "react-router-dom";
 
+const titleStyle = {
+  fontSize: "40px", // Adjust the pixel value to change the font size
+};
+
 const ApiBasedAutomations = () => {
   const navigate = useNavigate();
   useEffect(() => {
@@ -25,11 +29,15 @@ const ApiBasedAutomations = () => {
         <div className={Style.card_container}>
           <div className={Style.content_container}>
             <div className={Style.panel_head}>
-              <h1>Eagle Bot Api Based Automations</h1>
+              <h1 style={titleStyle}>
+                <u>Eagle Bot Api Based Automations</u>
+              </h1>
             </div>
             <div className={Style.panel_body}>
               <div className={Style.sub_content_section}></div>
-              <h3>API Based Automations Tutorial</h3>
+              <h3>
+                <u>API Based Automations Tutorial</u>
+              </h3>
               <p>
                 The API based automations at Eagle Bot are a combination of
                 custom backend AI Engines built from the ground up specially
@@ -47,7 +55,9 @@ const ApiBasedAutomations = () => {
                 account <strong>just by using a prompt</strong>:
               </p>
               <p>
-                <h3>Microsoft Azure:</h3>
+                <h3>
+                  <u>Microsoft Azure:</u>
+                </h3>
                 <ol>
                   <li>Create and Delete Virtual Machines.</li>
                   <li>Create, Update and Delete Storage Accounts.</li>
@@ -55,7 +65,9 @@ const ApiBasedAutomations = () => {
               </p>
 
               <p>
-                <h3>Google Cloud Platform:</h3>
+                <h3>
+                  <u>Google Cloud Platform:</u>
+                </h3>
                 <ol>
                   <li>Create, Update, and Delete Virtual Machines.</li>
                   <li>Create, Update and Delete Storage Buckets.</li>
@@ -63,7 +75,9 @@ const ApiBasedAutomations = () => {
               </p>
 
               <p>
-                <h3>Amazon Web Services:</h3>
+                <h3>
+                  <u>Amazon Web Services:</u>
+                </h3>
                 <ol>
                   <li>Create, Update and Delete Virtual Machines.</li>
                   <li>Create, Update and Delete Storage Buckets.</li>

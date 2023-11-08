@@ -11,6 +11,8 @@ import Eula from "./Pages/terms_and_policy/Eula";
 import EagleBrowserStaticPage from "./Pages/static_pages/eagleBrowserStaticPage";
 import DefaultSearchShortcuts from "./Pages/static_pages/defaultSearchShortcuts";
 import CloudAcessTutorials from "./Pages/tutorials/cloudAccessTutorials";
+import ApiBasedAutomations from "./Pages/static_pages/apiBasedAutomations";
+import PricingInformation from "./Pages/static_pages/pricingInformation";
 
 function App() {
   const [from, setFrom] = useState("");
@@ -50,6 +52,14 @@ function App() {
         <Route
           path="/default-search-shortcuts-malware"
           element={<DefaultSearchShortcuts from={from} setFrom={setFrom} />}
+        ></Route>
+        <Route
+          path="/API-Automations-Information"
+          element={<ApiBasedAutomations from={from} setFrom={setFrom} />}
+        ></Route>
+        <Route
+          path="/pricing-information"
+          element={<PricingInformation from={from} setFrom={setFrom} />}
         ></Route>
         <Route
           path="/"

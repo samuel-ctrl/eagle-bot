@@ -46,7 +46,7 @@ function App() {
           element={<CloudAcessTutorials from={from} setFrom={setFrom} />}
         ></Route>
         <Route
-          path="/eagle-browser-settings"
+          path="/optimize-your-browsing-experience"
           element={<EagleBrowserStaticPage from={from} setFrom={setFrom} />}
         ></Route>
         <Route

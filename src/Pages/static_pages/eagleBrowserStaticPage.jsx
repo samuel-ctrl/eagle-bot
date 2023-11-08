@@ -25,11 +25,11 @@ const EageBrowserSettings = () => {
         <div className={Style.card_container}>
           <div className={Style.content_container}>
             <div className={Style.panel_head}>
-              <h1>Optimize your browsing experience with Eagle Browser</h1>
+              <h1><u>Optimize your browsing experience with Eagle Browser</u></h1>
             </div>
             <div className={Style.panel_body}>
               <div className={Style.sub_content_section}></div>
-              <h3>With our performance settings, you can:</h3>
+              <h3><u>With our performance settings, you can:</u></h3>
               <p>
                 <ul>
                   <li>Ensure smooth performance of active tabs</li>
@@ -52,7 +52,7 @@ const EageBrowserSettings = () => {
                 inactive tab, it automatically reloads.
               </p>
               <p>
-                <strong>Here's how to turn on Memory Saver:</strong>
+                <u><strong>Here's how to turn on Memory Saver:</strong></u>
               </p>
               <p>
                 <ul>
@@ -66,7 +66,7 @@ const EageBrowserSettings = () => {
                 </ul>
               </p>
               <p>
-                To ensure smooth performance of your active video and gaming
+                <strong>To ensure smooth performance of your active video</strong> and gaming
                 tabs, we recommend turning on Memory Saver. However, please note
                 that some settings and activities on your computer may prevent
                 tab deactivation, such as active audio or video (playback or
@@ -98,13 +98,13 @@ const EageBrowserSettings = () => {
                     You have two options:
                     <ul>
                       <li>
-                        Add current sites: Select from available sites that are
+                        <u><strong>Add current sites</strong></u>: Select from available sites that are
                         currently open in a tab. Select the box to the left of
                         the site you want to add, and click Add. To go back,
                         select Cancel.
                       </li>
                       <li>
-                        Add sites manually: Enter the web address and select
+                        <u><strong>Add sites manually</strong></u>: Enter the web address and select
                         Add. To go back, select Cancel.
                       </li>
                     </ul>
@@ -113,14 +113,14 @@ const EageBrowserSettings = () => {
               </p>
               <p>
                 The web address format for the manual site exclusion policy is:
-                [scheme://][.]host[:port][/path][@query].
+                <strong>[scheme://][.]host[:port][/path][@query]</strong>.
               </p>
               <p>
                 Here are some examples of how to add sites manually if you want
                 to create an exclusion for:
               </p>
               <p>
-                Entire domains and subdomains: Exclude the URL scheme. For
+                <u><b>Entire domains and subdomains</b></u>: Exclude the URL scheme. For
                 example, eagle-bot.com matches and prevents deactivation of
                 subdomains like platform.eagle-bot.com and canvas.eagle-bot.com.
               </p>
@@ -128,28 +128,28 @@ const EageBrowserSettings = () => {
               <p>
                 <ul>
                   <p>
-                    1. Specific domains, but not any subdomains: Include a dot
+                    <u><b>1. Specific domains, but not any subdomains</b></u>: Include a dot
                     (.) before the URL host. For example, .eagle-bot.com won't
                     match and prevent deactivation of subdomains like
                     www.eagle-bot.com, platform.eagle-bot.com, and
                     canvas.eagle-bot.com.
                   </p>
                   <p>
-                    2. Specific subdirectory: Include the URL path. For example,
+                    <u><b>2. Specific subdirectory</b></u>: Include the URL path. For example,
                     www.eagle-bot.com/contact matches and prevents deactivation
                     of all Eagle-bot Contact pages, but won't prevent
                     deactivation of the www.eagle-bot.com main pages.
                   </p>
                   <p>
-                    3. URL host and query components: Asterisks (*) can be used
+                    <u><b>3. URL host and query components</b></u>: Asterisks (*) can be used
                     as wildcards. For example, https:// matches and prevents
                     deactivation of all https sites and youtube.com/watch?v=*
                     matches and prevents deactivation of YouTube videos.
                   </p>
                   <p>
-                    4. Wildcards for prefix, suffix, or substring matches of the
+                    <u><b>4. Wildcards for prefix</b></u>, suffix, or substring matches of the
                     URL host component aren't supported. For example,
-                    agle-bot.com or eagle-bot.com/ won't match and prevent
+                    <strong>eagle-bot.com or eagle-bot.com/</strong> won't match and prevent
                     deactivation.
                   </p>
                 </ul>
@@ -206,7 +206,7 @@ const EageBrowserSettings = () => {
                 </ul>
               </p>
               <p>
-                When Preload Pages is turned on, Eagle Browser preloads pages
+                <b>When Preload Pages is turned on</b>, Eagle Browser preloads pages
                 that you might visit to help you browse and search faster.
                 Please note that to preload pages, Eagle Browser may use cookies
                 (if you allow cookies) and may encrypt and send pages through

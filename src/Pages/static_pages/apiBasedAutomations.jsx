@@ -30,7 +30,7 @@ const ApiBasedAutomations = () => {
           <div className={Style.content_container}>
             <div className={Style.panel_head}>
               <h1 style={titleStyle}>
-                <u>Eagle Bot Api Based Automations</u>
+                <u>Eagle Bot API Based Automations</u>
               </h1>
             </div>
             <div className={Style.panel_body}>

@@ -28,7 +28,9 @@ const PricingInformation = () => {
         <div className={Style.card_container}>
           <div className={Style.content_container}>
             <div className={Style.panel_head}>
-              <h1 style={titleStyle}><u>Eagle Bot Pricing</u></h1>
+              <h1 style={titleStyle}>
+                <u>Eagle Bot Pricing</u>
+              </h1>
             </div>
             <div className={Style.panel_body}>
               <div className={Style.sub_content_section}></div>
@@ -47,7 +49,7 @@ const PricingInformation = () => {
                   <tr>
                     <th>Operation</th>
                     <th>Cost</th>
-                    <th>USD Equivalent (USD)</th>
+                    <th>USD Equivalent</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -130,7 +132,7 @@ const PricingInformation = () => {
               <p>
                 <strong>Note***</strong>: The amount for submitting an RPA
                 Public Automation and Eagle Browser Extension would be credited
-                post a verifications process conducted by our internal team at
+                post a verification process conducted by our internal team at
                 Eagle-Bot.
               </p>
             </div>

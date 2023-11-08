@@ -148,7 +148,7 @@ const LandingPage = ({ from, setFrom }) => {
             </p>
             <GoldenButton
               type={"button"}
-              buttonName={"JOIN WAITLIST"}
+              buttonName={"TRY NOW"}
               onClick={() => setOpenWaitListModel(true)}
             />
           </div>
@@ -207,7 +207,7 @@ const LandingPage = ({ from, setFrom }) => {
       </div>
 
       <div className={Style.download_section}>
-        <h2>Just around the corner!</h2>
+        <h2>Launching This December</h2>
         <div className={Style.download_content}>
           <div className={Style.download}>
             <MicrosoftSvg />
@@ -244,9 +244,9 @@ const LandingPage = ({ from, setFrom }) => {
 
             <h3 className={Style.text4}>
               <div className={Style.h4}>04</div>
-              Eagle-Bot's innovative integration with DALL-E and Stable Diffusion
-              unleashes a world of creativity and customization in visual
-              content.
+              Eagle-Bot's innovative integration with DALL-E and Stable
+              Diffusion unleashes a world of creativity and customization in
+              visual content.
             </h3>
 
             <h3 className={Style.text5}>

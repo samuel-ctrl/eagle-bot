@@ -120,6 +120,10 @@ const LandingPage = ({ from, setFrom }) => {
   function handleCloseError() {
     setOpenError(false);
   }
+  function download_windows_executable(){
+    const downloadURL = import.meta.env.VITE_SAS_URL;
+
+  }
 
   const handleCloseAll = () => {
     setOpenSubscribModel(false);
@@ -210,12 +214,17 @@ const LandingPage = ({ from, setFrom }) => {
       </div>
 
       <div className={Style.download_section}>
-        <h2>Launching This December</h2>
+        <h2>Click Here To Download Eagle Browser</h2>
         <div className={Style.download_content}>
-          <div className={Style.download}>
+          <div className={Style.download} onClick={()=>{
+            console.log(import.meta.env.VITE_WIN_EXECUTABLE_URL, 'KHFDSBF')
+              window.location.href = import.meta.env.VITE_WIN_EXECUTABLE_URL;
+            }}>
             <MicrosoftSvg />
           </div>
-          <div className={Style.download}>
+          <div className={Style.download} onClick={()=>{
+              window.location.href = import.meta.env.VITE_MAC_EXECUTABLE_URL;
+            }}>
             <AppleSvg />
           </div>
         </div>

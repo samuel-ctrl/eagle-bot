@@ -287,6 +287,7 @@
   margin-top: 4.4%;
 }
 .download_section .download_content .download {
+  cursor: pointer;
   height: 80%;
   margin: 5%;
   background-color: #171819;

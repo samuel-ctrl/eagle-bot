@@ -149,7 +149,10 @@ const LandingPage = ({ from, setFrom }) => {
             <GoldenButton
               type={"button"}
               buttonName={"TRY NOW"}
-              onClick={() => setOpenWaitListModel(true)}
+              onClick={() => {
+                  window.location.href = "https://platform.eagle-bot.com/";
+                }}
+              // onClick={() => setOpenWaitListModel(true)}
             />
           </div>
         </div>

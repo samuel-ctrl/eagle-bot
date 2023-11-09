@@ -15,6 +15,7 @@ import AzureAddSecret from "../../assets/images/png/azure-add-secret.png";
 import AzureNewSecret from "../../assets/images/png/azure-new-client-secret.png";
 import AzureSecretDesc from "../../assets/images/png/azure-secret-desc.png";
 import AzureClientSecret from "../../assets/images/png/azure-client-secret.png";
+import AzureSubId from "../../assets/images/png/azure-subscription-id.png";
 import Gcp1 from "../../assets/images/png/gcp1.png";
 import Gcp2 from "../../assets/images/png/gcp2.png";
 import Gcp3 from "../../assets/images/png/gcp3.png";
@@ -222,7 +223,6 @@ const CloudAcessTutorials = () => {
                 <p>
                   1. Select the app from the <strong>App registrations</strong>.
                 </p>
-
                 <img
                   src={AzureAppSelect}
                   alt="Azure logo"
@@ -238,7 +238,6 @@ const CloudAcessTutorials = () => {
                   style={{ width: "700px", height: "400px" }}
                   // className="large-image"
                 ></img>
-
                 <p>3. Select + New client secret under Client secrets.</p>
                 <img
                   src={AzureNewSecret}
@@ -246,7 +245,6 @@ const CloudAcessTutorials = () => {
                   style={{ width: "700px", height: "400px" }}
                   // className="large-image"
                 ></img>
-
                 <p>
                   4. Provide a Description and set the Expires for the secret.
                 </p>
@@ -256,13 +254,51 @@ const CloudAcessTutorials = () => {
                   style={{ width: "700px", height: "400px" }}
                   // className="large-image"
                 ></img>
-
                 <p>
                   5. Copy the value of the Secret value. We'll use this later to
                   create a secret in Azure Key Vault.
                 </p>
                 <img
                   src={AzureClientSecret}
+                  alt="Azure logo"
+                  style={{ width: "700px", height: "400px" }}
+                  // className="large-image"
+                ></img>
+                <p></p>
+                <h3>
+                  <strong>Find your Azure subscription Id</strong>
+                </h3>
+                <p>
+                  1. Sign in to the{" "}
+                  <strong>
+                    <a href="https://portal.azure.com/#home">Azure portal</a>
+                  </strong>
+                  .
+                </p>
+                <p>
+                  2. Under the Azure services heading, select{" "}
+                  <strong>Subscriptions</strong>. If you don't see{" "}
+                  <strong>Subscriptions</strong> here, use the search box to
+                  find it.
+                </p>
+                <p>
+                  3. Find the subscription in the list, and note the{" "}
+                  <strong>Subscription ID</strong> shown in the second column.
+                  If no subscriptions appear, or you don't see the right one,
+                  you may need to switch directories to show the subscriptions
+                  from a different Microsoft Entra tenant.
+                </p>
+                <p>
+                  4. To easily copy the <strong>Subscription ID</strong>, select
+                  the subscription name to display more details. Select the{" "}
+                  <strong>Copy to clipboard</strong>
+                  icon shown next to the <strong>Subscription ID</strong> in the{" "}
+                  <strong>Essentials</strong>
+                  section. You can paste this value into a text document or
+                  other location.
+                </p>
+                <img
+                  src={AzureSubId}
                   alt="Azure logo"
                   style={{ width: "700px", height: "400px" }}
                   // className="large-image"

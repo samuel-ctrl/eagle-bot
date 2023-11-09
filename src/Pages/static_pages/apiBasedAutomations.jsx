@@ -60,7 +60,7 @@ const ApiBasedAutomations = () => {
                 </h3>
                 <ol>
                   <li>Create and Delete Virtual Machines.</li>
-                  <li>Create, Update and Delete Storage Accounts.</li>
+                  <li>Create and Delete Storage Accounts.</li>
                 </ol>
               </p>
 
@@ -69,8 +69,8 @@ const ApiBasedAutomations = () => {
                   <u>Google Cloud Platform:</u>
                 </h3>
                 <ol>
-                  <li>Create, Update, and Delete Virtual Machines.</li>
-                  <li>Create, Update and Delete Storage Buckets.</li>
+                  <li>Create and Delete Virtual Machines.</li>
+                  <li>Create and Delete Storage Buckets.</li>
                 </ol>
               </p>
 
@@ -79,8 +79,8 @@ const ApiBasedAutomations = () => {
                   <u>Amazon Web Services:</u>
                 </h3>
                 <ol>
-                  <li>Create, Update and Delete Virtual Machines.</li>
-                  <li>Create, Update and Delete Storage Buckets.</li>
+                  <li>Create and Delete Virtual Machines.</li>
+                  <li>Create and Delete Storage Buckets.</li>
                 </ol>
               </p>
               <p>

@@ -16,6 +16,10 @@ import AzureNewSecret from "../../assets/images/png/azure-new-client-secret.png"
 import AzureSecretDesc from "../../assets/images/png/azure-secret-desc.png";
 import AzureClientSecret from "../../assets/images/png/azure-client-secret.png";
 import AzureSubId from "../../assets/images/png/azure-subscription-id.png";
+import AzureRoleAssignments from "../../assets/images/png/azure-role-assignments.png";
+import AzureRoleAssignment from "../../assets/images/png/azure-role-assignment.png";
+import ContributorRole from "../../assets/images/png/contributor-role.png";
+import ContributorAssignment from "../../assets/images/png/contributor-assignment.png";
 import Gcp1 from "../../assets/images/png/gcp1.png";
 import Gcp2 from "../../assets/images/png/gcp2.png";
 import Gcp3 from "../../assets/images/png/gcp3.png";
@@ -308,6 +312,72 @@ const CloudAcessTutorials = () => {
                   tenantId, clientId, and clientSecret. Enter them in the
                   corresponding Eagle Bot form fields.
                 </p>
+                <p></p>
+                <h3>
+                  <strong>
+                    How to Assign a Contributor Role To Azure User
+                  </strong>
+                </h3>
+                <p>
+                  In Azure Role Based Access Control (RBAC), to grant access,
+                  you assign an Azure role.
+                </p>
+                <p>
+                  1. In the list of <strong>Resource groups</strong>, open the
+                  new <strong>example-group </strong>
+                  resource group.
+                </p>
+                <p>
+                  2. In the navigation menu, click{" "}
+                  <strong>Access control (IAM)</strong>.
+                </p>
+                <p>
+                  3. Click the <strong>Role assignments</strong> tab to see the
+                  current list of role assignments.
+                </p>
+                <img
+                  src={AzureRoleAssignments}
+                  alt="Azure logo"
+                  style={{ width: "700px", height: "400px" }}
+                  // className="large-image"
+                ></img>
+                <p>
+                  4. Click <strong>Add {">"} Add role assignment</strong>.
+                </p>
+                <p>
+                  If you don't have permissions to assign roles, the Add role
+                  assignment option will be disabled.
+                </p>
+                <img
+                  src={AzureRoleAssignment}
+                  alt="Azure logo"
+                  style={{ width: "700px", height: "400px" }}
+                  // className="large-image"
+                ></img>
+                <p>5. On the Role tab, select the <strong>Contributor role</strong>.</p>
+                <img
+                  src={ContributorRole}
+                  alt="Azure logo"
+                  style={{ width: "700px", height: "400px" }}
+                  // className="large-image"
+                ></img>
+                <p>
+                  6. On the <strong>Members</strong> tab, select yourself or
+                  another user.
+                </p>
+                <p>
+                  7. On the <strong>Review + assign</strong> tab, review the
+                  role assignment settings.
+                </p>
+                <p>
+                  8. Click <strong>Review + assign</strong> to assign the role.
+                </p>
+                <img
+                  src={ContributorAssignment}
+                  alt="Azure logo"
+                  style={{ width: "700px", height: "400px" }}
+                  // className="large-image"
+                ></img>
               </div>
             </div>
           </div>

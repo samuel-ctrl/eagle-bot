@@ -120,8 +120,10 @@ const LandingPage = ({ from, setFrom }) => {
   function handleCloseError() {
     setOpenError(false);
   }
-  function log_downloads(){
-    console.log(import.meta.env.VITE_WIN_EXECUTABLE_URL, 'log_downloads')
+  function log_downloads(name){
+    Axios.post(APIENDPOINTS.DOWNLOAD_LOG, {
+        name: name
+    });
   }
 
   const handleCloseAll = () => {
@@ -216,13 +218,13 @@ const LandingPage = ({ from, setFrom }) => {
         <h2>Click Here To Download Eagle Browser</h2>
         <div className={Style.download_content}>
           <div className={Style.download} onClick={()=>{
-              log_downloads()
+              log_downloads('Windows')
               window.location.href = import.meta.env.VITE_WIN_EXECUTABLE_URL;
             }}>
             <MicrosoftSvg />
           </div>
           <div className={Style.download} onClick={()=>{
-              log_downloads()
+              log_downloads('MacOS')
               window.location.href = import.meta.env.VITE_MAC_EXECUTABLE_URL;
             }}>
             <AppleSvg />

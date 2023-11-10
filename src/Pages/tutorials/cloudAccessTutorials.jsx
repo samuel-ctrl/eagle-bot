@@ -20,6 +20,7 @@ import AzureRoleAssignments from "../../assets/images/png/azure-role-assignments
 import AzureRoleAssignment from "../../assets/images/png/azure-role-assignment.png";
 import ContributorRole from "../../assets/images/png/contributor-role.png";
 import ContributorAssignment from "../../assets/images/png/contributor-assignment.png";
+import AzureRole from "../../assets/images/png/azureRole.png";
 import Gcp1 from "../../assets/images/png/gcp1.png";
 import Gcp2 from "../../assets/images/png/gcp2.png";
 import Gcp3 from "../../assets/images/png/gcp3.png";
@@ -309,12 +310,12 @@ const CloudAcessTutorials = () => {
                   3. Click the <strong>Role assignments</strong> tab to see the
                   current list of role assignments.
                 </p>
-                <img
+                {/* <img
                   src={AzureRoleAssignments}
                   alt="Azure logo"
                   style={{ width: "700px", height: "400px" }}
                   // className="large-image"
-                ></img>
+                ></img> */}
                 <p>
                   4. Click <strong>Add {">"} Add role assignment</strong>.
                 </p>
@@ -342,6 +343,12 @@ const CloudAcessTutorials = () => {
                   6. On the <strong>Members</strong> tab, select the app you
                   registered.
                 </p>
+                <img
+                  src={AzureRole}
+                  alt="Azure logo"
+                  style={{ width: "700px", height: "400px" }}
+                  // className="large-image"
+                ></img>
                 <p>
                   7. On the <strong>Review + assign</strong> tab, review the
                   role assignment settings.
@@ -349,12 +356,12 @@ const CloudAcessTutorials = () => {
                 <p>
                   8. Click <strong>Review + assign</strong> to assign the role.
                 </p>
-                <img
+                {/* <img
                   src={ContributorAssignment}
                   alt="Azure logo"
                   style={{ width: "700px", height: "400px" }}
                   // className="large-image"
-                ></img>
+                ></img> */}
                 <p></p>
                 <h3>
                   <strong>Find your Azure subscription Id</strong>
@@ -372,15 +379,9 @@ const CloudAcessTutorials = () => {
                   <strong>Subscriptions</strong> here, use the search box to
                   find it.
                 </p>
+                
                 <p>
-                  3. Find the subscription in the list, and note the{" "}
-                  <strong>Subscription ID</strong> shown in the second column.
-                  If no subscriptions appear, or you don't see the right one,
-                  you may need to switch directories to show the subscriptions
-                  from a different Microsoft Entra tenant.
-                </p>
-                <p>
-                  4. To easily copy the <strong>Subscription ID</strong>, select
+                  3. To easily copy the <strong>Subscription ID</strong>, select
                   the subscription name to display more details. Select the{" "}
                   <strong>Copy to clipboard</strong>
                   icon shown next to the <strong>Subscription ID</strong> in the{" "}
@@ -394,8 +395,14 @@ const CloudAcessTutorials = () => {
                   style={{ width: "700px", height: "400px" }}
                   // className="large-image"
                 ></img>
+                {/* <img
+                  src={AzureSubId}
+                  alt="Azure logo"
+                  style={{ width: "700px", height: "400px" }}
+                  // className="large-image"
+                ></img> */}
                 <p>
-                  5. Voila! You now have all the required fields such as
+                  4. Voila! You now have all the required fields such as
                   tenantId, clientId, and clientSecret. Enter them in the
                   corresponding Eagle Bot form fields.
                 </p>

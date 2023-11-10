@@ -29,6 +29,10 @@ import Gcp6 from "../../assets/images/png/gcp6.png";
 import Gcp7 from "../../assets/images/png/gcp7.png";
 import { useNavigate } from "react-router-dom";
 
+const titleStyle = {
+  fontSize: "40px", // Adjust the pixel value to change the font size
+};
+
 const CloudAcessTutorials = () => {
   const navigate = useNavigate();
   useEffect(() => {
@@ -66,11 +70,18 @@ const CloudAcessTutorials = () => {
         <div className={Style.card_container}>
           <div className={Style.content_container}>
             <div id="aws" className={Style.panel_head}>
-              <h1>Instructions for generating AWS Acesss Key and Secret Key</h1>
+              <h1 style={titleStyle}>
+                Setting Up Cloud Automations on Eagle Bot
+              </h1>
+              <p>
+                To enable API automations with the cloud services on our Eagle
+                platform, you would have to follow a few steps and complete a
+                <strong> One-Time</strong> setup for AWS, GCP and AZ.
+              </p>
             </div>
             <div className={Style.panel_body}>
               <div className={Style.sub_content_section}></div>
-
+              <h1>Instructions for generating AWS Acesss Key and Secret Key</h1>
               <p>
                 {" "}
                 1. Go to <strong>Amazon Web Services</strong> console and click
@@ -269,6 +280,82 @@ const CloudAcessTutorials = () => {
                   // className="large-image"
                 ></img>
                 <p></p>
+
+                <p></p>
+                <h3>
+                  <strong>
+                    Assign a Contributor Role To Your App Registration
+                  </strong>
+                </h3>
+                <p>
+                  In Azure Role Based Access Control (RBAC), to grant access,
+                  you assign an Azure role. This could be done at a Subscription
+                  level or even at a resource group level.{" "}
+                  <storng>
+                    We recommend that you assign the role at a subscription
+                    level as this would enable you to create resources using our
+                    automations feature across the whole Subscription
+                  </storng>
+                  .
+                </p>
+                <p>
+                  1. Click on the desired <strong>Subscription</strong>.
+                </p>
+                <p>
+                  2. In the navigation menu, click{" "}
+                  <strong>Access control (IAM)</strong>.
+                </p>
+                <p>
+                  3. Click the <strong>Role assignments</strong> tab to see the
+                  current list of role assignments.
+                </p>
+                <img
+                  src={AzureRoleAssignments}
+                  alt="Azure logo"
+                  style={{ width: "700px", height: "400px" }}
+                  // className="large-image"
+                ></img>
+                <p>
+                  4. Click <strong>Add {">"} Add role assignment</strong>.
+                </p>
+                <p>
+                  If you don't have permissions to assign roles, the Add role
+                  assignment option will be disabled.
+                </p>
+                <img
+                  src={AzureRoleAssignment}
+                  alt="Azure logo"
+                  style={{ width: "700px", height: "400px" }}
+                  // className="large-image"
+                ></img>
+                <p>
+                  5. On the Role tab, select the{" "}
+                  <strong>Contributor role</strong>.
+                </p>
+                <img
+                  src={ContributorRole}
+                  alt="Azure logo"
+                  style={{ width: "700px", height: "400px" }}
+                  // className="large-image"
+                ></img>
+                <p>
+                  6. On the <strong>Members</strong> tab, select the app you
+                  registered.
+                </p>
+                <p>
+                  7. On the <strong>Review + assign</strong> tab, review the
+                  role assignment settings.
+                </p>
+                <p>
+                  8. Click <strong>Review + assign</strong> to assign the role.
+                </p>
+                <img
+                  src={ContributorAssignment}
+                  alt="Azure logo"
+                  style={{ width: "700px", height: "400px" }}
+                  // className="large-image"
+                ></img>
+                <p></p>
                 <h3>
                   <strong>Find your Azure subscription Id</strong>
                 </h3>
@@ -308,76 +395,10 @@ const CloudAcessTutorials = () => {
                   // className="large-image"
                 ></img>
                 <p>
-                  6. Voila! You now have all the required fields such as
+                  5. Voila! You now have all the required fields such as
                   tenantId, clientId, and clientSecret. Enter them in the
                   corresponding Eagle Bot form fields.
                 </p>
-                <p></p>
-                <h3>
-                  <strong>
-                    How to Assign a Contributor Role To Azure User
-                  </strong>
-                </h3>
-                <p>
-                  In Azure Role Based Access Control (RBAC), to grant access,
-                  you assign an Azure role.
-                </p>
-                <p>
-                  1. In the list of <strong>Resource groups</strong>, open the
-                  new <strong>example-group </strong>
-                  resource group.
-                </p>
-                <p>
-                  2. In the navigation menu, click{" "}
-                  <strong>Access control (IAM)</strong>.
-                </p>
-                <p>
-                  3. Click the <strong>Role assignments</strong> tab to see the
-                  current list of role assignments.
-                </p>
-                <img
-                  src={AzureRoleAssignments}
-                  alt="Azure logo"
-                  style={{ width: "700px", height: "400px" }}
-                  // className="large-image"
-                ></img>
-                <p>
-                  4. Click <strong>Add {">"} Add role assignment</strong>.
-                </p>
-                <p>
-                  If you don't have permissions to assign roles, the Add role
-                  assignment option will be disabled.
-                </p>
-                <img
-                  src={AzureRoleAssignment}
-                  alt="Azure logo"
-                  style={{ width: "700px", height: "400px" }}
-                  // className="large-image"
-                ></img>
-                <p>5. On the Role tab, select the <strong>Contributor role</strong>.</p>
-                <img
-                  src={ContributorRole}
-                  alt="Azure logo"
-                  style={{ width: "700px", height: "400px" }}
-                  // className="large-image"
-                ></img>
-                <p>
-                  6. On the <strong>Members</strong> tab, select yourself or
-                  another user.
-                </p>
-                <p>
-                  7. On the <strong>Review + assign</strong> tab, review the
-                  role assignment settings.
-                </p>
-                <p>
-                  8. Click <strong>Review + assign</strong> to assign the role.
-                </p>
-                <img
-                  src={ContributorAssignment}
-                  alt="Azure logo"
-                  style={{ width: "700px", height: "400px" }}
-                  // className="large-image"
-                ></img>
               </div>
             </div>
           </div>

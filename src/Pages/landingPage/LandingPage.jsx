@@ -12,6 +12,8 @@ import DeviceScreenMobileImage from "../../assets/images/png/device-screen-mobil
 import LaptopImage from "../../assets/images/png/golden-laptop.png";
 import BrowserThumbnail from "../../assets/images/png/browser_thumbnail.png";
 import CanvasThumbnail from "../../assets/images/png/canvas_thumbnail.png";
+import ApiAutomationThumbnail from "../../assets/images/png/api-automations-thumbnail.png";
+
 import AboutImage from "../../assets/images/png/about-background.png";
 import LinkedInSvg from "../../assets/images/svg/linkedin-logo.svg";
 import {
@@ -205,7 +207,7 @@ const LandingPage = ({ from, setFrom }) => {
             <Slider {...settings}>
               <VideoComponent
                 headerText="Launch Video November 11"
-                poster={CanvasThumbnail}
+                poster={ApiAutomationThumbnail}
                 source={"https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/LAUNCH%20VIDEO.mp4?sp=r&st=2023-11-15T13:16:44Z&se=2024-12-31T21:16:44Z&sv=2022-11-02&sr=b&sig=o4EEmZ%2FWf6XHI1KTOhKIu8C1ZnfJsKszmgqXKar4g9k%3D"}
               />
               <VideoComponent

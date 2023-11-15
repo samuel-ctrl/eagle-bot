@@ -30,6 +30,7 @@ import {
 import { Axios } from "../../services/Axios";
 import APIENDPOINTS from "../../components/constent/endpoints";
 import VideoComponent from "../../components/atoms/video_comp/videoComp";
+import ReactGA from "react-ga";
 
 const LandingPage = ({ from, setFrom }) => {
   const navigate = useNavigate();
@@ -38,6 +39,11 @@ const LandingPage = ({ from, setFrom }) => {
   const [openWaitlist, setOpenWaitlist] = useState(false);
   const [openSubscrib, setOpenSubscrib] = useState(false);
   const [openError, setOpenError] = useState(false);
+
+  // Google Analytics
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
 
   const settings = {
     infinite: true,
@@ -120,9 +126,9 @@ const LandingPage = ({ from, setFrom }) => {
   function handleCloseError() {
     setOpenError(false);
   }
-  function log_downloads(name){
+  function log_downloads(name) {
     Axios.post(APIENDPOINTS.DOWNLOAD_LOG, {
-        name: name
+      name: name,
     });
   }
 
@@ -155,8 +161,8 @@ const LandingPage = ({ from, setFrom }) => {
               type={"button"}
               buttonName={"TRY NOW"}
               onClick={() => {
-                  window.location.href = "https://platform.eagle-bot.com/";
-                }}
+                window.location.href = "https://platform.eagle-bot.com/";
+              }}
               // onClick={() => setOpenWaitListModel(true)}
             />
           </div>
@@ -217,16 +223,22 @@ const LandingPage = ({ from, setFrom }) => {
       <div className={Style.download_section}>
         <h2>Click Here To Download Eagle Browser</h2>
         <div className={Style.download_content}>
-          <div className={Style.download} onClick={()=>{
-              log_downloads('Windows')
+          <div
+            className={Style.download}
+            onClick={() => {
+              log_downloads("Windows");
               window.location.href = import.meta.env.VITE_WIN_EXECUTABLE_URL;
-            }}>
+            }}
+          >
             <MicrosoftSvg />
           </div>
-          <div className={Style.download} onClick={()=>{
-              log_downloads('MacOS')
+          <div
+            className={Style.download}
+            onClick={() => {
+              log_downloads("MacOS");
               window.location.href = import.meta.env.VITE_MAC_EXECUTABLE_URL;
-            }}>
+            }}
+          >
             <AppleSvg />
           </div>
         </div>

@@ -13,6 +13,10 @@ import DefaultSearchShortcuts from "./Pages/static_pages/defaultSearchShortcuts"
 import CloudAcessTutorials from "./Pages/tutorials/cloudAccessTutorials";
 import ApiBasedAutomations from "./Pages/static_pages/apiBasedAutomations";
 import PricingInformation from "./Pages/static_pages/pricingInformation";
+import ReactGA from "react-ga";
+
+const TRACKING_ID = "G-X3H2FNVTX9"; // YOUR_OWN_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
   const [from, setFrom] = useState("");

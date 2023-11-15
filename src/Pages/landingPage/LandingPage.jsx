@@ -204,6 +204,11 @@ const LandingPage = ({ from, setFrom }) => {
           <div className={Style.videoPanel}>
             <Slider {...settings}>
               <VideoComponent
+                headerText="Launch Video November 11"
+                poster={CanvasThumbnail}
+                source={import.meta.env.VITE_INTRO_VIDEO_URL}
+              />
+              <VideoComponent
                 headerText="Eagle Browser and Chat-Bot"
                 poster={BrowserThumbnail}
                 source={import.meta.env.VITE_BROWSER_VIDEO_URL}

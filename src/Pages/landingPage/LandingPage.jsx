@@ -206,17 +206,17 @@ const LandingPage = ({ from, setFrom }) => {
               <VideoComponent
                 headerText="Launch Video November 11"
                 poster={CanvasThumbnail}
-                source={import.meta.env.VITE_INTRO_VIDEO_URL}
+                source={"https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/LAUNCH%20VIDEO.mp4?sp=r&st=2023-11-15T13:16:44Z&se=2024-12-31T21:16:44Z&sv=2022-11-02&sr=b&sig=o4EEmZ%2FWf6XHI1KTOhKIu8C1ZnfJsKszmgqXKar4g9k%3D"}
               />
               <VideoComponent
                 headerText="Eagle Browser and Chat-Bot"
                 poster={BrowserThumbnail}
-                source={import.meta.env.VITE_BROWSER_VIDEO_URL}
+                source={"https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/eagle_browser_and_chatbot_Intro.mp4?sp=r&st=2023-11-15T10:11:20Z&se=2025-01-01T18:11:20Z&sv=2022-11-02&sr=b&sig=UahBP9rzuwpgoj%2BAHhoP%2BXUyju9yk9frbl651pYgE%2B0%3D"}
               />
               <VideoComponent
                 headerText="Eagle Canvas"
                 poster={CanvasThumbnail}
-                source={import.meta.env.VITE_CANVAS_VIDEO_URL}
+                source={"https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/Canvas_v2.mp4?sp=r&st=2023-11-15T10:05:49Z&se=2025-01-01T18:05:49Z&sv=2022-11-02&sr=b&sig=BgcHcW0THRfIaAZE9gOHpp27z%2BHll9xfipaXKORNcXQ%3D"}
               />
             </Slider>
           </div>

@@ -1,0 +1,12 @@
+pipelines:
+  branches:
+   main:
+    - step: 
+        name: Deploy to test
+        deployment: test
+        script:
+          - pipe: microsoft/azure-static-web-apps-deploy:main
+            variables:
+                APP_LOCATION: https://sudharsanmaran@bitbucket.org/eaglebot1/eagle-bot-landing-fe.git
+                OUTPUT_LOCATION: https://sudharsanmaran@bitbucket.org/eaglebot1/eagle-bot-landing-fe.git/dist
+                API_TOKEN: d5edee2573f9afca804080a3c40085757f0063bea220847ca68a6cf0bed986da4-d3b6b8e2-91bd-4dd3-a9fe-4fe4b0013c53003312551

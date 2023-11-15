@@ -12,8 +12,6 @@ import DeviceScreenMobileImage from "../../assets/images/png/device-screen-mobil
 import LaptopImage from "../../assets/images/png/golden-laptop.png";
 import BrowserThumbnail from "../../assets/images/png/browser_thumbnail.png";
 import CanvasThumbnail from "../../assets/images/png/canvas_thumbnail.png";
-import IntroVideo from "../../assets/videos/eagle_browser_and_chatbot_Intro.mp4";
-import CanvasVideo from "../../assets/videos/Canvas_v2.mp4";
 import AboutImage from "../../assets/images/png/about-background.png";
 import LinkedInSvg from "../../assets/images/svg/linkedin-logo.svg";
 import {
@@ -208,12 +206,12 @@ const LandingPage = ({ from, setFrom }) => {
               <VideoComponent
                 headerText="Eagle Browser and Chat-Bot"
                 poster={BrowserThumbnail}
-                source={IntroVideo}
+                source={import.meta.env.VITE_BROWSER_VIDEO_URL}
               />
               <VideoComponent
                 headerText="Eagle Canvas"
                 poster={CanvasThumbnail}
-                source={CanvasVideo}
+                source={import.meta.env.VITE_CANVAS_VIDEO_URL}
               />
             </Slider>
           </div>

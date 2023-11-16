@@ -16,6 +16,7 @@ import ApiAutomationThumbnail from "../../assets/images/png/api-automations-thum
 
 import AboutImage from "../../assets/images/png/about-background.png";
 import LinkedInSvg from "../../assets/images/svg/linkedin-logo.svg";
+import TwitterLogo from "../../assets/images/png/logo-white.png";
 import {
   AppleSvg,
   MicrosoftSvg,
@@ -208,17 +209,23 @@ const LandingPage = ({ from, setFrom }) => {
               <VideoComponent
                 headerText="Launch Video November 11"
                 poster={ApiAutomationThumbnail}
-                source={"https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/LAUNCH%20VIDEO.mp4?sp=r&st=2023-11-15T13:16:44Z&se=2024-12-31T21:16:44Z&sv=2022-11-02&sr=b&sig=o4EEmZ%2FWf6XHI1KTOhKIu8C1ZnfJsKszmgqXKar4g9k%3D"}
+                source={
+                  "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/LAUNCH%20VIDEO.mp4?sp=r&st=2023-11-15T13:16:44Z&se=2024-12-31T21:16:44Z&sv=2022-11-02&sr=b&sig=o4EEmZ%2FWf6XHI1KTOhKIu8C1ZnfJsKszmgqXKar4g9k%3D"
+                }
               />
               <VideoComponent
                 headerText="Eagle Browser and Chat-Bot"
                 poster={BrowserThumbnail}
-                source={"https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/eagle_browser_and_chatbot_Intro.mp4?sp=r&st=2023-11-15T10:11:20Z&se=2025-01-01T18:11:20Z&sv=2022-11-02&sr=b&sig=UahBP9rzuwpgoj%2BAHhoP%2BXUyju9yk9frbl651pYgE%2B0%3D"}
+                source={
+                  "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/eagle_browser_and_chatbot_Intro.mp4?sp=r&st=2023-11-15T10:11:20Z&se=2025-01-01T18:11:20Z&sv=2022-11-02&sr=b&sig=UahBP9rzuwpgoj%2BAHhoP%2BXUyju9yk9frbl651pYgE%2B0%3D"
+                }
               />
               <VideoComponent
                 headerText="Eagle Canvas"
                 poster={CanvasThumbnail}
-                source={"https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/Canvas_v2.mp4?sp=r&st=2023-11-15T10:05:49Z&se=2025-01-01T18:05:49Z&sv=2022-11-02&sr=b&sig=BgcHcW0THRfIaAZE9gOHpp27z%2BHll9xfipaXKORNcXQ%3D"}
+                source={
+                  "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/Canvas_v2.mp4?sp=r&st=2023-11-15T10:05:49Z&se=2025-01-01T18:05:49Z&sv=2022-11-02&sr=b&sig=BgcHcW0THRfIaAZE9gOHpp27z%2BHll9xfipaXKORNcXQ%3D"
+                }
               />
             </Slider>
           </div>
@@ -353,17 +360,30 @@ const LandingPage = ({ from, setFrom }) => {
               className={Style.contactBtn}
               onClick={() => handleContactUs()}
             />
-            <div className={Style.social_link}>
-              <img
-                src={LinkedInSvg}
-                alt="LinkedIn logo"
-                onClick={() => {
-                  window.open(
-                    "https://www.linkedin.com/company/eagle-bot/",
-                    "_blank"
-                  );
-                }}
-              ></img>
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <div className={Style.social_link}>
+                <img
+                  src={LinkedInSvg}
+                  alt="LinkedIn logo"
+                  style={{ width: "45px", height: "45px", marginRight: "10px" }}
+                  onClick={() => {
+                    window.open(
+                      "https://www.linkedin.com/company/eagle-bot/",
+                      "_blank"
+                    );
+                  }}
+                ></img>
+              </div>
+              <div className={Style.social_link}>
+                <img
+                  src={TwitterLogo}
+                  alt="Twitter logo"
+                  style={{ width: "30px", height: "30px" }}
+                  onClick={() => {
+                    window.open("https://twitter.com/eaglebot_ai", "_blank");
+                  }}
+                ></img>
+              </div>
             </div>
           </div>
 

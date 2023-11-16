@@ -14,6 +14,8 @@ import CloudAcessTutorials from "./Pages/tutorials/cloudAccessTutorials";
 import ApiBasedAutomations from "./Pages/static_pages/apiBasedAutomations";
 import PricingInformation from "./Pages/static_pages/pricingInformation";
 import ReactGA from "react-ga";
+import EageBotBlog from "./Pages/static_pages/blogs/eagleBlogPromptApi";
+import EageBotRpaBlog from "./Pages/static_pages/blogs/eagleBlogRpa";
 
 const TRACKING_ID = "G-X3H2FNVTX9"; // YOUR_OWN_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
@@ -64,6 +66,14 @@ function App() {
         <Route
           path="/pricing-information"
           element={<PricingInformation from={from} setFrom={setFrom} />}
+        ></Route>
+        <Route
+          path="/eagle-bot-prompt-api-blog"
+          element={<EageBotBlog from={from} setFrom={setFrom} />}
+        ></Route>
+        <Route
+          path="/eagle-bot-rpa-blog"
+          element={<EageBotRpaBlog from={from} setFrom={setFrom} />}
         ></Route>
         <Route
           path="/"

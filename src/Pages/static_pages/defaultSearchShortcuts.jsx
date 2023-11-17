@@ -28,7 +28,7 @@ const DefaultSearchShortcuts = () => {
               <h1>Default Search Engine and Shortcuts</h1>
             </div>
             <div className={Style.panel_body}>
-              <div className={Style.sub_content_section}></div>
+              <div className={Style.sub_content_section}>
               <p>
                 In Eagle Browser, the address bar (omnibox) can also serve as a
                 search box. By default, it uses a search engine that you can
@@ -247,6 +247,7 @@ const DefaultSearchShortcuts = () => {
                 By following these steps, you can reduce the risk of malware
                 infecting your computer or device in the future.
               </p>
+              </div>
             </div>
           </div>
         </div>

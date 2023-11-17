@@ -22,6 +22,17 @@ const EagleBotMainBlog = () => {
         ></img>
       </div>
       <div className={Style.body_container}>
+        <div className={Style.menu_container}>
+          <h4 className={Style.table_of_content_head}>Blogs</h4>
+          <ol>
+            <li>
+              <a href="/eagle-bot-prompt-api-blog">Eagle Bot Prompt Api Blog</a>
+            </li>
+            <li>
+              <a href="/eagle-bot-rpa-blog">Eagle Bot Rpa Blog</a>
+            </li>
+          </ol>
+        </div>
         <div className={Style.card_container}>
           <div className={Style.content_container}>
             <div className={Style.panel_head}>

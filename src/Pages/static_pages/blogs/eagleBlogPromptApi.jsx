@@ -39,30 +39,20 @@ const EageBotBlog = () => {
               <p></p>
               <p></p>
 
-              <div style={{ display: "flex", alignItems: "center" }}>
-                <img
-                  src={EagleBotLogoBlack}
-                  alt="description"
-                  style={{ width: "50%", height: "300px", marginRight: "20px" }}
-                />
+              <p>
+                Dear innovators and avid followers of Eagle Bot, we have a
+                thrilling announcement to make. Our relentless pursuit of
+                excellence in the world of Artificial Intelligence has led to
+                the creation of an extraordinary new feature - AI-powered
+                cross-platform automation in <strong>beta*</strong>. This is set
+                to redefine the landscape of API B2C interactions across
+                <strong>
+                  {" "}
+                  Amazon, Microsoft, Google, Atlassian, WhatsApp, and Twitter{" "}
+                </strong>
+                platforms for starters.
+              </p>
 
-                <div style={{ width: "50%" }}>
-                  <p>
-                    Dear innovators and avid followers of Eagle Bot, we have a
-                    thrilling announcement to make. Our relentless pursuit of
-                    excellence in the world of Artificial Intelligence has led
-                    to the creation of an extraordinary new feature - AI-powered
-                    cross-platform automation in <strong>beta*</strong>. This is
-                    set to redefine the landscape of API B2C interactions across
-                    <strong>
-                      {" "}
-                      Amazon, Microsoft, Google, Atlassian, WhatsApp, and
-                      Twitter{" "}
-                    </strong>
-                    platforms for starters.
-                  </p>
-                </div>
-              </div>
               <p></p>
               <p></p>
               <h2>Redefining B2C Interactions with AI-Powered Eagle Bot</h2>

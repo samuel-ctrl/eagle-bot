@@ -258,7 +258,7 @@ const EageBotRpaBlog = () => {
               <h3>7. Executing actions on Windows and MacOS</h3>
               <div style={{ display: "flex", alignItems: "center" }}>
                 <img
-                  src={EagleEntity}
+                  src={EagleWinMac}
                   alt="description"
                   style={{ width: "50%", height: "300px", marginRight: "20px" }}
                 />
@@ -293,7 +293,7 @@ const EageBotRpaBlog = () => {
 
               <div style={{ display: "flex", alignItems: "center" }}>
                 <img
-                  src={EagleEntity}
+                  src={EagleScaling}
                   alt="description"
                   style={{ width: "50%", height: "300px", marginRight: "20px" }}
                 />

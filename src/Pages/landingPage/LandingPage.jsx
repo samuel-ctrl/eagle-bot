@@ -32,6 +32,7 @@ import { Axios } from "../../services/Axios";
 import APIENDPOINTS from "../../components/constent/endpoints";
 import VideoComponent from "../../components/atoms/video_comp/videoComp";
 import ReactGA from "react-ga";
+import PricingInformation from "../static_pages/pricingInformation";
 
 const LandingPage = ({ from, setFrom }) => {
   const navigate = useNavigate();
@@ -137,6 +138,11 @@ const LandingPage = ({ from, setFrom }) => {
     setOpenSubscribModel(false);
     setOpenWaitListModel(false);
   };
+
+  const handlePricingClick = () => {
+    // Open the Pricing component in a new tab
+    window.open(PricingInformation, "_blank"); // Replace with the actual URL of your Pricing component
+  };
   return (
     <>
       <div className={Style.banner_section}>
@@ -146,6 +152,13 @@ const LandingPage = ({ from, setFrom }) => {
             alt="EagleBot logo"
             onClick={handleLogoPress}
           ></img>
+
+          <div className="pricing-button">
+            <a href="/pricing-information">Pricing</a>
+          </div>
+          <div className="blog-button">
+            <a href="/eagle-bot-blog">Blog</a>
+          </div>
         </div>
 
         <div className={Style.banner_Content}>
@@ -160,7 +173,7 @@ const LandingPage = ({ from, setFrom }) => {
             </p>
             <GoldenButton
               type={"button"}
-              buttonName={"TRY NOW"}
+              buttonName={"TRY NOW FOR FREE"}
               onClick={() => {
                 window.location.href = "https://platform.eagle-bot.com/";
               }}

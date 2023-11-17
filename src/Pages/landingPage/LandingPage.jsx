@@ -248,23 +248,32 @@ const LandingPage = ({ from, setFrom }) => {
       <div className={Style.download_section}>
         <h2>Click Here To Download Eagle Browser</h2>
         <div className={Style.download_content}>
-          <div
-            className={Style.download}
-            onClick={() => {
-              log_downloads("Windows");
-              window.location.href = import.meta.env.VITE_WIN_EXECUTABLE_URL;
-            }}
-          >
+          <div className={Style.download}>
             <MicrosoftSvg />
+            <div className={Style.download_button}>
+              <GoldenButton
+                type={"button"}
+                buttonName={"Download for Windows"}
+                onClick={() => {
+                  log_downloads("Windows");
+                  window.location.href = import.meta.env.VITE_WIN_EXECUTABLE_URL;
+                }}
+              />
+            </div>
           </div>
-          <div
-            className={Style.download}
-            onClick={() => {
-              log_downloads("MacOS");
-              window.location.href = import.meta.env.VITE_MAC_EXECUTABLE_URL;
-            }}
-          >
+          <div className={Style.download}>
             <AppleSvg />
+            <div className={Style.download_button}>
+              <GoldenButton
+                type={"button"}
+                buttonName={"Download for MacOS"}
+                onClick={() => {
+                  log_downloads("MacOS");
+                  window.location.href = import.meta.env.VITE_MAC_EXECUTABLE_URL;
+                }}
+              />
+            </div>
+
           </div>
         </div>
       </div>

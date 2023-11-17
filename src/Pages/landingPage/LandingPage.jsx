@@ -152,13 +152,14 @@ const LandingPage = ({ from, setFrom }) => {
             alt="EagleBot logo"
             onClick={handleLogoPress}
           ></img>
-
-          <div className="pricing-button">
+        <div className={Style.menu_tab}>
+          <div className={Style.pricing_button}>
             <a href="/pricing-information">Pricing</a>
           </div>
           <div className="blog-button">
             <a href="/eagle-bot-blog">Blog</a>
           </div>
+        </div>
         </div>
 
         <div className={Style.banner_Content}>
@@ -246,7 +247,6 @@ const LandingPage = ({ from, setFrom }) => {
       </div>
 
       <div className={Style.download_section}>
-        <h2>Click Here To Download Eagle Browser</h2>
         <div className={Style.download_content}>
           <div className={Style.download}>
             <MicrosoftSvg />

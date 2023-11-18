@@ -1,6 +1,15 @@
 import { useEffect } from "react";
 import Style from "../../terms_and_policy/style.module.css";
 import EagleBotLogoSvg from "../../../assets/images/svg/eagle-bot-logo.svg";
+import EagleBrowser from "../../../assets/images/png/eagle-browser.jpg";
+import EagleBIncognito from "../../../assets/images/png/eagle-incognito.jpg";
+import EagleUserApp from "../../../assets/images/png/eagle-user-app.jpg";
+import EagleApp from "../../../assets/images/png/eagle-app.jpg";
+import EaglePromptAnswer from "../../../assets/images/png/eagle-prompt-answer.jpg";
+import EaglePromptImageAnswer from "../../../assets/images/png/eagle-prompt-image-answer.jpg";
+import EagleCanvasAnswer from "../../../assets/images/png/eagle-canvas-answer.jpg";
+import EagleApiAutomation from "../../../assets/images/png/eagle-api-automation.jpg";
+import EagleRpa from "../../../assets/images/png/eagle-rpa.jpg";
 import { useNavigate } from "react-router-dom";
 
 const EagleBotMainBlog = () => {
@@ -26,10 +35,12 @@ const EagleBotMainBlog = () => {
           <h4 className={Style.table_of_content_head}>Blogs</h4>
           <ol>
             <li>
-              <a href="/eagle-bot-prompt-api-blog">Eagle Bot Prompt Api Blog</a>
+              <a href="/eagle-bot-prompt-api-blog">
+                Eagle Bot Prompt API agents
+              </a>
             </li>
             <li>
-              <a href="/eagle-bot-rpa-blog">Eagle Bot Rpa Blog</a>
+              <a href="/eagle-bot-rpa-blog">Eagle Bot AI Powered RPA</a>
             </li>
           </ol>
         </div>
@@ -54,6 +65,12 @@ const EagleBotMainBlog = () => {
                   effortlessly transforms your commands into actions, all within
                   a custom chromium browser designed for seamless integration.
                 </p>
+                <img
+                  src={EagleBrowser}
+                  alt="description"
+                  style={{ width: "700px", height: "400px" }}
+                />
+                <p></p>
                 <h2>
                   <u>Key Features</u>
                 </h2>
@@ -73,6 +90,11 @@ const EagleBotMainBlog = () => {
                       ensures complete privacy with its special settings that
                       can be turned on for a very private browsing experience.
                     </li>
+                    <img
+                      src={EagleBIncognito}
+                      alt="description"
+                      style={{ width: "700px", height: "400px" }}
+                    />
                     <li>
                       <strong>Lightning Speed Rendering and Browsing</strong>:
                       The lightweight browser architecture enables incredibly
@@ -150,15 +172,20 @@ const EagleBotMainBlog = () => {
                 <p>
                   Eagle-Bot's integration with the custom chromium browser
                   offers a seamless blend of browsing and interactive chat
-                  capabilities. With just a click of a button labeled "ChatBot,"
-                  users can effortlessly switch from their browsing interface to
-                  engage with the intelligent chatbot. This transition is
-                  designed to be as intuitive as possible, catering to both
-                  tech-savvy users and those new to automation.
+                  capabilities. With just a click of a button labeled "Chat
+                  Mode," users can effortlessly switch from their browsing
+                  interface to engage with the intelligent chatbot. This
+                  transition is designed to be as intuitive as possible,
+                  catering to both tech-savvy users and those new to automation.
                 </p>
+                <img
+                  src={EagleApp}
+                  alt="description"
+                  style={{ width: "700px", height: "400px" }}
+                />
                 <p>
                   Whether you're navigating a website or need assistance with an
-                  intricate task, the "ChatBot" button is your gateway to
+                  intricate task, the "Chat Mode" button is your gateway to
                   personalized support and real-time conversation, all without
                   leaving your browsing environment. Experience the flexibility
                   of Eagle-Bot, where your browsing experience and interactive
@@ -170,6 +197,12 @@ const EagleBotMainBlog = () => {
                     empowered by GPT-4
                   </strong>
                 </h2>
+                <p></p>
+                <img
+                  src={EagleUserApp}
+                  alt="description"
+                  style={{ width: "700px", height: "200px" }}
+                />
                 <p></p>
                 <p>
                   Eagle-Bot's NLP capabilities are nothing short of
@@ -216,6 +249,11 @@ const EagleBotMainBlog = () => {
                   algorithms in the backend to analyze the user's intent behind
                   a query.
                 </p>
+                <img
+                  src={EaglePromptAnswer}
+                  alt="description"
+                  style={{ width: "700px", height: "400px" }}
+                />
                 <p>
                   Rather than delivering a one-size-fits-all search result, it
                   assesses the context, preferences, and specific needs of the
@@ -240,6 +278,11 @@ const EagleBotMainBlog = () => {
                   state-of-the-art visual transformation, users can create,
                   modify, and explore stunning graphics with ease.
                 </p>
+                <img
+                  src={EaglePromptImageAnswer}
+                  alt="description"
+                  style={{ width: "700px", height: "400px" }}
+                />
                 <p>
                   <strong>Eagle-Canvas</strong> is a remarkable feature within
                   Eagle-Bot, revolutionizing the way users create content
@@ -253,6 +296,11 @@ const EagleBotMainBlog = () => {
                   text or stunning visuals, all powered by the cutting-edge AI
                   algorithms.
                 </p>
+                <img
+                  src={EagleCanvasAnswer}
+                  alt="description"
+                  style={{ width: "700px", height: "400px" }}
+                />
                 <p>
                   Beyond that, Eagle-Canvas provides a rich toolkit with
                   features like various paint options and a vibrant color
@@ -262,6 +310,21 @@ const EagleBotMainBlog = () => {
                   ensures that high-quality design is accessible, efficient, and
                   limited only by your imagination. It's not just a tool; it's a
                   gateway to a new era of AI-powered content creation.
+                </p>
+                <h2>
+                  <strong>
+                    <u>In the pipeline: Prompt Automation Canvas</u>
+                  </strong>
+                </h2>
+                <p>
+                  This innovative feature would utilize our robust internal
+                  infrastructure to create a canvas that extends beyond typical
+                  content creation. Users would have the ability to effortlessly
+                  drag and drop prompt boxes, while utilizing our API agents and
+                  AI-powered RPA to automate business processes with just
+                  prompts. This No code feature would enable users and
+                  Enterprises to create reusable sequences and workflows to
+                  automate repetitive tasks.
                 </p>
                 <p>
                   At the heart of Eagle-Bot lies the cutting-edge feature of
@@ -301,6 +364,11 @@ const EagleBotMainBlog = () => {
                     Eagle-Bot makes it a seamless experience.
                   </strong>
                 </p>
+                <img
+                  src={EagleApiAutomation}
+                  alt="description"
+                  style={{ width: "700px", height: "400px" }}
+                />
                 <p>
                   These capabilities eliminate the need for intricate coding or
                   navigating through multiple interfaces, placing powerful cloud
@@ -315,7 +383,7 @@ const EagleBotMainBlog = () => {
                 <p>
                   Eagle-Bot's power extends beyond its pre-built capabilities,
                   offering users the extraordinary ability to create custom
-                  cross-platform automations that don't even require APIs.{" "}
+                  cross-platform automations using prompt based RPAs.{" "}
                   <strong>
                     With the unique "train your bot" feature, users can teach
                     the system to automate tasks on browsers and operating
@@ -331,11 +399,11 @@ const EagleBotMainBlog = () => {
                   perfectly fit their specific needs and preferences.
                 </p>
                 <p>
-                  With Eagle-Bot, automation is not just a tool, but an
-                  extension of human intuition and innovation. Experience the
-                  freedom and efficiency of a platform where you're in control,
-                  and where your ideas transform into tangible actions, all
-                  powered by Eagle-Bot's advanced and adaptable technology.
+                  With Eagle-Bot, AI Powered RPA automation is not just a tool,
+                  but an extension of human intuition and innovation. Experience
+                  the freedom and efficiency of a platform where you're in
+                  control, and where your ideas transform into tangible actions,
+                  all powered by Eagle-Bot's advanced and adaptable technology.
                 </p>
                 <p>
                   <strong>
@@ -350,6 +418,11 @@ const EagleBotMainBlog = () => {
                   and advanced search techniques, Eagle-Bot stands at the
                   forefront of AI-driven automation.
                 </p>
+                <img
+                  src={EagleRpa}
+                  alt="description"
+                  style={{ width: "700px", height: "400px" }}
+                />
                 <p>
                   Multiple AI engines run concurrently in the background, each
                   specializing in different aspects of automation, ensuring

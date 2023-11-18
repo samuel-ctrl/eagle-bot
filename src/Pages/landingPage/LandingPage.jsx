@@ -31,8 +31,6 @@ import {
 import { Axios } from "../../services/Axios";
 import APIENDPOINTS from "../../components/constent/endpoints";
 import VideoComponent from "../../components/atoms/video_comp/videoComp";
-import ReactGA from "react-ga";
-import PricingInformation from "../static_pages/pricingInformation";
 
 const LandingPage = ({ from, setFrom }) => {
   const navigate = useNavigate();
@@ -41,11 +39,6 @@ const LandingPage = ({ from, setFrom }) => {
   const [openWaitlist, setOpenWaitlist] = useState(false);
   const [openSubscrib, setOpenSubscrib] = useState(false);
   const [openError, setOpenError] = useState(false);
-
-  // Google Analytics
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname);
-  }, []);
 
   const settings = {
     infinite: true,
@@ -139,10 +132,6 @@ const LandingPage = ({ from, setFrom }) => {
     setOpenWaitListModel(false);
   };
 
-  const handlePricingClick = () => {
-    // Open the Pricing component in a new tab
-    window.open(PricingInformation, "_blank"); // Replace with the actual URL of your Pricing component
-  };
   return (
     <>
       <div className={Style.banner_section}>
@@ -152,14 +141,14 @@ const LandingPage = ({ from, setFrom }) => {
             alt="EagleBot logo"
             onClick={handleLogoPress}
           ></img>
-        <div className={Style.menu_tab}>
-          <div className={Style.pricing_button}>
-            <a href="/pricing-information">Pricing</a>
+          <div className={Style.menu_tab}>
+            <div className={Style.pricing_button} style={{ marginRight: "15px" }}>
+              <a href="/pricing-information">Pricing</a>
+            </div>
+            <div className="blog-button">
+              <a href="/eagle-bot-blog">Blog</a>
+            </div>
           </div>
-          <div className="blog-button">
-            <a href="/eagle-bot-blog">Blog</a>
-          </div>
-        </div>
         </div>
 
         <div className={Style.banner_Content}>
@@ -256,7 +245,8 @@ const LandingPage = ({ from, setFrom }) => {
                 buttonName={"Download for Windows"}
                 onClick={() => {
                   log_downloads("Windows");
-                  window.location.href = import.meta.env.VITE_WIN_EXECUTABLE_URL;
+                  window.location.href =
+                    import.meta.env.VITE_WIN_EXECUTABLE_URL;
                 }}
               />
             </div>
@@ -269,11 +259,11 @@ const LandingPage = ({ from, setFrom }) => {
                 buttonName={"Download for MacOS"}
                 onClick={() => {
                   log_downloads("MacOS");
-                  window.location.href = import.meta.env.VITE_MAC_EXECUTABLE_URL;
+                  window.location.href =
+                    import.meta.env.VITE_MAC_EXECUTABLE_URL;
                 }}
               />
             </div>
-
           </div>
         </div>
       </div>

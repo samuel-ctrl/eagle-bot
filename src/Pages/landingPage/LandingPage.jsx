@@ -13,10 +13,12 @@ import LaptopImage from "../../assets/images/png/golden-laptop.png";
 import BrowserThumbnail from "../../assets/images/png/browser_thumbnail.png";
 import CanvasThumbnail from "../../assets/images/png/canvas_thumbnail.png";
 import ApiAutomationThumbnail from "../../assets/images/png/api-automations-thumbnail.png";
-
 import AboutImage from "../../assets/images/png/about-background.png";
 import LinkedInSvg from "../../assets/images/svg/linkedin-logo.svg";
 import TwitterLogo from "../../assets/images/png/logo-white.png";
+import CanvasV2 from "../../assets/videos/Canvas_v2.mp4";
+import IntroVideo from "../../assets/videos/eagle_browser_and_chatbot_Intro.mp4";
+import LaunchVideo from "../../assets/videos/Launch_video.mp4";
 import {
   AppleSvg,
   MicrosoftSvg,
@@ -142,7 +144,10 @@ const LandingPage = ({ from, setFrom }) => {
             onClick={handleLogoPress}
           ></img>
           <div className={Style.menu_tab}>
-            <div className={Style.pricing_button} style={{ marginRight: "15px" }}>
+            <div
+              className={Style.pricing_button}
+              style={{ marginRight: "15px" }}
+            >
               <a href="/pricing-information">Pricing</a>
             </div>
             <div className="blog-button">
@@ -213,21 +218,24 @@ const LandingPage = ({ from, setFrom }) => {
                 headerText="Launch Video November 11"
                 poster={ApiAutomationThumbnail}
                 source={
-                  "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/LAUNCH%20VIDEO.mp4?sp=r&st=2023-11-15T13:16:44Z&se=2024-12-31T21:16:44Z&sv=2022-11-02&sr=b&sig=o4EEmZ%2FWf6XHI1KTOhKIu8C1ZnfJsKszmgqXKar4g9k%3D"
+                  LaunchVideo
+                  // "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/LAUNCH%20VIDEO.mp4?sp=r&st=2023-11-15T13:16:44Z&se=2024-12-31T21:16:44Z&sv=2022-11-02&sr=b&sig=o4EEmZ%2FWf6XHI1KTOhKIu8C1ZnfJsKszmgqXKar4g9k%3D"
                 }
               />
               <VideoComponent
                 headerText="Eagle Browser and Chat-Bot"
                 poster={BrowserThumbnail}
                 source={
-                  "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/eagle_browser_and_chatbot_Intro.mp4?sp=r&st=2023-11-15T10:11:20Z&se=2025-01-01T18:11:20Z&sv=2022-11-02&sr=b&sig=UahBP9rzuwpgoj%2BAHhoP%2BXUyju9yk9frbl651pYgE%2B0%3D"
+                  IntroVideo
+                  // "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/eagle_browser_and_chatbot_Intro.mp4?sp=r&st=2023-11-15T10:11:20Z&se=2025-01-01T18:11:20Z&sv=2022-11-02&sr=b&sig=UahBP9rzuwpgoj%2BAHhoP%2BXUyju9yk9frbl651pYgE%2B0%3D"
                 }
               />
               <VideoComponent
                 headerText="Eagle Canvas"
                 poster={CanvasThumbnail}
                 source={
-                  "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/Canvas_v2.mp4?sp=r&st=2023-11-15T10:05:49Z&se=2025-01-01T18:05:49Z&sv=2022-11-02&sr=b&sig=BgcHcW0THRfIaAZE9gOHpp27z%2BHll9xfipaXKORNcXQ%3D"
+                  CanvasV2
+                  // "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/Canvas_v2.mp4?sp=r&st=2023-11-15T10:05:49Z&se=2025-01-01T18:05:49Z&sv=2022-11-02&sr=b&sig=BgcHcW0THRfIaAZE9gOHpp27z%2BHll9xfipaXKORNcXQ%3D"
                 }
               />
             </Slider>

@@ -9,12 +9,39 @@
   .logo {
     margin: 15px auto;
     max-width: 1440px;
+    position: relative;
     width: calc(100% - (224px / 1440px * 100%));
     img {
       width: 190px;
       cursor: pointer;
+
     }
+
+    .menu_tab {
+      position: absolute;
+      left: 50%;
+      display: flex;
+      flex-direction: row;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      display:flex;
+      gap: 10px;
+
+
+      @media (max-width:600px) {
+        transform: translate(75%,-50%);
+      }
+      & > div{
+       
+        a{
+          text-decoration: none;
+        }
+
+      }
   }
+    
+  }
+ 
   .banner_Content {
     margin: auto;
     max-width: 1440px;
@@ -288,7 +315,7 @@
   }
   .download_content {
     display: flex;
-    background-image: url("../../assets/images/png/download-background.png");
+    // background-image: url("../../assets/images/png/download-background.png");
     background-repeat: round;
     justify-content: center;
     align-items: center;
@@ -297,13 +324,93 @@
     padding: 0 20px;
     width: calc(100% - 40px);
     margin-top: 4.4%;
+    overflow: hidden;
+    border-radius:20px;
+    position: relative;
+    background-color: #000000; 
+    isolation: isolate;
+    box-shadow: 0px 0px 15px #c1bfbf08;
+  
+    &::before{
+      content: "";
+      background-image: url("../../assets/images/svg/vector_back.svg");
+      left: -20%;
+      top: 50%;
+      transform: translate(-20%,-50%);
+      position: absolute;
+      width: 100vw;
+      height: auto;
+      aspect-ratio: 1/1;
+      z-index: -1;
+      background-repeat: no-repeat;
+      background-size: contain;
+      
+    }
+    &::after{
+      content: "";
+      background-image: url("../../assets/images/png/balls_vector.png");
+      right: -20%;
+      top: 50%;
+      transform: translate(-20%,-50%);
+      position: absolute;
+      width: 30vw;
+      height: 160%;
+      z-index: -1;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+    }
+
+    @media (max-width:768px) {
+      flex-direction: column;
+       &::before{
+        top: 20%;
+       }
+    }
   }
-  .download_content .download {
+  .download_content{
+
+     .download {
     cursor: pointer;
     height: 80%;
     margin: 5%;
     background-color: #171819;
-    border-radius: 20%;
+    border-radius: 20px;
+    min-height: 191px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 0 30px 0;
+    align-items: center;
+    min-width:  330px;
+    @media (max-width:992px) {
+      min-width: 240px;
+      padding: 25px 0 15px 0;
+      min-height: 120px;
+      gap: 15px;
+    }
+
+    @media (max-width:768px) {
+      
+    }
+    .download_button{
+      width: 80%;
+      button{
+        width: 80%;
+        font-size: 16px;
+        @media (max-width:992px) {
+          font-size: 14px;
+          left: 50%;
+          transform: translateX(-50%);
+          padding: 5px 10px;
+          width: 60%;
+        }
+        @media (max-width:768px) {
+          
+        }
+      }
+    }
+  }
   }
 
   @media (max-width: 600px) {
@@ -577,5 +684,17 @@
     .logo {
       margin-top: 15px;
     }
+  }
+}
+
+
+.menu_tab{
+  position:absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  display: flex;
+  flex-direction: row;
+  & > div{
+    
   }
 }

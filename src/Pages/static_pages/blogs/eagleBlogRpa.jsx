@@ -38,7 +38,7 @@ const EageBotRpaBlog = () => {
               </h1>
             </div>
             <div className={Style.panel_body}>
-              <div className={Style.sub_content_section}></div>
+              <div className={Style.sub_content_section}>
               <h1>
                 Advanced Techniques in RPA Prompt-Based Automation Using Eagle
                 Bot AI.
@@ -383,6 +383,7 @@ const EageBotRpaBlog = () => {
                   the next gen AI revolution community.
                 </b>
               </p>
+              </div>
             </div>
           </div>
         </div>

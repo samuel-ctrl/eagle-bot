@@ -34,7 +34,7 @@ const ApiBasedAutomations = () => {
               </h1>
             </div>
             <div className={Style.panel_body}>
-              <div className={Style.sub_content_section}></div>
+              <div className={Style.sub_content_section}>
               <h3>
                 <u>API Based Automations Tutorial</u>
               </h3>
@@ -101,6 +101,7 @@ const ApiBasedAutomations = () => {
               <p>4. Posting a Tweet.</p>
               <p>5. Sending a WhatsApp message from a business account.</p>
               <p>6. Posting a draft for a blog using Blogger.</p>
+              </div>
             </div>
           </div>
         </div>

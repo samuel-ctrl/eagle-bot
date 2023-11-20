@@ -327,6 +327,7 @@ const CookiePolicy = () => {
                   <strong>Singapore</strong>
                   <br></br>
                 </p>
+              
               </div>
             </div>
           </div>

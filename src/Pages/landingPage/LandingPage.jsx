@@ -31,7 +31,6 @@ import {
 import { Axios } from "../../services/Axios";
 import APIENDPOINTS from "../../components/constent/endpoints";
 import VideoComponent from "../../components/atoms/video_comp/videoComp";
-import ReactGA from "react-ga";
 
 const LandingPage = ({ from, setFrom }) => {
   const navigate = useNavigate();
@@ -40,11 +39,6 @@ const LandingPage = ({ from, setFrom }) => {
   const [openWaitlist, setOpenWaitlist] = useState(false);
   const [openSubscrib, setOpenSubscrib] = useState(false);
   const [openError, setOpenError] = useState(false);
-
-  // Google Analytics
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname);
-  }, []);
 
   const settings = {
     infinite: true,
@@ -137,6 +131,7 @@ const LandingPage = ({ from, setFrom }) => {
     setOpenSubscribModel(false);
     setOpenWaitListModel(false);
   };
+
   return (
     <>
       <div className={Style.banner_section}>
@@ -146,6 +141,14 @@ const LandingPage = ({ from, setFrom }) => {
             alt="EagleBot logo"
             onClick={handleLogoPress}
           ></img>
+          <div className={Style.menu_tab}>
+            <div className={Style.pricing_button} style={{ marginRight: "15px" }}>
+              <a href="/pricing-information">Pricing</a>
+            </div>
+            <div className="blog-button">
+              <a href="/eagle-bot-blog">Blog</a>
+            </div>
+          </div>
         </div>
 
         <div className={Style.banner_Content}>
@@ -160,7 +163,7 @@ const LandingPage = ({ from, setFrom }) => {
             </p>
             <GoldenButton
               type={"button"}
-              buttonName={"TRY NOW"}
+              buttonName={"TRY NOW FOR FREE"}
               onClick={() => {
                 window.location.href = "https://platform.eagle-bot.com/";
               }}
@@ -233,25 +236,34 @@ const LandingPage = ({ from, setFrom }) => {
       </div>
 
       <div className={Style.download_section}>
-        <h2>Click Here To Download Eagle Browser</h2>
         <div className={Style.download_content}>
-          <div
-            className={Style.download}
-            onClick={() => {
-              log_downloads("Windows");
-              window.location.href = import.meta.env.VITE_WIN_EXECUTABLE_URL;
-            }}
-          >
+          <div className={Style.download}>
             <MicrosoftSvg />
+            <div className={Style.download_button}>
+              <GoldenButton
+                type={"button"}
+                buttonName={"Download for Windows"}
+                onClick={() => {
+                  log_downloads("Windows");
+                  window.location.href =
+                    import.meta.env.VITE_WIN_EXECUTABLE_URL;
+                }}
+              />
+            </div>
           </div>
-          <div
-            className={Style.download}
-            onClick={() => {
-              log_downloads("MacOS");
-              window.location.href = import.meta.env.VITE_MAC_EXECUTABLE_URL;
-            }}
-          >
+          <div className={Style.download}>
             <AppleSvg />
+            <div className={Style.download_button}>
+              <GoldenButton
+                type={"button"}
+                buttonName={"Download for MacOS"}
+                onClick={() => {
+                  log_downloads("MacOS");
+                  window.location.href =
+                    import.meta.env.VITE_MAC_EXECUTABLE_URL;
+                }}
+              />
+            </div>
           </div>
         </div>
       </div>

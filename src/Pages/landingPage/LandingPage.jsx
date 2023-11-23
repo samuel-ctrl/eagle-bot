@@ -223,7 +223,8 @@ const LandingPage = ({ from, setFrom }) => {
                 source={
                   // LaunchVideo
                   // "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/LAUNCH%20VIDEO.mp4?sp=r&st=2023-11-15T13:16:44Z&se=2024-12-31T21:16:44Z&sv=2022-11-02&sr=b&sig=o4EEmZ%2FWf6XHI1KTOhKIu8C1ZnfJsKszmgqXKar4g9k%3D"
-                  "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/LAUNCH%20VIDEO.mp4?static=true"
+                  // "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/LAUNCH%20VIDEO.mp4?static=true"
+                  "https://customer-kx5uaq2088pva7pc.cloudflarestream.com/faf531c7a4808985283b62c4b07e87b0/iframe?muted=true&preload=true&autoplay=true&poster=https%3A%2F%2Fcustomer-kx5uaq2088pva7pc.cloudflarestream.com%2Ffaf531c7a4808985283b62c4b07e87b0%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
                 }
               />
               <VideoComponent

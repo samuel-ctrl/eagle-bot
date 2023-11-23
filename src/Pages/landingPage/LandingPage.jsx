@@ -32,7 +32,7 @@ import {
 } from "../../components/model/Model";
 import { Axios } from "../../services/Axios";
 import APIENDPOINTS from "../../components/constent/endpoints";
-import VideoComponent from "../../components/atoms/video_comp/videoComp";
+// import VideoComponent from "../../components/atoms/video_comp/videoComp";
 
 const LandingPage = ({ from, setFrom }) => {
   const navigate = useNavigate();
@@ -222,17 +222,30 @@ const LandingPage = ({ from, setFrom }) => {
           </p>
           <div className={Style.videoPanel}>
             <Slider {...settings}>
-              <VideoComponent
+              {/* <VideoComponent
                 headerText="Launch Video November 11"
                 poster={ApiAutomationThumbnail}
                 source={
                   // LaunchVideo
                   // "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/LAUNCH%20VIDEO.mp4?sp=r&st=2023-11-15T13:16:44Z&se=2024-12-31T21:16:44Z&sv=2022-11-02&sr=b&sig=o4EEmZ%2FWf6XHI1KTOhKIu8C1ZnfJsKszmgqXKar4g9k%3D"
-                  // "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/LAUNCH%20VIDEO.mp4?static=true"
-                  "https://customer-kx5uaq2088pva7pc.cloudflarestream.com/faf531c7a4808985283b62c4b07e87b0/iframe?muted=true&preload=true&autoplay=true&poster=https%3A%2F%2Fcustomer-kx5uaq2088pva7pc.cloudflarestream.com%2Ffaf531c7a4808985283b62c4b07e87b0%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+                   "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/LAUNCH%20VIDEO.mp4?static=true"
                 }
-              />
-              <VideoComponent
+              /> */}
+              <div className={Style.videoContainer}>
+                <h4>Launch Video</h4>
+                <p></p>
+                <iframe
+                  width={"100%"}
+                  height={"500px"}
+                  src={
+                    "https://customer-kx5uaq2088pva7pc.cloudflarestream.com/faf531c7a4808985283b62c4b07e87b0/iframe?muted=true&preload=true&autoplay=true&poster=https%3A%2F%2Fcustomer-kx5uaq2088pva7pc.cloudflarestream.com%2Ffaf531c7a4808985283b62c4b07e87b0%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+                  }
+                  frameborder="0"
+                  allow="encrypted-media"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              {/* <VideoComponent
                 headerText="Eagle Browser and Chat-Bot"
                 poster={BrowserThumbnail}
                 source={
@@ -249,7 +262,7 @@ const LandingPage = ({ from, setFrom }) => {
                   // "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/Canvas_v2.mp4?sp=r&st=2023-11-15T10:05:49Z&se=2025-01-01T18:05:49Z&sv=2022-11-02&sr=b&sig=BgcHcW0THRfIaAZE9gOHpp27z%2BHll9xfipaXKORNcXQ%3D"
                   "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/Canvas_v2.mp4?static=true"
                 }
-              />
+              /> */}
             </Slider>
           </div>
         </div>

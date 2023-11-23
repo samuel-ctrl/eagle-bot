@@ -178,7 +178,10 @@ const LandingPage = ({ from, setFrom }) => {
         </div>
         <div className={Style.banner_img}>
           <img
-            src={GoldAndPinkImage}
+            src={
+              // GoldAndPinkImage
+              "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/gold-and-pink.png?sp=r&st=2023-11-23T17:12:47Z&se=2023-11-24T01:12:47Z&spr=https&sv=2022-11-02&sr=b&sig=5LHgPB8cVitPrP1CXT8lKczxwS%2B053D6QSBrbhsg5os%3D"
+            }
             className={Style.vector}
             alt="eagle bot design"
           />
@@ -232,13 +235,41 @@ const LandingPage = ({ from, setFrom }) => {
                 }
               /> */}
               <div className={Style.videoContainer}>
-                <h4>Launch Video</h4>
+                <h4>Eagle-Bot Launch Video</h4>
                 <p></p>
                 <iframe
                   width={"100%"}
                   height={"500px"}
                   src={
-                    "https://customer-kx5uaq2088pva7pc.cloudflarestream.com/faf531c7a4808985283b62c4b07e87b0/iframe?muted=true&preload=true&autoplay=true&poster=https%3A%2F%2Fcustomer-kx5uaq2088pva7pc.cloudflarestream.com%2Ffaf531c7a4808985283b62c4b07e87b0%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
+                    "https://customer-kx5uaq2088pva7pc.cloudflarestream.com/faf531c7a4808985283b62c4b07e87b0/iframe?preload=true"
+                  }
+                  frameborder="0"
+                  allow="encrypted-media"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className={Style.videoContainer}>
+                <h4>Eagle-Bot ChatBot and Browser Video</h4>
+                <p></p>
+                <iframe
+                  width={"100%"}
+                  height={"500px"}
+                  src={
+                    "https://customer-kx5uaq2088pva7pc.cloudflarestream.com/e3cc36b438535fb3d89ff0afc8509aba/iframe?preload=true"
+                  }
+                  frameborder="0"
+                  allow="encrypted-media"
+                  allowFullScreen
+                ></iframe>
+              </div>
+              <div className={Style.videoContainer}>
+                <h4>Eagle-Bot Canvas Video</h4>
+                <p></p>
+                <iframe
+                  width={"100%"}
+                  height={"500px"}
+                  src={
+                    "https://customer-kx5uaq2088pva7pc.cloudflarestream.com/553aa3436b97fce300c470a691a8d347/iframe?preload=true&startTime=1s"
                   }
                   frameborder="0"
                   allow="encrypted-media"

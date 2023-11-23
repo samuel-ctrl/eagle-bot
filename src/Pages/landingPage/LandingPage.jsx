@@ -178,12 +178,20 @@ const LandingPage = ({ from, setFrom }) => {
             alt="eagle bot design"
           />
           <img
-            src={DeviceScreenImage}
+            src={
+              // DeviceScreenImage
+              // "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/device-screen.png?sp=r&st=2023-11-23T07:57:12Z&se=2023-11-23T15:57:12Z&spr=https&sv=2022-11-02&sr=b&sig=aE%2BEYcbhvG9Y9mnvLnEB9XSYcCMxsk8dnX8L3CowcmI%3D"
+              "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/device-screen.png?static=true"
+            }
             className={`${Style.device} ${Style.windowView}`}
             alt="eagle bot device image."
           />
           <img
-            src={DeviceScreenMobileImage}
+            src={
+              // DeviceScreenMobileImage
+              // "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/device-screen-mobile.png?sp=r&st=2023-11-23T07:59:43Z&se=2023-11-23T15:59:43Z&spr=https&sv=2022-11-02&sr=b&sig=utb9QG6P%2FW5Wu4fWs19s%2BggpI4nzqjNz9nVdHbNBPsc%3D"
+              "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/device-screen-mobile.png?static=true"
+            }
             className={`${Style.device} ${Style.mobileView}`}
             alt="eagle bot device image."
           />
@@ -213,21 +221,27 @@ const LandingPage = ({ from, setFrom }) => {
                 headerText="Launch Video November 11"
                 poster={ApiAutomationThumbnail}
                 source={
-                  "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/LAUNCH%20VIDEO.mp4?sp=r&st=2023-11-15T13:16:44Z&se=2024-12-31T21:16:44Z&sv=2022-11-02&sr=b&sig=o4EEmZ%2FWf6XHI1KTOhKIu8C1ZnfJsKszmgqXKar4g9k%3D"
+                  // LaunchVideo
+                  // "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/LAUNCH%20VIDEO.mp4?sp=r&st=2023-11-15T13:16:44Z&se=2024-12-31T21:16:44Z&sv=2022-11-02&sr=b&sig=o4EEmZ%2FWf6XHI1KTOhKIu8C1ZnfJsKszmgqXKar4g9k%3D"
+                  "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/LAUNCH%20VIDEO.mp4?static=true"
                 }
               />
               <VideoComponent
                 headerText="Eagle Browser and Chat-Bot"
                 poster={BrowserThumbnail}
                 source={
-                  "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/eagle_browser_and_chatbot_Intro.mp4?sp=r&st=2023-11-15T10:11:20Z&se=2025-01-01T18:11:20Z&sv=2022-11-02&sr=b&sig=UahBP9rzuwpgoj%2BAHhoP%2BXUyju9yk9frbl651pYgE%2B0%3D"
+                  // IntroVideo
+                  // "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/eagle_browser_and_chatbot_Intro.mp4?sp=r&st=2023-11-15T10:11:20Z&se=2025-01-01T18:11:20Z&sv=2022-11-02&sr=b&sig=UahBP9rzuwpgoj%2BAHhoP%2BXUyju9yk9frbl651pYgE%2B0%3D"
+                  "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/eagle_browser_and_chatbot_Intro.mp4?static=true"
                 }
               />
               <VideoComponent
                 headerText="Eagle Canvas"
                 poster={CanvasThumbnail}
                 source={
-                  "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/Canvas_v2.mp4?sp=r&st=2023-11-15T10:05:49Z&se=2025-01-01T18:05:49Z&sv=2022-11-02&sr=b&sig=BgcHcW0THRfIaAZE9gOHpp27z%2BHll9xfipaXKORNcXQ%3D"
+                  // CanvasV2
+                  // "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/Canvas_v2.mp4?sp=r&st=2023-11-15T10:05:49Z&se=2025-01-01T18:05:49Z&sv=2022-11-02&sr=b&sig=BgcHcW0THRfIaAZE9gOHpp27z%2BHll9xfipaXKORNcXQ%3D"
+                  "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/Canvas_v2.mp4?static=true"
                 }
               />
             </Slider>
@@ -350,7 +364,14 @@ const LandingPage = ({ from, setFrom }) => {
             buttonName={"SUBSCRIBE"}
             onClick={() => setOpenSubscribModel(true)}
           />
-          <img src={LaptopImage} alt="Eagle Bot Golden Laptop"></img>
+          <img
+            src={
+              // LaptopImage
+              // "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/golden-laptop.png?sp=r&st=2023-11-23T08:00:58Z&se=2023-11-23T16:00:58Z&spr=https&sv=2022-11-02&sr=b&sig=Qg9ZDVybRDvLhyA6e2ExeB%2BHc1iqpMYc82fShTzpuks%3D"
+              "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/golden-laptop.png?static=true"
+            }
+            alt="Eagle Bot Golden Laptop"
+          ></img>
         </div>
         <div id="goto-footer" className={Style.footer}>
           <div className={Style.logo}>

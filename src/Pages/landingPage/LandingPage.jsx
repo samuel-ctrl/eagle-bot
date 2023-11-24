@@ -298,7 +298,7 @@ const LandingPage = ({ from, setFrom }) => {
           </div>
         </div>
       </div>
-      {/* 
+
       <div className={Style.download_section}>
         <div className={Style.download_content}>
           <div className={Style.download}>
@@ -330,7 +330,7 @@ const LandingPage = ({ from, setFrom }) => {
             </div>
           </div>
         </div>
-      </div> */}
+      </div>
 
       <div className={Style.features_section}>
         <div className={Style.golden_vector}>

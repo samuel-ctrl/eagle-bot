@@ -180,7 +180,7 @@ const LandingPage = ({ from, setFrom }) => {
           <img
             src={
               // GoldAndPinkImage
-              "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/gold-and-pink.png?sp=r&st=2023-11-23T17:12:47Z&se=2023-11-24T01:12:47Z&spr=https&sv=2022-11-02&sr=b&sig=5LHgPB8cVitPrP1CXT8lKczxwS%2B053D6QSBrbhsg5os%3D"
+              "https://eaglebotlandingstorage.blob.core.windows.net/landing-static-files/gold-and-pink.png?static=true"
             }
             className={Style.vector}
             alt="eagle bot design"

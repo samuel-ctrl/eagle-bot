@@ -39,11 +39,7 @@ const PricingInformation = () => {
                   to perform. This includes performing an action and content
                   generation from LLMs.
                 </p>
-                <p>
-                  The cost of 1 Eagle Coin fluctuates between $0.000035 -
-                  0.00005USD depending on market conditions, changing
-                  infrastructure and API integration costs.
-                </p>
+                <p>The cost of 1 Eagle Coin is $0.00004 USD</p>
                 <table className={Style.table}>
                   <thead>
                     <tr>
@@ -55,53 +51,43 @@ const PricingInformation = () => {
                   <tbody>
                     <tr>
                       <td>Chatbot GPT 4 (1 Open AI Token)</td>
-                      <td>1 Eagle Coin</td>
-                      <td>$0.00004</td>
+                      <td>0.5 Eagle Coin</td>
+                      <td>$0.00002</td>
                     </tr>
                     <tr>
-                      <td>Image (DallE 2) per Image (512x512)</td>
+                      <td>Image (DallE 2) per Image</td>
                       <td>500 Eagle Coins</td>
                       <td>$0.02</td>
                     </tr>
                     <tr>
                       <td>Azure, AWS, and GCP Automation Executions</td>
-                      <td>350 Eagle Coins</td>
-                      <td>$0.014</td>
+                      <td>2500 Eagle Coins</td>
+                      <td>$0.1</td>
                     </tr>
                     <tr>
                       <td>Regular API Automations with content</td>
+                      <td>2500 Eagle Coins</td>
+                      <td>$0.1</td>
+                    </tr>
+                    <tr>
+                      <td>Creating an image with Stable Diffusion AI</td>
                       <td>500 Eagle Coins</td>
                       <td>$0.02</td>
                     </tr>
                     <tr>
-                      <td>Creating JIRA Tickets with content</td>
-                      <td>750 Eagle Coins</td>
-                      <td>$0.03</td>
-                    </tr>
-                    <tr>
-                      <td>Create a draft of a blog with images</td>
-                      <td>1200 Eagle Coins</td>
-                      <td>$0.048</td>
-                    </tr>
-                    <tr>
-                      <td>Creating an image with Stable Diffusion AI</td>
-                      <td>350 Eagle Coins</td>
-                      <td>$0.014</td>
-                    </tr>
-                    <tr>
                       <td>Text generation with Llama 2 (compute costs)</td>
-                      <td>0.05 Eagle Coins</td>
-                      <td>$0.000002</td>
+                      <td>FREE</td>
+                      <td>FREE</td>
                     </tr>
                     <tr>
                       <td>Canvas Export (any format)</td>
-                      <td>250 Eagle Coins</td>
-                      <td>$0.01</td>
+                      <td>500 Eagle Coins</td>
+                      <td>$0.02</td>
                     </tr>
                     <tr>
                       <td>Chatbot GPT 3.5 Turbo (1 Open AI Token)</td>
-                      <td>0.05 Eagle Coins</td>
-                      <td>$0.000002</td>
+                      <td>FREE</td>
+                      <td>FREE</td>
                     </tr>
                     <tr>
                       <td>Context based AI - Google Search</td>
@@ -109,25 +95,31 @@ const PricingInformation = () => {
                       <td>$0.004</td>
                     </tr>
                     <tr>
-                      <td>Saving an Eagle RPA Automation</td>
-                      <td>1000 Eagle Coins</td>
-                      <td>$0.04</td>
+                      <td>Creating an Eagle RPA Automation</td>
+                      <td>FREE</td>
+                      <td>FREE</td>
+                    </tr>
+                    <tr>
+                      <td>Post Processing an RPA with AI</td>
+                      <td>2500 Eagle Coins</td>
+                      <td>$0.1</td>
                     </tr>
                     <tr>
                       <td>
-                        Submitting a verified RPA Public Automation*** for
-                        training our AI Engines
+                        Saving an API and RPA Automation Workflow with many
+                        steps
                       </td>
-                      <td>+(1000) Eagle Coins</td>
-                      <td>+$0.04</td>
+                      <td>50000 Eagle Coins</td>
+                      <td>$2</td>
                     </tr>
                     <tr>
                       <td>Submitting a verified Eagle Browser Extension***</td>
                       <td>+(200,000) Eagle Coins</td>
-                      <td>+$8 to +$10</td>
+                      <td>+$8</td>
                     </tr>
                   </tbody>
                 </table>
+
                 <p></p>
                 <p>
                   <strong>Note***</strong>: The amount for submitting an RPA
